@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>PiKbug</title>
   
   <link href="/atom.xml" rel="self"/>
   
@@ -9,8 +9,8 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
-    
+    <name>MiG</name>
+    <email>yanrancanfei@163.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
