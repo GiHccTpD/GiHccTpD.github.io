@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-04-06T10:52:11.000Z</updated>
+  <updated>2017-04-06T10:17:30.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.pikbug.me/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/"/>
     <id>http://blog.pikbug.me/2017/04/06/Hexo个人博客搭建遇到的问题1/</id>
     <published>2017-04-06T09:49:34.000Z</published>
-    <updated>2017-04-06T10:52:11.000Z</updated>
+    <updated>2017-04-06T10:17:30.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><ul>
 <li>如图1、2</li>
@@ -66,7 +66,7 @@
     <link href="http://blog.pikbug.me/2017/04/06/web-logs/"/>
     <id>http://blog.pikbug.me/2017/04/06/web-logs/</id>
     <published>2017-04-06T03:57:42.000Z</published>
-    <updated>2017-04-06T08:25:55.000Z</updated>
+    <updated>2017-04-06T13:45:24.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="2016-11-21-更新内容："><a href="#2016-11-21-更新内容：" class="headerlink" title="2016-11-21 更新内容："></a>2016-11-21 更新内容：</h2><h4 id="完成主要的框架工作"><a href="#完成主要的框架工作" class="headerlink" title="完成主要的框架工作"></a>完成主要的框架工作</h4><ul>
 <li>熟悉Hexo</li>
@@ -98,6 +98,15 @@
 <li>增加侧边栏友情链接</li>
 <li>取消cnzz统计功能</li>
 <li>增加阅读次数统计LeanCloud</li>
+<li>编辑了footer 样式修改</li>
+<li>更换域名解析 将域名解析由 <code>blog.pikbug.me</code> 改为 <code>pikbug.me</code><br>  <em><em>注意：</em></em> <ol>
+<li>更改域名解析之前前要将 <code>source/</code> 的 <code>CNAME</code> 文件中解析到的地址改成你要解析到的地址 也就是 <code>pikbug.me</code></li>
+<li>不知道到底要不要将 <code>blog</code> 下的 <code>.deploy_git</code> 删除掉在进行 如下操作，我是删掉了该目录</li>
+<li>首先执行 <code>hexo algolia</code> 命令，刷新索引，当algolia网站的 <code>Indices</code> 页面显示如图所示<br><img src="/2017/04/06/web-logs/algolia-update-indexes.png" alt="png"><br>说明操作成功</li>
+<li>再执行 <code>hexo g -d</code> 命令就可以生成静态博客并推送到GitHub了</li>
+</ol>
+</li>
+<li>增加 <strong>发布于</strong>、<strong>更新于</strong>等多个标签前的icon 详情请看 <a href="http://pikbug.me/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/" target="_blank" rel="external">这篇文章</a></li>
 </ul>
 ]]></content>
     

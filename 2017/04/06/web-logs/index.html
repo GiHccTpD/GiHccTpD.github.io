@@ -104,7 +104,8 @@ GitHub创建仓库、初始化项目
 选取并且确定了Next主题
 绑定域名blog.pikbug.me
 新增一篇测试文章">
-<meta property="og:updated_time" content="2017-04-06T08:25:55.000Z">
+<meta property="og:image" content="http://blog.pikbug.me/2017/04/06/web-logs/algolia-update-indexes.png">
+<meta property="og:updated_time" content="2017-04-06T13:45:24.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="博客更新日志">
 <meta name="twitter:description" content="2016-11-21 更新内容：完成主要的框架工作
@@ -113,6 +114,7 @@ GitHub创建仓库、初始化项目
 选取并且确定了Next主题
 绑定域名blog.pikbug.me
 新增一篇测试文章">
+<meta name="twitter:image" content="http://blog.pikbug.me/2017/04/06/web-logs/algolia-update-indexes.png">
 
 
 
@@ -375,7 +377,7 @@ GitHub创建仓库、初始化项目
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-04-06T16:25:55+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-04-06T21:45:24+08:00">
                 2017-04-06
               </time>
             
@@ -414,7 +416,7 @@ GitHub创建仓库、初始化项目
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 276 </span>
+              <span> 457 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
@@ -476,6 +478,15 @@ GitHub创建仓库、初始化项目
 <li>增加侧边栏友情链接</li>
 <li>取消cnzz统计功能</li>
 <li>增加阅读次数统计LeanCloud</li>
+<li>编辑了footer 样式修改</li>
+<li>更换域名解析 将域名解析由 <code>blog.pikbug.me</code> 改为 <code>pikbug.me</code><br>  <em><em>注意：</em></em> <ol>
+<li>更改域名解析之前前要将 <code>source/</code> 的 <code>CNAME</code> 文件中解析到的地址改成你要解析到的地址 也就是 <code>pikbug.me</code></li>
+<li>不知道到底要不要将 <code>blog</code> 下的 <code>.deploy_git</code> 删除掉在进行 如下操作，我是删掉了该目录</li>
+<li>首先执行 <code>hexo algolia</code> 命令，刷新索引，当algolia网站的 <code>Indices</code> 页面显示如图所示<br><img src="/2017/04/06/web-logs/algolia-update-indexes.png" alt="png"><br>说明操作成功</li>
+<li>再执行 <code>hexo g -d</code> 命令就可以生成静态博客并推送到GitHub了</li>
+</ol>
+</li>
+<li>增加 <strong>发布于</strong>、<strong>更新于</strong>等多个标签前的icon 详情请看 <a href="http://pikbug.me/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/" target="_blank" rel="external">这篇文章</a></li>
 </ul>
 
       
