@@ -173,9 +173,9 @@
       <category term="日志" scheme="http://blog.pikbug.me/categories/%E6%97%A5%E5%BF%97/"/>
     
     
-      <category term="测试" scheme="http://blog.pikbug.me/tags/%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="测试" scheme="http://blog.pikbug.me/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -198,11 +198,11 @@
       <category term="日志" scheme="http://blog.pikbug.me/categories/%E6%97%A5%E5%BF%97/"/>
     
     
+      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
       <category term="日记" scheme="http://blog.pikbug.me/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="测试" scheme="http://blog.pikbug.me/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
