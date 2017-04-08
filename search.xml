@@ -15,10 +15,10 @@
 <li>对象字面量</li>
 </ul>
 <h2 id="工厂模式"><a href="#工厂模式" class="headerlink" title="工厂模式"></a>工厂模式</h2><p>这种模式抽象了创建具体对象的过程。如下例子所示。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createPerson</span> (<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</div><div class="line">    o.name =  name;</div><div class="line">    o.age = age;</div><div class="line">    o.job = job;</div><div class="line">    o.sayName = functioin () &#123;</div><div class="line">        alert (<span class="keyword">this</span>.name);</div><div class="line">    &#125;;</div><div class="line">    <span class="keyword">return</span> o;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 实例化两个类</span></div><div class="line"><span class="keyword">var</span> person1 = createPerson(<span class="string">'xixi'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line"><span class="keyword">var</span> person2 = createPerson(<span class="string">'waXaw'</span>, <span class="number">27</span>, <span class="string">'teacher'</span>);</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createPerson</span>(<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</div><div class="line">    o.name =  name;</div><div class="line">    o.age = age;</div><div class="line">    o.job = job;</div><div class="line">    o.sayName = functioin () &#123;</div><div class="line">        alert (<span class="keyword">this</span>.name);</div><div class="line">    &#125;;</div><div class="line">    <span class="keyword">return</span> o;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 实例化两个类</span></div><div class="line"><span class="keyword">var</span> person1 = createPerson(<span class="string">'xixi'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line"><span class="keyword">var</span> person2 = createPerson(<span class="string">'waXaw'</span>, <span class="number">27</span>, <span class="string">'teacher'</span>);</div></pre></td></tr></table></figure>
 <p>虽然解决了常见太多相似类的问题，但却没有解决对象识别的问题。</p>
 <h2 id="构造函数模式"><a href="#构造函数模式" class="headerlink" title="构造函数模式"></a>构造函数模式</h2><p>像Array和Object这样的原生构造函数，在运行时会自动创建执行环境，还可以自定义对象属性和方法。如下例子所示。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span> (<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">    <span class="keyword">this</span>.name =  name;</div><div class="line">    <span class="keyword">this</span>.age = age;</div><div class="line">    <span class="keyword">this</span>.job = job;</div><div class="line">    <span class="keyword">this</span>.sayName = functioin () &#123;</div><div class="line">        alert (<span class="keyword">this</span>.name);</div><div class="line">    &#125;;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 实例化两个类</span></div><div class="line"><span class="keyword">var</span> person1 = <span class="keyword">new</span> Person(<span class="string">'xixi'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line"><span class="keyword">var</span> person2 = <span class="keyword">new</span> Person(<span class="string">'waXaw'</span>, <span class="number">27</span>, <span class="string">'teacher'</span>);</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">    <span class="keyword">this</span>.name =  name;</div><div class="line">    <span class="keyword">this</span>.age = age;</div><div class="line">    <span class="keyword">this</span>.job = job;</div><div class="line">    <span class="keyword">this</span>.sayName = functioin () &#123;</div><div class="line">        alert (<span class="keyword">this</span>.name);</div><div class="line">    &#125;;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 实例化两个类</span></div><div class="line"><span class="keyword">var</span> person1 = <span class="keyword">new</span> Person(<span class="string">'xixi'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line"><span class="keyword">var</span> person2 = <span class="keyword">new</span> Person(<span class="string">'waXaw'</span>, <span class="number">27</span>, <span class="string">'teacher'</span>);</div></pre></td></tr></table></figure>
 <p>与之前的工厂模式对比可以有以下发现：</p>
 <ul>
 <li>没有显式地创建对象</li>
@@ -40,17 +40,11 @@
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> person = <span class="keyword">new</span> Person(<span class="string">'xixi'</span>, <span class="number">29</span>, <span class="string">'Software Engneer'</span>);</div><div class="line">person.sayName(); <span class="comment">//'xixi'</span></div></pre></td></tr></table></figure>
 <ul>
-<li><ol>
-<li>作为普通函数使用</li>
-</ol>
-</li>
+<li>2.作为普通函数使用</li>
 </ul>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Person(<span class="string">'waXaw'</span>, <span class="number">24</span>, <span class="string">'Teacher'</span>);</div><div class="line"><span class="built_in">window</span>.sayName(); <span class="comment">//'waXaw'</span></div></pre></td></tr></table></figure>
 <ul>
-<li><ol>
-<li>在对象的另一个作用域中调用</li>
-</ol>
-</li>
+<li>2.在对象的另一个作用域中调用</li>
 </ul>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</div><div class="line">Person.call(o, <span class="string">'mig'</span>, <span class="number">23</span>, <span class="string">'CEO'</span>);</div><div class="line">o.sayName(); <span class="comment">//'mig'</span></div></pre></td></tr></table></figure>
 <h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><p>构造函数的方法 （即 <code>sayName</code> ）每次都要重新创建一遍。也就是说 <code>person1</code> 和 <code>person2</code> 的 <code>sayName</code> 不是同一个 <code>Function</code> 创建的。<br>可以通过</p>
@@ -65,6 +59,12 @@
 <h2 id="原型模型"><a href="#原型模型" class="headerlink" title="原型模型"></a>原型模型</h2><p>// TODO</p>
 ]]></content>
       
+        <categories>
+            
+            <category> 技术笔记 </category>
+            
+        </categories>
+        
         
         <tags>
             
