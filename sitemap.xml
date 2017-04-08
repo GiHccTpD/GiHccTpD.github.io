@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</loc>
+    
+    <lastmod>2017-04-08T17:52:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/about/index.html</loc>
+    
+    <lastmod>2017-04-07T10:16:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/2017/04/06/web-logs/</loc>
     
     <lastmod>2017-04-07T10:16:39.000Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://blog.pikbug.me/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/</loc>
     
     <lastmod>2017-04-06T10:52:11.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/about/index.html</loc>
-    
-    <lastmod>2017-04-06T06:52:45.000Z</lastmod>
     
   </url>
   

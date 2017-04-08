@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title><![CDATA[JavaScript-ways-of-create-object]]></title>
+      <url>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</url>
+      <content type="html"><![CDATA[<h1 id="创建对象"><a href="#创建对象" class="headerlink" title="创建对象"></a>创建对象</h1><blockquote>
+<p><em>注意：</em> 本文来自阅读《JavaScript高级程序设计（第三版）》的总结或者也可以称作是书摘吧👾</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="一般方式"><a href="#一般方式" class="headerlink" title="一般方式"></a>一般方式</h2><ul>
+<li>构造函数</li>
+<li>对象字面量</li>
+</ul>
+<h2 id="工厂模式"><a href="#工厂模式" class="headerlink" title="工厂模式"></a>工厂模式</h2><p>这种模式抽象了创建具体对象的过程。如下例子所示。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createPerson</span> (<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</div><div class="line">    o.name =  name;</div><div class="line">    o.age = age;</div><div class="line">    o.job = job;</div><div class="line">    o.sayName = functioin () &#123;</div><div class="line">        alert (<span class="keyword">this</span>.name);</div><div class="line">    &#125;;</div><div class="line">    <span class="keyword">return</span> o;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 实例化两个类</span></div><div class="line"><span class="keyword">var</span> person1 = createPerson(<span class="string">'xixi'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line"><span class="keyword">var</span> person2 = createPerson(<span class="string">'waXaw'</span>, <span class="number">27</span>, <span class="string">'teacher'</span>);</div></pre></td></tr></table></figure>
+<p>虽然解决了常见太多相似类的问题，但却没有解决对象识别的问题。</p>
+<h2 id="构造函数模式"><a href="#构造函数模式" class="headerlink" title="构造函数模式"></a>构造函数模式</h2><p>像Array和Object这样的原生构造函数，在运行时会自动创建执行环境，还可以自定义对象属性和方法。如下例子所示。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span> (<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">    <span class="keyword">this</span>.name =  name;</div><div class="line">    <span class="keyword">this</span>.age = age;</div><div class="line">    <span class="keyword">this</span>.job = job;</div><div class="line">    <span class="keyword">this</span>.sayName = functioin () &#123;</div><div class="line">        alert (<span class="keyword">this</span>.name);</div><div class="line">    &#125;;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 实例化两个类</span></div><div class="line"><span class="keyword">var</span> person1 = <span class="keyword">new</span> Person(<span class="string">'xixi'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line"><span class="keyword">var</span> person2 = <span class="keyword">new</span> Person(<span class="string">'waXaw'</span>, <span class="number">27</span>, <span class="string">'teacher'</span>);</div></pre></td></tr></table></figure>
+<p>与之前的工厂模式对比可以有以下发现：</p>
+<ul>
+<li>没有显式地创建对象</li>
+<li>直接将属性和方法赋给了 <code>this</code> 对象</li>
+<li>没有 <code>return</code> 语句</li>
+</ul>
+<p><em>注意：</em> 构造函数应该以一个大写字母开头</p>
+<p>实例化一个对象，要经过以下步骤：</p>
+<ol>
+<li>创建一个新对象</li>
+<li>将构造函数的作用域赋值给新对象（因此 <code>this</code> 就指向了这个新对象）</li>
+<li>执行构造函数中的代码（为这个类对象添加属性）</li>
+<li>返回对象</li>
+</ol>
+<p><code>person1</code> 和 <code>person2</code> 分别保存着 <code>Person</code> 类的一个不同的实例。 这个两个对象都有一个 <code>constructor</code> （构造函数）属性，该属性指向 <code>Person</code>。<br>创建自定义的构造函数意味着将来可以将它的实例为一种特定的类型，此处正是构造函数模式胜过工厂模式的地方。</p>
+<p>构造函数是一种特殊的函数，他可以通过 <code>new</code> 操作符来调用。</p>
+<h3 id="构造函数调用方式："><a href="#构造函数调用方式：" class="headerlink" title="构造函数调用方式："></a>构造函数调用方式：</h3><ul>
+<li>1.当做构造函数使用</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> person = <span class="keyword">new</span> Person(<span class="string">'xixi'</span>, <span class="number">29</span>, <span class="string">'Software Engneer'</span>);</div><div class="line">person.sayName(); <span class="comment">//'xixi'</span></div></pre></td></tr></table></figure>
+<ul>
+<li><ol>
+<li>作为普通函数使用</li>
+</ol>
+</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Person(<span class="string">'waXaw'</span>, <span class="number">24</span>, <span class="string">'Teacher'</span>);</div><div class="line"><span class="built_in">window</span>.sayName(); <span class="comment">//'waXaw'</span></div></pre></td></tr></table></figure>
+<ul>
+<li><ol>
+<li>在对象的另一个作用域中调用</li>
+</ol>
+</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</div><div class="line">Person.call(o, <span class="string">'mig'</span>, <span class="number">23</span>, <span class="string">'CEO'</span>);</div><div class="line">o.sayName(); <span class="comment">//'mig'</span></div></pre></td></tr></table></figure>
+<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><p>构造函数的方法 （即 <code>sayName</code> ）每次都要重新创建一遍。也就是说 <code>person1</code> 和 <code>person2</code> 的 <code>sayName</code> 不是同一个 <code>Function</code> 创建的。<br>可以通过</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alert(person1.sayName === person2.sayName()); <span class="comment">// false</span></div></pre></td></tr></table></figure>
+<p><strong>解决方法：</strong><br>函数定义转移到构造函数的外部。如下例所示。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">    <span class="keyword">this</span>.name =  name;</div><div class="line">    <span class="keyword">this</span>.age = age;</div><div class="line">    <span class="keyword">this</span>.job = job;</div><div class="line">    <span class="keyword">this</span>.sayName =sayName;</div><div class="line">&#125;;</div><div class="line"></div><div class="line">functioin sayName() &#123;</div><div class="line">        alert (<span class="keyword">this</span>.name);</div><div class="line">&#125;;</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 实例化两个类</span></div><div class="line"><span class="keyword">var</span> person1 = <span class="keyword">new</span> Person(<span class="string">'xixi'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line"><span class="keyword">var</span> person2 = <span class="keyword">new</span> Person(<span class="string">'waXaw'</span>, <span class="number">27</span>, <span class="string">'teacher'</span>);</div></pre></td></tr></table></figure>
+<p><strong>新的问题：</strong></p>
+<ul>
+<li><code>sayName</code> 使得全局变量名不副实</li>
+<li>自定义的引用类型没有了封装性可言</li>
+</ul>
+<h2 id="原型模型"><a href="#原型模型" class="headerlink" title="原型模型"></a>原型模型</h2><p>// TODO</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> JavaScript高级程序设计（第三版） </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hexo个人博客搭建遇到的问题1]]></title>
       <url>http://blog.pikbug.me/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/</url>
       <content type="html"><![CDATA[<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><ul>
@@ -144,9 +219,9 @@
         
         <tags>
             
-            <tag> 个人博客 </tag>
-            
             <tag> 测试 </tag>
+            
+            <tag> 个人博客 </tag>
             
         </tags>
         
@@ -167,11 +242,11 @@
         
         <tags>
             
-            <tag> 个人博客 </tag>
-            
             <tag> 日记 </tag>
             
             <tag> 测试 </tag>
+            
+            <tag> 个人博客 </tag>
             
         </tags>
         
