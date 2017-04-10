@@ -94,7 +94,7 @@
 <meta property="og:url" content="http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/index.html">
 <meta property="og:site_name" content="加州提子面包">
 <meta property="og:description" content="注意： 本文来自阅读《JavaScript高级程序设计（第三版）》的笔记2或者也可以称作是书摘吧👾">
-<meta property="og:updated_time" content="2017-04-10T10:37:23.000Z">
+<meta property="og:updated_time" content="2017-04-10T10:39:03.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript-ways-of-create-object">
 <meta name="twitter:description" content="注意： 本文来自阅读《JavaScript高级程序设计（第三版）》的笔记2或者也可以称作是书摘吧👾">
@@ -360,7 +360,7 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-04-10T18:37:23+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-04-10T18:39:03+08:00">
                 2017-04-10
               </time>
             
@@ -399,7 +399,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 1,809 </span>
+              <span> 1,810 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
@@ -537,7 +537,8 @@
 </ul>
 <h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">  <span class="keyword">this</span>.name = name;</div><div class="line">  <span class="keyword">this</span>.age = age;</div><div class="line">  <span class="keyword">this</span>.job = job;</div><div class="line">  <span class="keyword">this</span>.friends = [<span class="string">'Shelby'</span>, <span class="string">'Court'</span>];</div><div class="line">&#125;;</div><div class="line"></div><div class="line">Person.prototype = &#123;</div><div class="line">  <span class="attr">constructor</span>: Person,</div><div class="line">  <span class="attr">sayName</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    alert(<span class="keyword">this</span>.name);</div><div class="line">  &#125;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">var</span> person1 = <span class="keyword">new</span> Person(<span class="string">'Nicholas'</span>, <span class="number">29</span>, <span class="string">'SoftWare Engineer'</span>);</div><div class="line"><span class="keyword">var</span> person2 = <span class="keyword">new</span> Person(<span class="string">'Greg'</span>, <span class="number">27</span>, <span class="string">'Doctor'</span>);</div><div class="line"></div><div class="line">person1.friends.push(<span class="string">'Van'</span>);</div><div class="line">alert(person1.friends); <span class="comment">// 'Shelby, Court, Van'</span></div><div class="line">alert(person2.friends); <span class="comment">// 'Shelby, Court'</span></div><div class="line">alert(person1.friends === person2.friends); </div><div class="line">  <span class="comment">// false</span></div><div class="line">alert(person1.sayName === person2.sayName);</div><div class="line">  <span class="comment">// true</span></div></pre></td></tr></table></figure>
 <p>此种方式是目前 <code>ECMAScript</code> 中使用<strong>最广泛</strong>、<strong>认同度最高</strong>的一种创建自定义类型的方法。 换句话说，这是用来定义引用类型的一种默认模式。</p>
-<h2 id="动态原型模式"><a href="#动态原型模式" class="headerlink" title="动态原型模式"></a>动态原型模式</h2>
+<h2 id="动态原型模式"><a href="#动态原型模式" class="headerlink" title="动态原型模式"></a>动态原型模式</h2><p>// TODO</p>
+
       
     </div>
 
