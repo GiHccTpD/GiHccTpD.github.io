@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-04-10T12:03:52.000Z</updated>
+  <updated>2017-04-11T06:32:40.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -16,11 +16,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>十大经典排序算法</title>
+    <link href="http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/"/>
+    <id>http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/</id>
+    <published>2017-04-11T06:24:42.000Z</published>
+    <updated>2017-04-11T06:32:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="『转载』十大经典排序算法"><a href="#『转载』十大经典排序算法" class="headerlink" title="『转载』十大经典排序算法"></a>『转载』十大经典排序算法</h1><p><a href="https://sort.hust.cc/" target="_blank" rel="external">https://sort.hust.cc/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;『转载』十大经典排序算法&quot;&gt;&lt;a href=&quot;#『转载』十大经典排序算法&quot; class=&quot;headerlink&quot; title=&quot;『转载』十大经典排序算法&quot;&gt;&lt;/a&gt;『转载』十大经典排序算法&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://sort.hust.cc/
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="排序" scheme="http://blog.pikbug.me/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>JavaScript-ways-of-create-object</title>
     <link href="http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/"/>
     <id>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</id>
     <published>2017-04-08T16:41:56.000Z</published>
-    <updated>2017-04-10T12:03:52.000Z</updated>
+    <updated>2017-04-11T08:02:55.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><em>注意：</em> 本文来自阅读《JavaScript高级程序设计（第三版）》的笔记2或者也可以称作是书摘吧👾</p>
@@ -128,7 +157,20 @@
 </ul>
 <h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">  <span class="keyword">this</span>.name = name;</div><div class="line">  <span class="keyword">this</span>.age = age;</div><div class="line">  <span class="keyword">this</span>.job = job;</div><div class="line">  <span class="keyword">this</span>.friends = [<span class="string">'Shelby'</span>, <span class="string">'Court'</span>];</div><div class="line">&#125;;</div><div class="line"></div><div class="line">Person.prototype = &#123;</div><div class="line">  <span class="attr">constructor</span>: Person,</div><div class="line">  <span class="attr">sayName</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    alert(<span class="keyword">this</span>.name);</div><div class="line">  &#125;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">var</span> person1 = <span class="keyword">new</span> Person(<span class="string">'Nicholas'</span>, <span class="number">29</span>, <span class="string">'SoftWare Engineer'</span>);</div><div class="line"><span class="keyword">var</span> person2 = <span class="keyword">new</span> Person(<span class="string">'Greg'</span>, <span class="number">27</span>, <span class="string">'Doctor'</span>);</div><div class="line"></div><div class="line">person1.friends.push(<span class="string">'Van'</span>);</div><div class="line">alert(person1.friends); <span class="comment">// 'Shelby, Court, Van'</span></div><div class="line">alert(person2.friends); <span class="comment">// 'Shelby, Court'</span></div><div class="line">alert(person1.friends === person2.friends); </div><div class="line">  <span class="comment">// false</span></div><div class="line">alert(person1.sayName === person2.sayName);</div><div class="line">  <span class="comment">// true</span></div></pre></td></tr></table></figure>
 <p>此种方式是目前 <code>ECMAScript</code> 中使用<strong>最广泛</strong>、<strong>认同度最高</strong>的一种创建自定义类型的方法。 换句话说，这是用来定义引用类型的一种默认模式。</p>
-<h2 id="动态原型模式"><a href="#动态原型模式" class="headerlink" title="动态原型模式"></a>动态原型模式</h2><p>未完待续</p>
+<h2 id="动态原型模式"><a href="#动态原型模式" class="headerlink" title="动态原型模式"></a>动态原型模式</h2><p>动态原型模式将所有信息封装在构造函数中，而通过在构造函数中初始化原型（<strong>仅在必要的情况下</strong>），又保持了同事使用构造函数和原型的优点。如例子所示。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">  <span class="comment">// 属性</span></div><div class="line">  <span class="keyword">this</span>.name = name;</div><div class="line">  <span class="keyword">this</span>.age = age;</div><div class="line">  <span class="keyword">this</span>.job = job;</div><div class="line">  <span class="comment">// 方法</span></div><div class="line">  <span class="keyword">if</span> (<span class="keyword">typeof</span> <span class="keyword">this</span>.sayName != <span class="string">'function'</span>) &#123;</div><div class="line">    Person.prototype.sayName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">      alert(<span class="keyword">this</span>.name);</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">var</span> friend = <span class="keyword">new</span> Person(<span class="string">'Nicholas'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line">friend.sayName();</div></pre></td></tr></table></figure>
+<h2 id="寄生构造函数模式"><a href="#寄生构造函数模式" class="headerlink" title="寄生构造函数模式"></a>寄生构造函数模式</h2><blockquote>
+<p>主要思想： 创建一个函数，该函数的作用仅仅是封装创建对象的代码，然后返回新的对象。下面是例子。</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> o = &#123;&#125;;</div><div class="line">  o.name = name;</div><div class="line">  o.age = age;</div><div class="line">  o.job = job;</div><div class="line">  o.sayName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    alert(<span class="keyword">this</span>.name);</div><div class="line">  &#125;;</div><div class="line">  <span class="keyword">return</span> o;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">var</span> friend = <span class="keyword">new</span> Person(<span class="string">'Nicholas'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line">friend.sayName(); <span class="comment">// 'Nicholas'</span></div></pre></td></tr></table></figure>
+<p>补充说明：</p>
+<ul>
+<li>返回的对象与构造函数或者与构造函数的原型属性之间没有关系，也就是说构造函数返回的对象与在构造函数外创建的对象没有什么不同。</li>
+<li>不能依赖 <code>instanceof</code> 操作符来确定对象类型。</li>
+<li>在能使用别的模式的情况下，不要使用该模式。</li>
+</ul>
+<h2 id="稳妥构造函数模式"><a href="#稳妥构造函数模式" class="headerlink" title="稳妥构造函数模式"></a>稳妥构造函数模式</h2><h3 id="是什么？"><a href="#是什么？" class="headerlink" title="是什么？"></a>是什么？</h3><p>没有公共属性 | 其方法也不引用 <code>this</code> 的对象</p>
+<h3 id="代码示例"><a href="#代码示例" class="headerlink" title="代码示例"></a>代码示例</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name, age, job</span>) </span>&#123;</div><div class="line">  <span class="comment">// 创建一个返回的对象</span></div><div class="line">  <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</div><div class="line">  <span class="comment">// 可以在这里定义私有变量和函数</span></div><div class="line">  </div><div class="line">  <span class="comment">// 添加方法</span></div><div class="line">  o.sayName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    alert(name);</div><div class="line">  &#125;;</div><div class="line">  <span class="keyword">return</span> o;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">var</span> friend = Person(<span class="string">'Nicholas'</span>, <span class="number">29</span>, <span class="string">'Software Engineer'</span>);</div><div class="line">friend.sayName(); <span class="comment">// 'Nicholas'</span></div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
@@ -139,14 +181,14 @@
     
     </summary>
     
-      <category term="技术笔记" scheme="http://blog.pikbug.me/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
     
       <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
     
       <category term="JavaScript高级程序设计（第三版）" scheme="http://blog.pikbug.me/tags/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC%E4%B8%89%E7%89%88%EF%BC%89/"/>
-    
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
