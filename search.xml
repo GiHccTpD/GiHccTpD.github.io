@@ -37,7 +37,6 @@
 <p><em>注意：</em> 本文来自阅读《JavaScript高级程序设计（第三版）》的笔记2或者也可以称作是书摘吧👾</p>
 </blockquote>
 <a id="more"></a>
-<p>[TOC]</p>
 <h2 id="一般方式"><a href="#一般方式" class="headerlink" title="一般方式"></a>一般方式</h2><ul>
 <li>构造函数</li>
 <li>对象字面量</li>
