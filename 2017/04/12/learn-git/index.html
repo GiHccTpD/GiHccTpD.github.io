@@ -88,34 +88,34 @@
 
 
 
-<meta name="description" content="创建版本库初始化一个Git仓库
+<meta name="description" content="注意： 本文是根据 廖雪峰的官方网站的Git教程 的学习笔记
+
+『第一节课』创建版本库初始化一个Git仓库
 找一个合适的地方
 创建一个文件夹 mkdir learning-git
 进入该文件夹 cd
-通过git init命令把这个目录变成Git可以管理的仓库
-
-12☁  learning-git  git initInitialized empty Git repository in /Users/MiG/Documents/Learning/Git/learning-g">
+通过git init命令把这个目录变成Git可以管理的仓库">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git学习笔记">
 <meta property="og:url" content="http://blog.pikbug.me/2017/04/12/learn-git/index.html">
 <meta property="og:site_name" content="加州提子面包">
-<meta property="og:description" content="创建版本库初始化一个Git仓库
+<meta property="og:description" content="注意： 本文是根据 廖雪峰的官方网站的Git教程 的学习笔记
+
+『第一节课』创建版本库初始化一个Git仓库
 找一个合适的地方
 创建一个文件夹 mkdir learning-git
 进入该文件夹 cd
-通过git init命令把这个目录变成Git可以管理的仓库
-
-12☁  learning-git  git initInitialized empty Git repository in /Users/MiG/Documents/Learning/Git/learning-g">
-<meta property="og:updated_time" content="2017-04-12T03:02:29.000Z">
+通过git init命令把这个目录变成Git可以管理的仓库">
+<meta property="og:updated_time" content="2017-04-12T10:30:54.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git学习笔记">
-<meta name="twitter:description" content="创建版本库初始化一个Git仓库
+<meta name="twitter:description" content="注意： 本文是根据 廖雪峰的官方网站的Git教程 的学习笔记
+
+『第一节课』创建版本库初始化一个Git仓库
 找一个合适的地方
 创建一个文件夹 mkdir learning-git
 进入该文件夹 cd
-通过git init命令把这个目录变成Git可以管理的仓库
-
-12☁  learning-git  git initInitialized empty Git repository in /Users/MiG/Documents/Learning/Git/learning-g">
+通过git init命令把这个目录变成Git可以管理的仓库">
 
 
 
@@ -378,7 +378,7 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-04-12T11:02:29+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-04-12T18:30:54+08:00">
                 2017-04-12
               </time>
             
@@ -417,7 +417,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 79 </span>
+              <span> 1,193 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
@@ -449,13 +449,84 @@
       
 
       
-        <h1 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h1><h2 id="初始化一个Git仓库"><a href="#初始化一个Git仓库" class="headerlink" title="初始化一个Git仓库"></a>初始化一个Git仓库</h2><ol>
+        <blockquote>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记</p>
+</blockquote>
+<h1 id="『第一节课』创建版本库"><a href="#『第一节课』创建版本库" class="headerlink" title="『第一节课』创建版本库"></a>『第一节课』创建版本库</h1><h2 id="初始化一个Git仓库"><a href="#初始化一个Git仓库" class="headerlink" title="初始化一个Git仓库"></a>初始化一个Git仓库</h2><ol>
 <li>找一个合适的地方</li>
 <li>创建一个文件夹 <code>mkdir learning-git</code></li>
 <li>进入该文件夹 <code>cd</code></li>
-<li>通过<code>git init</code>命令把这个目录变成Git可以管理的仓库</li>
+<li><p>通过<code>git init</code>命令把这个目录变成Git可以管理的仓库 <a id="more"></a></p>
+ <figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">☁  learning-git  git init</div><div class="line">Initialized empty Git repository <span class="keyword">in</span> <span class="regexp">/Users/</span>MiG<span class="regexp">/Documents/</span>Learning<span class="regexp">/Git/</span>learning-git<span class="regexp">/.git/</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>注意：</strong> 此时仓库就创建好了，文件夹下会多了一个名为 <code>.git</code> 的文件夹📂 </p>
+</blockquote>
+</li>
+<li><p>添加一个 <code>README.md</code> 文件 </p>
+</li>
+<li><p>用 <code>git add README.md</code> 命令将 <code>README.md</code> 将该文件添加到仓库</p>
+ <figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">☁  learning-git [master] ⚡ git <span class="keyword">commit</span> -m <span class="string">"add README.md"</span></div><div class="line">[<span class="keyword">master</span> (root-<span class="keyword">commit</span>) a75f826] <span class="keyword">add</span> README.md</div><div class="line"> <span class="number">1</span> <span class="keyword">file</span> <span class="keyword">changed</span>, <span class="number">2</span> insertions(+)</div><div class="line"> <span class="keyword">create</span> <span class="keyword">mode</span> <span class="number">100644</span> README.md</div></pre></td></tr></table></figure>
+</li>
 </ol>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">☁  learning-git  git init</div><div class="line">Initialized empty Git repository <span class="keyword">in</span> <span class="regexp">/Users/</span>MiG<span class="regexp">/Documents/</span>Learning<span class="regexp">/Git/</span>learning-git<span class="regexp">/.git/</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>注意：</strong> <code>-m</code> 后面输入的是本次提交的说明</p>
+</blockquote>
+<h1 id="『第二节课』查看修改信息"><a href="#『第二节课』查看修改信息" class="headerlink" title="『第二节课』查看修改信息"></a>『第二节课』查看修改信息</h1><h2 id="可以通过-git-status-命令查看仓库的状态："><a href="#可以通过-git-status-命令查看仓库的状态：" class="headerlink" title="可以通过 git status 命令查看仓库的状态："></a>可以通过 <code>git status</code> 命令查看仓库的状态：</h2><p>当我们没有进行修改的时候 输入 <code>git status</code> 可以看到如下输出</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">☁  learning-git [<span class="literal">master</span>] git status</div><div class="line">On branch <span class="keyword">master</span></div><div class="line"><span class="title">nothing</span> to commit, working tree clean</div></pre></td></tr></table></figure>
+<h2 id="当我们进行一些修改之后"><a href="#当我们进行一些修改之后" class="headerlink" title="当我们进行一些修改之后:"></a>当我们进行一些修改之后:</h2><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">☁  learning-git [<span class="literal">master</span>] ⚡ git status</div><div class="line">On branch <span class="keyword">master</span></div><div class="line"><span class="title">Changes</span> to be committed:</div><div class="line">  (use <span class="string">"git reset HEAD &lt;file&gt;..."</span> to unstage)</div><div class="line"></div><div class="line">	modified:   README.md</div></pre></td></tr></table></figure>
+<h2 id="当此时输入-git-diff-README-md-会输出如下信息："><a href="#当此时输入-git-diff-README-md-会输出如下信息：" class="headerlink" title="当此时输入 git diff README.md 会输出如下信息："></a>当此时输入 <code>git diff README.md</code> 会输出如下信息：</h2><figure class="highlight diff"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">diff --git a/README.md b/README.md</div><div class="line">index 6276f73..6abd600 100644</div><div class="line"><span class="comment">--- a/README.md</span></div><div class="line"><span class="comment">+++ b/README.md</span></div><div class="line"><span class="meta">@@ -1,4 +1,4 @@</span></div><div class="line"> Git is a version control system.</div><div class="line"> Git is free software.</div><div class="line"><span class="deletion">-</span></div><div class="line"><span class="addition">+Git is awosome.</span></div><div class="line"> Git is create by Linus.</div></pre></td></tr></table></figure>
+<h2 id="此时，输入-git-status-命令查看仓库的状态："><a href="#此时，输入-git-status-命令查看仓库的状态：" class="headerlink" title="此时，输入 git status 命令查看仓库的状态："></a>此时，输入 <code>git status</code> 命令查看仓库的状态：</h2><p>会输出如下信息：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">On branch master</div><div class="line">Changes to be committed:</div><div class="line">  (<span class="keyword">use</span> <span class="string">"git reset HEAD &lt;file&gt;..."</span> <span class="keyword">to</span> unstage)</div><div class="line"></div><div class="line">	modified:   README.md</div><div class="line"></div><div class="line">Changes <span class="keyword">not</span> staged <span class="keyword">for</span> <span class="keyword">commit</span>:</div><div class="line">  (<span class="keyword">use</span> <span class="string">"git add &lt;file&gt;..."</span> <span class="keyword">to</span> <span class="keyword">update</span> what will be committed)</div><div class="line">  (<span class="keyword">use</span> <span class="string">"git checkout -- &lt;file&gt;..."</span> <span class="keyword">to</span> discard changes <span class="keyword">in</span> working <span class="keyword">directory</span>)</div><div class="line"></div><div class="line">	modified:   README.md</div></pre></td></tr></table></figure></p>
+<p>提示信息没有提交</p>
+<h2 id="接下来，输入-git-add-README-md："><a href="#接下来，输入-git-add-README-md：" class="headerlink" title="接下来，输入 git add README.md："></a>接下来，输入 <code>git add README.md</code>：</h2><p>没有提示</p>
+<blockquote>
+<p>补充： <code>git add</code> 的作用是将提交的文件的信息添加到索引库中</p>
+</blockquote>
+<h2 id="然后，-输入-git-status："><a href="#然后，-输入-git-status：" class="headerlink" title="然后， 输入 git status："></a>然后， 输入 <code>git status</code>：</h2><p>输出信息如下：<br><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">☁  learning-git [<span class="literal">master</span>] ⚡ git status</div><div class="line">On branch <span class="keyword">master</span></div><div class="line"><span class="title">Changes</span> to be committed:</div><div class="line">  (use <span class="string">"git reset HEAD &lt;file&gt;..."</span> to unstage)</div><div class="line"></div><div class="line">	modified:   README.md</div></pre></td></tr></table></figure></p>
+<h2 id="然后，-输入-git-commit-m-quot-modify-README-md-quot"><a href="#然后，-输入-git-commit-m-quot-modify-README-md-quot" class="headerlink" title="然后， 输入 git commit -m &quot;modify README.md&quot;"></a>然后， 输入 <code>git commit -m &quot;modify README.md&quot;</code></h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">☁  learning-git [master] ⚡ git <span class="keyword">commit</span> -m <span class="string">"modify README.md"</span></div><div class="line">[<span class="keyword">master</span> <span class="number">48</span>a04b0] <span class="keyword">modify</span> README.md</div><div class="line"> <span class="number">1</span> <span class="keyword">file</span> <span class="keyword">changed</span>, <span class="number">2</span> insertions(+)</div></pre></td></tr></table></figure>
+<p>最后，输入最后一次 <code>git status</code>：</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">☁  learning-git [<span class="literal">master</span>] git status</div><div class="line">On branch <span class="keyword">master</span></div><div class="line"><span class="title">nothing</span> to commit, working tree clean</div></pre></td></tr></table></figure>
+<h2 id="本节课的补充："><a href="#本节课的补充：" class="headerlink" title="本节课的补充："></a>本节课的补充：</h2><ul>
+<li><p><code>git add</code> 是将修改内容或者新文件添加到本地缓存区</p>
+</li>
+<li><p>再用 <code>git commit</code> 将本地缓冲区的内容提交到本地仓库</p>
+</li>
+<li><p><code>git add</code> 的各种区别:</p>
+<p>  <code>git add -A  // 添加所有改动</code></p>
+<p>  <code>git add *     // 添加新建文件和修改，但是不包括删除</code></p>
+<p>  <code>git add .    // 添加新建文件和修改，但是不包括删除</code></p>
+<p>  <code>git add -u   // 添加修改和删除，但是不包括新建文件</code></p>
+</li>
+<li><p>在 <code>commit</code> 前撤销 <code>add</code>:</p>
+<p>  <code>git reset &lt;file&gt; // 撤销提交单独文件</code></p>
+<p>  <code>git reset        // unstage all due changes</code><br>  <code>add/commit</code> 前撤销对文件的修改:</p>
+<p>  <code>git checkout -- README.md  // 注意, add添加后(同commit提交后)就无法通过这种方式撤销修改</code></p>
+</li>
+</ul>
+<h1 id="『第三节课』版本退回"><a href="#『第三节课』版本退回" class="headerlink" title="『第三节课』版本退回"></a>『第三节课』版本退回</h1><h2 id="可以通过-git-log-查看提交历史"><a href="#可以通过-git-log-查看提交历史" class="headerlink" title="可以通过 git log 查看提交历史"></a>可以通过 <code>git log</code> 查看提交历史</h2><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">commit <span class="number">48</span>a04b0f26cc80ed8ad000b9b64675142f6d9bcd</div><div class="line"><span class="symbol">Author:</span> GiHccTpD &lt;yanrancanfei<span class="subst">@163</span>.com&gt;</div><div class="line"><span class="symbol">Date:</span>   Wed Apr <span class="number">12</span> <span class="number">12</span>:<span class="number">08</span>:<span class="number">03</span> <span class="number">2017</span> +<span class="number">0800</span></div><div class="line"></div><div class="line">    modify README.md</div><div class="line"></div><div class="line">commit a75f82682054606bdcec5c7f94590fff2d1de35c</div><div class="line"><span class="symbol">Author:</span> GiHccTpD &lt;yanrancanfei<span class="subst">@163</span>.com&gt;</div><div class="line"><span class="symbol">Date:</span>   Wed Apr <span class="number">12</span> <span class="number">11</span>:<span class="number">18</span>:<span class="number">59</span> <span class="number">2017</span> +<span class="number">0800</span></div><div class="line"></div><div class="line">    <span class="keyword">add</span> README.md</div></pre></td></tr></table></figure>
+<h2 id="还可以通过-git-log-pretty-oneline-格式化输出提交信息："><a href="#还可以通过-git-log-pretty-oneline-格式化输出提交信息：" class="headerlink" title="还可以通过 git log --pretty=oneline 格式化输出提交信息："></a>还可以通过 <code>git log --pretty=oneline</code> 格式化输出提交信息：</h2><figure class="highlight llvm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="number">48</span>a<span class="number">04</span>b<span class="number">0</span>f<span class="number">26</span><span class="keyword">cc</span><span class="number">80</span>ed<span class="number">8</span>ad<span class="number">000</span>b<span class="number">9</span>b<span class="number">64675142</span>f<span class="number">6</span>d<span class="number">9</span>bcd modify README.md</div><div class="line">a<span class="number">75</span>f<span class="number">82682054606</span>bdcec<span class="number">5</span><span class="keyword">c</span><span class="number">7</span>f<span class="number">94590</span>fff<span class="number">2</span>d<span class="number">1</span>de<span class="number">35</span><span class="keyword">c</span> <span class="keyword">add</span> README.md</div></pre></td></tr></table></figure>
+<p><code>48a04b0f26cc80ed8ad000b9b64675142f6d9bcd</code> 是 <code>commit id</code> 版本号,不同于 <code>SVN</code> 的数字版本号，<code>SHA1</code> 计算出来的一个非常大的数字，用十六进制表示。</p>
+<h2 id="可以通过-git-reset-hard-HEAD-命令退回上一个版本"><a href="#可以通过-git-reset-hard-HEAD-命令退回上一个版本" class="headerlink" title="可以通过 git reset --hard HEAD^ 命令退回上一个版本:"></a>可以通过 <code>git reset --hard HEAD^</code> 命令退回上一个版本:</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">☁  learning-git [master] git <span class="keyword">reset</span> <span class="comment">--hard HEAD^</span></div><div class="line"><span class="keyword">HEAD</span> <span class="keyword">is</span> <span class="keyword">now</span> <span class="keyword">at</span> a75f826 <span class="keyword">add</span> README.md</div></pre></td></tr></table></figure>
+<blockquote>
+<p>此时，通过 <code>git log --pretty=oneline</code> 可以看到输出的是如下的信息：  <code>a75f82682054606bdcec5c7f94590fff2d1de35c add README.md</code></p>
+</blockquote>
+<h2 id="也可以通过-git-reset-hard-commit-id-来实现要退回的版本"><a href="#也可以通过-git-reset-hard-commit-id-来实现要退回的版本" class="headerlink" title="也可以通过 git reset --hard commit_id 来实现要退回的版本"></a>也可以通过 <code>git reset --hard commit_id</code> 来实现要退回的版本</h2><h2 id="命令-git-reflog-用来记录你的每一次命令"><a href="#命令-git-reflog-用来记录你的每一次命令" class="headerlink" title="命令 git reflog 用来记录你的每一次命令"></a>命令 <code>git reflog</code> 用来记录你的每一次命令</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">a75f826</span> <span class="selector-tag">HEAD</span>@&#123;0&#125;: <span class="selector-tag">reset</span>: <span class="selector-tag">moving</span> <span class="selector-tag">to</span> <span class="selector-tag">HEAD</span>^</div><div class="line">48<span class="selector-tag">a04b0</span> <span class="selector-tag">HEAD</span>@&#123;1&#125;: <span class="selector-tag">commit</span>: <span class="selector-tag">modify</span> <span class="selector-tag">README</span><span class="selector-class">.md</span></div><div class="line"><span class="selector-tag">a75f826</span> <span class="selector-tag">HEAD</span>@&#123;2&#125;: <span class="selector-tag">commit</span> (<span class="selector-tag">initial</span>): <span class="selector-tag">add</span> <span class="selector-tag">README</span><span class="selector-class">.md</span></div><div class="line">(<span class="selector-tag">END</span>)</div></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>补充：</strong> Git在内部有个指向当前版本的 <code>HEAD</code> 指针，它指向的版本就是当前版本。</p>
+</blockquote>
+<p>#『第四节课』工作区与暂存区</p>
+<h2 id="文件夹📂-learning-git-就是一个工作区"><a href="#文件夹📂-learning-git-就是一个工作区" class="headerlink" title="文件夹📂 learning-git 就是一个工作区"></a>文件夹📂 <code>learning-git</code> 就是一个工作区</h2><h2 id="版本库（Repository）-隐藏的文件夹📂-git-就是一个版本库"><a href="#版本库（Repository）-隐藏的文件夹📂-git-就是一个版本库" class="headerlink" title="版本库（Repository） 隐藏的文件夹📂 .git 就是一个版本库"></a>版本库（Repository） 隐藏的文件夹📂 <code>.git</code> 就是一个版本库</h2><p>如图所示：<br>(Repository)[learn-git/Repository.png]<br>图片来自: (廖雪峰的官方网站)[<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013745374151782eb658c5a5ca454eaa451661275886c6000" target="_blank" rel="external">http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013745374151782eb658c5a5ca454eaa451661275886c6000</a>]</p>
+<p>前面讲了我们把文件往Git版本库里添加的时候，是分两步执行的：</p>
+<ul>
+<li><p>第一步是用 <code>git add</code> 把文件添加进去，实际上就是把文件修改添加到暂存区；</p>
+</li>
+<li><p>第二步是用 <code>git commit</code> 提交更改，实际上就是把暂存区的所有内容提交到当前分支。</p>
+</li>
+</ul>
+<h2 id="操作演示"><a href="#操作演示" class="headerlink" title="操作演示"></a>操作演示</h2><p>(Repository01)[learn-git/Repository01.png]</p>
+<p>『第五节课』Git管理的是修改</p>
+<blockquote>
+<p><strong>注意：</strong> 因为Git跟踪并管理的是修改，而非文件。</p>
+</blockquote>
 
       
     </div>
@@ -719,7 +790,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#创建版本库"><span class="nav-number">1.</span> <span class="nav-text">创建版本库</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化一个Git仓库"><span class="nav-number">1.1.</span> <span class="nav-text">初始化一个Git仓库</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#『第一节课』创建版本库"><span class="nav-number">1.</span> <span class="nav-text">『第一节课』创建版本库</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化一个Git仓库"><span class="nav-number">1.1.</span> <span class="nav-text">初始化一个Git仓库</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第二节课』查看修改信息"><span class="nav-number">2.</span> <span class="nav-text">『第二节课』查看修改信息</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#可以通过-git-status-命令查看仓库的状态："><span class="nav-number">2.1.</span> <span class="nav-text">可以通过 git status 命令查看仓库的状态：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当我们进行一些修改之后"><span class="nav-number">2.2.</span> <span class="nav-text">当我们进行一些修改之后:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当此时输入-git-diff-README-md-会输出如下信息："><span class="nav-number">2.3.</span> <span class="nav-text">当此时输入 git diff README.md 会输出如下信息：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#此时，输入-git-status-命令查看仓库的状态："><span class="nav-number">2.4.</span> <span class="nav-text">此时，输入 git status 命令查看仓库的状态：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#接下来，输入-git-add-README-md："><span class="nav-number">2.5.</span> <span class="nav-text">接下来，输入 git add README.md：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#然后，-输入-git-status："><span class="nav-number">2.6.</span> <span class="nav-text">然后， 输入 git status：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#然后，-输入-git-commit-m-quot-modify-README-md-quot"><span class="nav-number">2.7.</span> <span class="nav-text">然后， 输入 git commit -m "modify README.md"</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本节课的补充："><span class="nav-number">2.8.</span> <span class="nav-text">本节课的补充：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第三节课』版本退回"><span class="nav-number">3.</span> <span class="nav-text">『第三节课』版本退回</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#可以通过-git-log-查看提交历史"><span class="nav-number">3.1.</span> <span class="nav-text">可以通过 git log 查看提交历史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#还可以通过-git-log-pretty-oneline-格式化输出提交信息："><span class="nav-number">3.2.</span> <span class="nav-text">还可以通过 git log --pretty=oneline 格式化输出提交信息：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可以通过-git-reset-hard-HEAD-命令退回上一个版本"><span class="nav-number">3.3.</span> <span class="nav-text">可以通过 git reset --hard HEAD^ 命令退回上一个版本:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#也可以通过-git-reset-hard-commit-id-来实现要退回的版本"><span class="nav-number">3.4.</span> <span class="nav-text">也可以通过 git reset --hard commit_id 来实现要退回的版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#命令-git-reflog-用来记录你的每一次命令"><span class="nav-number">3.5.</span> <span class="nav-text">命令 git reflog 用来记录你的每一次命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文件夹📂-learning-git-就是一个工作区"><span class="nav-number">3.6.</span> <span class="nav-text">文件夹📂 learning-git 就是一个工作区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#版本库（Repository）-隐藏的文件夹📂-git-就是一个版本库"><span class="nav-number">3.7.</span> <span class="nav-text">版本库（Repository） 隐藏的文件夹📂 .git 就是一个版本库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示"><span class="nav-number">3.8.</span> <span class="nav-text">操作演示</span></a></li></ol></li></ol></div>
             
 
           </div>
