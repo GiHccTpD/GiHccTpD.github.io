@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title><![CDATA[git学习笔记]]></title>
+      <url>http://blog.pikbug.me/2017/04/12/learn-git/</url>
+      <content type="html"><![CDATA[<h1 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h1><h2 id="初始化一个Git仓库"><a href="#初始化一个Git仓库" class="headerlink" title="初始化一个Git仓库"></a>初始化一个Git仓库</h2><ol>
+<li>找一个合适的地方</li>
+<li>创建一个文件夹 <code>mkdir learning-git</code></li>
+<li>进入该文件夹 <code>cd</code></li>
+<li>通过<code>git init</code>命令把这个目录变成Git可以管理的仓库</li>
+</ol>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">☁  learning-git  git init</div><div class="line">Initialized empty Git repository <span class="keyword">in</span> <span class="regexp">/Users/</span>MiG<span class="regexp">/Documents/</span>Learning<span class="regexp">/Git/</span>learning-git<span class="regexp">/.git/</span></div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[十大经典排序算法]]></title>
       <url>http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/</url>
       <content type="html"><![CDATA[<h1 id="『转载』十大经典排序算法"><a href="#『转载』十大经典排序算法" class="headerlink" title="『转载』十大经典排序算法"></a>『转载』十大经典排序算法</h1><p><a href="https://sort.hust.cc/" target="_blank" rel="external">https://sort.hust.cc/</a></p>
@@ -31,10 +60,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[JavaScript-ways-of-create-object]]></title>
+      <title><![CDATA[创建对象的方式]]></title>
       <url>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</url>
       <content type="html"><![CDATA[<blockquote>
-<p><em>注意：</em> 本文来自阅读《JavaScript高级程序设计（第三版）》的笔记2或者也可以称作是书摘吧👾</p>
+<p><em>注意：</em> 本文来自阅读《JavaScript高级程序设计（第三版）》的笔记或者也可以称作是书摘吧👾</p>
 </blockquote>
 <a id="more"></a>
 <h2 id="一般方式"><a href="#一般方式" class="headerlink" title="一般方式"></a>一般方式</h2><ul>
