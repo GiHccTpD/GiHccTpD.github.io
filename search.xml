@@ -7,7 +7,7 @@
       <title><![CDATA[git学习笔记✔️02]]></title>
       <url>http://blog.pikbug.me/2017/04/13/learn-git-02/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
-<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记</p>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记 <a id="more"></a></p>
 ]]></content>
       
         <categories>
@@ -24,13 +24,13 @@
       <url>http://blog.pikbug.me/2017/04/12/learn-git/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
 <blockquote>
-<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记</p>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记<a id="more"></a></p>
 </blockquote>
 <h1 id="『第一节课』创建版本库"><a href="#『第一节课』创建版本库" class="headerlink" title="『第一节课』创建版本库"></a>『第一节课』创建版本库</h1><h2 id="初始化一个Git仓库"><a href="#初始化一个Git仓库" class="headerlink" title="初始化一个Git仓库"></a>初始化一个Git仓库</h2><ol>
 <li>找一个合适的地方</li>
 <li>创建一个文件夹 <code>mkdir learning-git</code></li>
 <li>进入该文件夹 <code>cd</code></li>
-<li><p>通过<code>git init</code>命令把这个目录变成Git可以管理的仓库 <a id="more"></a></p>
+<li><p>通过<code>git init</code>命令把这个目录变成Git可以管理的仓库 </p>
  <figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">☁  learning-git  git init</div><div class="line">Initialized empty Git repository <span class="keyword">in</span> <span class="regexp">/Users/</span>MiG<span class="regexp">/Documents/</span>Learning<span class="regexp">/Git/</span>learning-git<span class="regexp">/.git/</span></div></pre></td></tr></table></figure>
 <blockquote>
 <p><strong>注意：</strong> 此时仓库就创建好了，文件夹下会多了一个名为 <code>.git</code> 的文件夹📂 </p>
