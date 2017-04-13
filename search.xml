@@ -4,9 +4,26 @@
   
     
     <entry>
+      <title><![CDATA[git学习笔记✔️02]]></title>
+      <url>http://blog.pikbug.me/2017/04/13/learn-git-02/</url>
+      <content type="html"><![CDATA[<p>[TOC]</p>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[git学习笔记✔️01]]></title>
       <url>http://blog.pikbug.me/2017/04/12/learn-git/</url>
-      <content type="html"><![CDATA[<blockquote>
+      <content type="html"><![CDATA[<p>[TOC]</p>
+<blockquote>
 <p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记</p>
 </blockquote>
 <h1 id="『第一节课』创建版本库"><a href="#『第一节课』创建版本库" class="headerlink" title="『第一节课』创建版本库"></a>『第一节课』创建版本库</h1><h2 id="初始化一个Git仓库"><a href="#初始化一个Git仓库" class="headerlink" title="初始化一个Git仓库"></a>初始化一个Git仓库</h2><ol>

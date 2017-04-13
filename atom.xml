@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-04-13T03:15:37.000Z</updated>
+  <updated>2017-04-13T03:30:56.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -16,13 +16,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>git学习笔记✔️02</title>
+    <link href="http://blog.pikbug.me/2017/04/13/learn-git-02/"/>
+    <id>http://blog.pikbug.me/2017/04/13/learn-git-02/</id>
+    <published>2017-04-13T03:25:49.000Z</published>
+    <updated>2017-04-13T03:30:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>[TOC]</p>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt; 本文是根据 &lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; targ
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>git学习笔记✔️01</title>
     <link href="http://blog.pikbug.me/2017/04/12/learn-git/"/>
     <id>http://blog.pikbug.me/2017/04/12/learn-git/</id>
     <published>2017-04-12T02:20:10.000Z</published>
-    <updated>2017-04-13T03:15:37.000Z</updated>
+    <updated>2017-04-13T03:30:56.000Z</updated>
     
-    <content type="html"><![CDATA[<blockquote>
+    <content type="html"><![CDATA[<p>[TOC]</p>
+<blockquote>
 <p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记</p>
 </blockquote>
 <h1 id="『第一节课』创建版本库"><a href="#『第一节课』创建版本库" class="headerlink" title="『第一节课』创建版本库"></a>『第一节课』创建版本库</h1><h2 id="初始化一个Git仓库"><a href="#初始化一个Git仓库" class="headerlink" title="初始化一个Git仓库"></a>初始化一个Git仓库</h2><ol>
@@ -117,7 +141,8 @@
     
     <summary type="html">
     
-      &lt;blockquote&gt;
+      &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt; 本文是根据 &lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot;&gt;廖雪峰的官方网站的Git教程&lt;/a&gt; 的学习笔记&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&quot;『第一节课』创建版本库&quot;&gt;&lt;a href=&quot;#『第一节课』创建版本库&quot; class=&quot;headerlink&quot; title=&quot;『第一节课』创建版本库&quot;&gt;&lt;/a&gt;『第一节课』创建版本库&lt;/h1&gt;&lt;h2 id=&quot;初始化一个Git仓库&quot;&gt;&lt;a href=&quot;#初始化一个Git仓库&quot; class=&quot;headerlink&quot; title=&quot;初始化一个Git仓库&quot;&gt;&lt;/a&gt;初始化一个Git仓库&lt;/h2&gt;&lt;ol&gt;
