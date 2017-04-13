@@ -96,7 +96,7 @@
 进入该文件夹 cd
 通过git init命令把这个目录变成Git可以管理的仓库">
 <meta property="og:type" content="article">
-<meta property="og:title" content="git学习笔记">
+<meta property="og:title" content="git学习笔记✔️01">
 <meta property="og:url" content="http://blog.pikbug.me/2017/04/12/learn-git/index.html">
 <meta property="og:site_name" content="加州提子面包">
 <meta property="og:description" content="注意： 本文是根据 廖雪峰的官方网站的Git教程 的学习笔记
@@ -108,9 +108,13 @@
 通过git init命令把这个目录变成Git可以管理的仓库">
 <meta property="og:image" content="http://blog.pikbug.me/2017/04/12/learn-git/Repository.png">
 <meta property="og:image" content="http://blog.pikbug.me/2017/04/12/learn-git/Repository01.png">
-<meta property="og:updated_time" content="2017-04-12T10:40:30.000Z">
+<meta property="og:image" content="http://blog.pikbug.me/2017/04/12/learn-git/checkout.png">
+<meta property="og:image" content="http://blog.pikbug.me/2017/04/12/learn-git/checkout02.png">
+<meta property="og:image" content="http://blog.pikbug.me/2017/04/12/learn-git/checkout03.png">
+<meta property="og:image" content="http://blog.pikbug.me/2017/04/12/learn-git/del.png">
+<meta property="og:updated_time" content="2017-04-13T03:15:37.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="git学习笔记">
+<meta name="twitter:title" content="git学习笔记✔️01">
 <meta name="twitter:description" content="注意： 本文是根据 廖雪峰的官方网站的Git教程 的学习笔记
 
 『第一节课』创建版本库初始化一个Git仓库
@@ -152,7 +156,7 @@
 
 
 
-  <title> git学习笔记 | 加州提子面包 </title>
+  <title> git学习笔记✔️01 | 加州提子面包 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -354,7 +358,7 @@
             
             
               
-                git学习笔记
+                git学习笔记✔️01
               
             
           </h1>
@@ -381,8 +385,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-04-12T18:40:30+08:00">
-                2017-04-12
+              <time title="更新于" itemprop="dateModified" datetime="2017-04-13T11:15:37+08:00">
+                2017-04-13
               </time>
             
           </span>
@@ -420,14 +424,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 1,180 </span>
+              <span> 1,603 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/04/12/learn-git/" class="leancloud_visitors" data-flag-title="git学习笔记">
+             <span id="/2017/04/12/learn-git/" class="leancloud_visitors" data-flag-title="git学习笔记✔️01">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -527,7 +531,22 @@
 <h1 id="『第五节课』Git管理的是修改"><a href="#『第五节课』Git管理的是修改" class="headerlink" title="『第五节课』Git管理的是修改"></a>『第五节课』Git管理的是修改</h1><blockquote>
 <p><strong>注意：</strong> 因为Git跟踪并管理的是修改，而非文件。</p>
 </blockquote>
-<p>–未完待续–</p>
+<h1 id="『第六节课』撤销修改"><a href="#『第六节课』撤销修改" class="headerlink" title="『第六节课』撤销修改"></a>『第六节课』撤销修改</h1><h2 id="当没有提交到缓冲区时"><a href="#当没有提交到缓冲区时" class="headerlink" title="当没有提交到缓冲区时"></a>当没有提交到缓冲区时</h2><p>通过使用命令 <code>git checkout -- README.md</code>  把 <code>README.md</code> 文件在工作区的修改全部撤销</p>
+<p>一种是<code>README.md</code>自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；</p>
+<p>一种是<code>README.md</code>已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。</p>
+<p>总之，就是让这个文件回到最近一次<code>git commit</code>或<code>git add</code>时的状态。</p>
+<h2 id="操作演示："><a href="#操作演示：" class="headerlink" title="操作演示："></a>操作演示：</h2><p><img src="/2017/04/12/learn-git/checkout.png" alt="checkout"></p>
+<blockquote>
+<p>在 <code>git status</code> 之前有一次修改。</p>
+</blockquote>
+<h2 id="当将修改的文件提交到缓冲区的时候"><a href="#当将修改的文件提交到缓冲区的时候" class="headerlink" title="当将修改的文件提交到缓冲区的时候"></a>当将修改的文件提交到缓冲区的时候</h2><p>首先，修改下文件。</p>
+<h3 id="用命令-git-reset-HEAD-README-md-可以把暂存区的修改撤销掉（unstage），重新放回工作区"><a href="#用命令-git-reset-HEAD-README-md-可以把暂存区的修改撤销掉（unstage），重新放回工作区" class="headerlink" title="用命令 git reset HEAD README.md 可以把暂存区的修改撤销掉（unstage），重新放回工作区"></a>用命令 <code>git reset HEAD README.md</code> 可以把暂存区的修改撤销掉（unstage），重新放回工作区</h3><p><code>git reset</code>命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用<code>HEAD</code>时，表示最新的版本。</p>
+<h2 id="接下来，还要-使用命令-git-checkout-README-md-来丢弃工作区的修改"><a href="#接下来，还要-使用命令-git-checkout-README-md-来丢弃工作区的修改" class="headerlink" title="# 接下来，还要 使用命令 git checkout -- README.md 来丢弃工作区的修改"></a># 接下来，还要 使用命令 <code>git checkout -- README.md</code> 来丢弃工作区的修改</h2><h3 id="操作演示：-1"><a href="#操作演示：-1" class="headerlink" title="操作演示："></a>操作演示：</h3><p><img src="/2017/04/12/learn-git/checkout02.png" alt="reset"></p>
+<p>然后通过  <code>git checkout -- README.md</code>  丢弃工作区修改</p>
+<p><img src="/2017/04/12/learn-git/checkout03.png" alt="reset"></p>
+<h1 id="『第七节课』删除文件"><a href="#『第七节课』删除文件" class="headerlink" title="『第七节课』删除文件"></a>『第七节课』删除文件</h1><h2 id="首先添加一个文件-vim-test-del-md-，-再随便添加点内容。"><a href="#首先添加一个文件-vim-test-del-md-，-再随便添加点内容。" class="headerlink" title="首先添加一个文件 vim test_del.md ， 再随便添加点内容。"></a>首先添加一个文件 <code>vim test_del.md</code> ， 再随便添加点内容。</h2><p> 然后本地删除文件 <code>rm -rf test_del.md</code> 文件</p>
+<p>输入 <code>git status</code> 可以查看现在的状态，在下面的操作演示图片里面</p>
+<h2 id="当你也要将版本库中的文件删除的时候，就可以输入-git-rm-test-del-md-将其删除啦"><a href="#当你也要将版本库中的文件删除的时候，就可以输入-git-rm-test-del-md-将其删除啦" class="headerlink" title="当你也要将版本库中的文件删除的时候，就可以输入 git rm test_del.md 将其删除啦"></a>当你也要将版本库中的文件删除的时候，就可以输入 <code>git rm test_del.md</code> 将其删除啦</h2><h2 id="当你是操作失误的时候，-可以输入-git-checkout-test-del-md-将版本库中的文件拉取出来，覆盖本地的版本"><a href="#当你是操作失误的时候，-可以输入-git-checkout-test-del-md-将版本库中的文件拉取出来，覆盖本地的版本" class="headerlink" title="当你是操作失误的时候， 可以输入 git checkout --test_del.md 将版本库中的文件拉取出来，覆盖本地的版本"></a>当你是操作失误的时候， 可以输入 <code>git checkout --test_del.md</code> 将版本库中的文件拉取出来，覆盖本地的版本</h2><h2 id="操作代码"><a href="#操作代码" class="headerlink" title="操作代码"></a>操作代码</h2><p><img src="/2017/04/12/learn-git/del.png" alt="del"></p>
 
       
     </div>
@@ -791,7 +810,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#『第一节课』创建版本库"><span class="nav-number">1.</span> <span class="nav-text">『第一节课』创建版本库</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化一个Git仓库"><span class="nav-number">1.1.</span> <span class="nav-text">初始化一个Git仓库</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第二节课』查看修改信息"><span class="nav-number">2.</span> <span class="nav-text">『第二节课』查看修改信息</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#可以通过-git-status-命令查看仓库的状态："><span class="nav-number">2.1.</span> <span class="nav-text">可以通过 git status 命令查看仓库的状态：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当我们进行一些修改之后"><span class="nav-number">2.2.</span> <span class="nav-text">当我们进行一些修改之后:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当此时输入-git-diff-README-md-会输出如下信息："><span class="nav-number">2.3.</span> <span class="nav-text">当此时输入 git diff README.md 会输出如下信息：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#此时，输入-git-status-命令查看仓库的状态："><span class="nav-number">2.4.</span> <span class="nav-text">此时，输入 git status 命令查看仓库的状态：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#接下来，输入-git-add-README-md："><span class="nav-number">2.5.</span> <span class="nav-text">接下来，输入 git add README.md：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#然后，-输入-git-status："><span class="nav-number">2.6.</span> <span class="nav-text">然后， 输入 git status：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#然后，-输入-git-commit-m-quot-modify-README-md-quot"><span class="nav-number">2.7.</span> <span class="nav-text">然后， 输入 git commit -m "modify README.md"</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本节课的补充："><span class="nav-number">2.8.</span> <span class="nav-text">本节课的补充：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第三节课』版本退回"><span class="nav-number">3.</span> <span class="nav-text">『第三节课』版本退回</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#可以通过-git-log-查看提交历史"><span class="nav-number">3.1.</span> <span class="nav-text">可以通过 git log 查看提交历史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#还可以通过-git-log-pretty-oneline-格式化输出提交信息："><span class="nav-number">3.2.</span> <span class="nav-text">还可以通过 git log --pretty=oneline 格式化输出提交信息：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可以通过-git-reset-hard-HEAD-命令退回上一个版本"><span class="nav-number">3.3.</span> <span class="nav-text">可以通过 git reset --hard HEAD^ 命令退回上一个版本:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#也可以通过-git-reset-hard-commit-id-来实现要退回的版本"><span class="nav-number">3.4.</span> <span class="nav-text">也可以通过 git reset --hard commit_id 来实现要退回的版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#命令-git-reflog-用来记录你的每一次命令"><span class="nav-number">3.5.</span> <span class="nav-text">命令 git reflog 用来记录你的每一次命令</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第四节课』工作区与暂存区"><span class="nav-number">4.</span> <span class="nav-text">『第四节课』工作区与暂存区</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#文件夹📂-learning-git-就是一个工作区"><span class="nav-number">4.1.</span> <span class="nav-text">文件夹📂 learning-git 就是一个工作区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#版本库（Repository）-隐藏的文件夹📂-git-就是一个版本库"><span class="nav-number">4.2.</span> <span class="nav-text">版本库（Repository） 隐藏的文件夹📂 .git 就是一个版本库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示"><span class="nav-number">4.3.</span> <span class="nav-text">操作演示</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第五节课』Git管理的是修改"><span class="nav-number">5.</span> <span class="nav-text">『第五节课』Git管理的是修改</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#『第一节课』创建版本库"><span class="nav-number">1.</span> <span class="nav-text">『第一节课』创建版本库</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化一个Git仓库"><span class="nav-number">1.1.</span> <span class="nav-text">初始化一个Git仓库</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第二节课』查看修改信息"><span class="nav-number">2.</span> <span class="nav-text">『第二节课』查看修改信息</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#可以通过-git-status-命令查看仓库的状态："><span class="nav-number">2.1.</span> <span class="nav-text">可以通过 git status 命令查看仓库的状态：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当我们进行一些修改之后"><span class="nav-number">2.2.</span> <span class="nav-text">当我们进行一些修改之后:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当此时输入-git-diff-README-md-会输出如下信息："><span class="nav-number">2.3.</span> <span class="nav-text">当此时输入 git diff README.md 会输出如下信息：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#此时，输入-git-status-命令查看仓库的状态："><span class="nav-number">2.4.</span> <span class="nav-text">此时，输入 git status 命令查看仓库的状态：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#接下来，输入-git-add-README-md："><span class="nav-number">2.5.</span> <span class="nav-text">接下来，输入 git add README.md：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#然后，-输入-git-status："><span class="nav-number">2.6.</span> <span class="nav-text">然后， 输入 git status：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#然后，-输入-git-commit-m-quot-modify-README-md-quot"><span class="nav-number">2.7.</span> <span class="nav-text">然后， 输入 git commit -m "modify README.md"</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本节课的补充："><span class="nav-number">2.8.</span> <span class="nav-text">本节课的补充：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第三节课』版本退回"><span class="nav-number">3.</span> <span class="nav-text">『第三节课』版本退回</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#可以通过-git-log-查看提交历史"><span class="nav-number">3.1.</span> <span class="nav-text">可以通过 git log 查看提交历史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#还可以通过-git-log-pretty-oneline-格式化输出提交信息："><span class="nav-number">3.2.</span> <span class="nav-text">还可以通过 git log --pretty=oneline 格式化输出提交信息：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可以通过-git-reset-hard-HEAD-命令退回上一个版本"><span class="nav-number">3.3.</span> <span class="nav-text">可以通过 git reset --hard HEAD^ 命令退回上一个版本:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#也可以通过-git-reset-hard-commit-id-来实现要退回的版本"><span class="nav-number">3.4.</span> <span class="nav-text">也可以通过 git reset --hard commit_id 来实现要退回的版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#命令-git-reflog-用来记录你的每一次命令"><span class="nav-number">3.5.</span> <span class="nav-text">命令 git reflog 用来记录你的每一次命令</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第四节课』工作区与暂存区"><span class="nav-number">4.</span> <span class="nav-text">『第四节课』工作区与暂存区</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#文件夹📂-learning-git-就是一个工作区"><span class="nav-number">4.1.</span> <span class="nav-text">文件夹📂 learning-git 就是一个工作区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#版本库（Repository）-隐藏的文件夹📂-git-就是一个版本库"><span class="nav-number">4.2.</span> <span class="nav-text">版本库（Repository） 隐藏的文件夹📂 .git 就是一个版本库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示"><span class="nav-number">4.3.</span> <span class="nav-text">操作演示</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第五节课』Git管理的是修改"><span class="nav-number">5.</span> <span class="nav-text">『第五节课』Git管理的是修改</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第六节课』撤销修改"><span class="nav-number">6.</span> <span class="nav-text">『第六节课』撤销修改</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#当没有提交到缓冲区时"><span class="nav-number">6.1.</span> <span class="nav-text">当没有提交到缓冲区时</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示："><span class="nav-number">6.2.</span> <span class="nav-text">操作演示：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当将修改的文件提交到缓冲区的时候"><span class="nav-number">6.3.</span> <span class="nav-text">当将修改的文件提交到缓冲区的时候</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#用命令-git-reset-HEAD-README-md-可以把暂存区的修改撤销掉（unstage），重新放回工作区"><span class="nav-number">6.3.1.</span> <span class="nav-text">用命令 git reset HEAD README.md 可以把暂存区的修改撤销掉（unstage），重新放回工作区</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#接下来，还要-使用命令-git-checkout-README-md-来丢弃工作区的修改"><span class="nav-number">6.4.</span> <span class="nav-text"># 接下来，还要 使用命令 git checkout -- README.md 来丢弃工作区的修改</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#操作演示：-1"><span class="nav-number">6.4.1.</span> <span class="nav-text">操作演示：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第七节课』删除文件"><span class="nav-number">7.</span> <span class="nav-text">『第七节课』删除文件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#首先添加一个文件-vim-test-del-md-，-再随便添加点内容。"><span class="nav-number">7.1.</span> <span class="nav-text">首先添加一个文件 vim test_del.md ， 再随便添加点内容。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当你也要将版本库中的文件删除的时候，就可以输入-git-rm-test-del-md-将其删除啦"><span class="nav-number">7.2.</span> <span class="nav-text">当你也要将版本库中的文件删除的时候，就可以输入 git rm test_del.md 将其删除啦</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当你是操作失误的时候，-可以输入-git-checkout-test-del-md-将版本库中的文件拉取出来，覆盖本地的版本"><span class="nav-number">7.3.</span> <span class="nav-text">当你是操作失误的时候， 可以输入 git checkout --test_del.md 将版本库中的文件拉取出来，覆盖本地的版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作代码"><span class="nav-number">7.4.</span> <span class="nav-text">操作代码</span></a></li></ol></li></ol></div>
             
 
           </div>
