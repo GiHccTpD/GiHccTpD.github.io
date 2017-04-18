@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/2017/04/13/branch/</loc>
+    
+    <lastmod>2017-04-13T09:23:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</loc>
+    
+    <lastmod>2017-04-13T08:45:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/2017/04/13/learn-git-02/</loc>
     
     <lastmod>2017-04-13T08:33:49.000Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://blog.pikbug.me/2017/04/12/learn-git/</loc>
     
     <lastmod>2017-04-13T07:42:28.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</loc>
-    
-    <lastmod>2017-04-12T08:04:42.000Z</lastmod>
     
   </url>
   

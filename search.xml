@@ -4,6 +4,28 @@
   
     
     <entry>
+      <title><![CDATA[git学习笔记✔️03]]></title>
+      <url>http://blog.pikbug.me/2017/04/13/branch/</url>
+      <content type="html"><![CDATA[<h1 id="『第十节课』-分支管理-创建与合并分支"><a href="#『第十节课』-分支管理-创建与合并分支" class="headerlink" title="『第十节课』 分支管理-创建与合并分支"></a>『第十节课』 分支管理-创建与合并分支</h1>]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[git学习笔记✔️02]]></title>
       <url>http://blog.pikbug.me/2017/04/13/learn-git-02/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
@@ -184,7 +206,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[创建对象的方式]]></title>
+      <title><![CDATA[JavaScript创建对象的方式]]></title>
       <url>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</url>
       <content type="html"><![CDATA[<blockquote>
 <p><em>注意：</em> 本文来自阅读《JavaScript高级程序设计（第三版）》的笔记或者也可以称作是书摘吧👾</p>
