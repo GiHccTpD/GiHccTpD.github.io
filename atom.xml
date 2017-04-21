@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-04-18T08:00:30.000Z</updated>
+  <updated>2017-04-20T06:55:50.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.pikbug.me/2017/04/13/learn-git-03/"/>
     <id>http://blog.pikbug.me/2017/04/13/learn-git-03/</id>
     <published>2017-04-13T09:07:33.000Z</published>
-    <updated>2017-04-18T08:00:30.000Z</updated>
+    <updated>2017-04-20T06:55:50.000Z</updated>
     
     <content type="html"><![CDATA[<p>[TOC]</p>
 <blockquote>
@@ -43,7 +43,16 @@
 <p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-18 15.57.00.png" alt=""></p>
 <p>使用 <code>git log --graph --pretty=oneline --abbrev-commit</code> 可以查看分之合并情况：</p>
 <p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-18 15.54.32.png" alt=""></p>
-]]></content>
+<h1 id="『第十二节课』Bug分支"><a href="#『第十二节课』Bug分支" class="headerlink" title="『第十二节课』Bug分支"></a>『第十二节课』Bug分支</h1><p>Bug的出现可以通过新建临时的分支来修复Bug，修复之后，合并分支，然后将临时分支删除掉。</p>
+<h2 id="操作演示：-2"><a href="#操作演示：-2" class="headerlink" title="操作演示："></a>操作演示：</h2><p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.35.03.png" alt=""></p>
+<p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.35.29.png" alt=""></p>
+<p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.48.50.png" alt=""></p>
+<blockquote>
+<p><strong>重点：</strong> 当手头工作没有完成时，先把工作现场<code>git stash</code>一下，然后去修复bug，修复后，再<code>git stash pop</code>，回到工作现场。</p>
+</blockquote>
+<h1 id="『第十三节课』Feature分支"><a href="#『第十三节课』Feature分支" class="headerlink" title="『第十三节课』Feature分支"></a>『第十三节课』Feature分支</h1><p>当开发新功能的时候推荐使用Feature分支。在这个新建的Feature分支上开发，完成功能开发之后合并分支，最后将Feature分支删除掉。</p>
+<p>如果要丢弃一个没有被合并过的分支，可以通过 <code>git branch -D &lt;name&gt;</code> 强行删除。</p>
+<h1 id="『第十四节课』多人协作"><a href="#『第十四节课』多人协作" class="headerlink" title="『第十四节课』多人协作"></a>『第十四节课』多人协作</h1>]]></content>
     
     <summary type="html">
     

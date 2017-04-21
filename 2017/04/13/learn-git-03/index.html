@@ -102,7 +102,10 @@
 <meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-04-18 15.56.35.png">
 <meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-04-18 15.57.00.png">
 <meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-04-18 15.54.32.png">
-<meta property="og:updated_time" content="2017-04-18T08:00:30.000Z">
+<meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.35.03.png">
+<meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.35.29.png">
+<meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.48.50.png">
+<meta property="og:updated_time" content="2017-04-20T06:55:50.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git学习笔记✔️03">
 <meta name="twitter:description" content="[TOC]
@@ -371,8 +374,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-04-18T16:00:30+08:00">
-                2017-04-18
+              <time title="更新于" itemprop="dateModified" datetime="2017-04-20T14:55:50+08:00">
+                2017-04-20
               </time>
             
           </span>
@@ -410,7 +413,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 339 </span>
+              <span> 522 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
@@ -463,7 +466,16 @@
 <p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-18 15.57.00.png" alt=""></p>
 <p>使用 <code>git log --graph --pretty=oneline --abbrev-commit</code> 可以查看分之合并情况：</p>
 <p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-18 15.54.32.png" alt=""></p>
-
+<h1 id="『第十二节课』Bug分支"><a href="#『第十二节课』Bug分支" class="headerlink" title="『第十二节课』Bug分支"></a>『第十二节课』Bug分支</h1><p>Bug的出现可以通过新建临时的分支来修复Bug，修复之后，合并分支，然后将临时分支删除掉。</p>
+<h2 id="操作演示：-2"><a href="#操作演示：-2" class="headerlink" title="操作演示："></a>操作演示：</h2><p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.35.03.png" alt=""></p>
+<p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.35.29.png" alt=""></p>
+<p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.48.50.png" alt=""></p>
+<blockquote>
+<p><strong>重点：</strong> 当手头工作没有完成时，先把工作现场<code>git stash</code>一下，然后去修复bug，修复后，再<code>git stash pop</code>，回到工作现场。</p>
+</blockquote>
+<h1 id="『第十三节课』Feature分支"><a href="#『第十三节课』Feature分支" class="headerlink" title="『第十三节课』Feature分支"></a>『第十三节课』Feature分支</h1><p>当开发新功能的时候推荐使用Feature分支。在这个新建的Feature分支上开发，完成功能开发之后合并分支，最后将Feature分支删除掉。</p>
+<p>如果要丢弃一个没有被合并过的分支，可以通过 <code>git branch -D &lt;name&gt;</code> 强行删除。</p>
+<h1 id="『第十四节课』多人协作"><a href="#『第十四节课』多人协作" class="headerlink" title="『第十四节课』多人协作"></a>『第十四节课』多人协作</h1>
       
     </div>
 
@@ -726,7 +738,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十节课』-分支管理-创建与合并分支"><span class="nav-number">1.</span> <span class="nav-text">『第十节课』 分支管理-创建与合并分支</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git鼓励大量使用分支："><span class="nav-number">1.1.</span> <span class="nav-text">Git鼓励大量使用分支：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示："><span class="nav-number">1.2.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十一节课』解决冲突"><span class="nav-number">2.</span> <span class="nav-text">『第十一节课』解决冲突</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示：-1"><span class="nav-number">2.1.</span> <span class="nav-text">操作演示：</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十节课』-分支管理-创建与合并分支"><span class="nav-number">1.</span> <span class="nav-text">『第十节课』 分支管理-创建与合并分支</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git鼓励大量使用分支："><span class="nav-number">1.1.</span> <span class="nav-text">Git鼓励大量使用分支：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示："><span class="nav-number">1.2.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十一节课』解决冲突"><span class="nav-number">2.</span> <span class="nav-text">『第十一节课』解决冲突</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示：-1"><span class="nav-number">2.1.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十二节课』Bug分支"><span class="nav-number">3.</span> <span class="nav-text">『第十二节课』Bug分支</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示：-2"><span class="nav-number">3.1.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十三节课』Feature分支"><span class="nav-number">4.</span> <span class="nav-text">『第十三节课』Feature分支</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十四节课』多人协作"><span class="nav-number">5.</span> <span class="nav-text">『第十四节课』多人协作</span></a></li></ol></div>
             
 
           </div>
