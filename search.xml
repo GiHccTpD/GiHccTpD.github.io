@@ -56,7 +56,8 @@
 </blockquote>
 <h1 id="『第十三节课』Feature分支"><a href="#『第十三节课』Feature分支" class="headerlink" title="『第十三节课』Feature分支"></a>『第十三节课』Feature分支</h1><p>当开发新功能的时候推荐使用Feature分支。在这个新建的Feature分支上开发，完成功能开发之后合并分支，最后将Feature分支删除掉。</p>
 <p>如果要丢弃一个没有被合并过的分支，可以通过 <code>git branch -D &lt;name&gt;</code> 强行删除。</p>
-<h1 id="『第十四节课』多人协作"><a href="#『第十四节课』多人协作" class="headerlink" title="『第十四节课』多人协作"></a>『第十四节课』多人协作</h1>]]></content>
+<h1 id="『第十四节课』多人协作"><a href="#『第十四节课』多人协作" class="headerlink" title="『第十四节课』多人协作"></a>『第十四节课』多人协作</h1><p> 未完待续</p>
+]]></content>
       
         <categories>
             
