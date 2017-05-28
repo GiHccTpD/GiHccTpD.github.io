@@ -4,6 +4,50 @@
   
     
     <entry>
+      <title><![CDATA[git学习笔记✔️04]]></title>
+      <url>http://blog.pikbug.me/2017/05/28/learn-git-04/</url>
+      <content type="html"><![CDATA[<p>[TOC]</p>
+<h1 id="『第十五节课』标签的创建"><a href="#『第十五节课』标签的创建" class="headerlink" title="『第十五节课』标签的创建"></a>『第十五节课』标签的创建</h1><p>演示操作：</p>
+<p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 20.45.43.png" alt=""></p>
+<p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 20.33.33.png" alt=""></p>
+<p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 20.37.02.png" alt=""></p>
+<blockquote>
+<p>总结：</p>
+<ul>
+<li>命令<code>git tag &lt;name&gt;</code>用于新建一个标签，默认为<code>HEAD</code>，也可以指定一个commit id</li>
+<li><code>git tag -a &lt;tagname&gt; -m &quot;blablabla...&quot;</code>可以指定标签信息</li>
+<li><code>git tag -s &lt;tagname&gt; -m &quot;blablabla...&quot;</code>可以用PGP签名标签</li>
+<li>命令<code>git tag</code>可以查看所有标签</li>
+</ul>
+</blockquote>
+<h1 id="『第十六节课』操作标签"><a href="#『第十六节课』操作标签" class="headerlink" title="『第十六节课』操作标签"></a>『第十六节课』操作标签</h1><ul>
+<li>命令<code>git push origin &lt;tagname&gt;</code>可以推送一个本地标签；</li>
+<li>命令<code>git push origin --tags</code>可以推送全部未推送过的本地标签；</li>
+<li>命令<code>git tag -d &lt;tagname&gt;</code>可以删除一个本地标签；</li>
+<li>命令<code>git push origin :refs/tags/&lt;tagname&gt;</code>可以删除一个远程标签。</li>
+</ul>
+<p>演示操作：</p>
+<p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 21.06.06.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[再买二手手机我就是煞笔！]]></title>
       <url>http://blog.pikbug.me/2017/04/24/Remember/</url>
       <content type="html"><![CDATA[<h1 id="再买二手手机我就是煞笔！"><a href="#再买二手手机我就是煞笔！" class="headerlink" title="再买二手手机我就是煞笔！"></a>再买二手手机我就是煞笔！<a id="more"></a></h1>]]></content>

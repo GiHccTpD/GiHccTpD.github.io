@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-05-03T11:39:01.000Z</updated>
+  <updated>2017-05-28T13:07:25.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -14,6 +14,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git学习笔记✔️04</title>
+    <link href="http://blog.pikbug.me/2017/05/28/learn-git-04/"/>
+    <id>http://blog.pikbug.me/2017/05/28/learn-git-04/</id>
+    <published>2017-05-28T11:51:28.000Z</published>
+    <updated>2017-05-28T13:07:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>[TOC]</p>
+<h1 id="『第十五节课』标签的创建"><a href="#『第十五节课』标签的创建" class="headerlink" title="『第十五节课』标签的创建"></a>『第十五节课』标签的创建</h1><p>演示操作：</p>
+<p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 20.45.43.png" alt=""></p>
+<p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 20.33.33.png" alt=""></p>
+<p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 20.37.02.png" alt=""></p>
+<blockquote>
+<p>总结：</p>
+<ul>
+<li>命令<code>git tag &lt;name&gt;</code>用于新建一个标签，默认为<code>HEAD</code>，也可以指定一个commit id</li>
+<li><code>git tag -a &lt;tagname&gt; -m &quot;blablabla...&quot;</code>可以指定标签信息</li>
+<li><code>git tag -s &lt;tagname&gt; -m &quot;blablabla...&quot;</code>可以用PGP签名标签</li>
+<li>命令<code>git tag</code>可以查看所有标签</li>
+</ul>
+</blockquote>
+<h1 id="『第十六节课』操作标签"><a href="#『第十六节课』操作标签" class="headerlink" title="『第十六节课』操作标签"></a>『第十六节课』操作标签</h1><ul>
+<li>命令<code>git push origin &lt;tagname&gt;</code>可以推送一个本地标签；</li>
+<li>命令<code>git push origin --tags</code>可以推送全部未推送过的本地标签；</li>
+<li>命令<code>git tag -d &lt;tagname&gt;</code>可以删除一个本地标签；</li>
+<li>命令<code>git push origin :refs/tags/&lt;tagname&gt;</code>可以删除一个远程标签。</li>
+</ul>
+<p>演示操作：</p>
+<p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 21.06.06.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&quot;『第十五节课』标签的创建&quot;&gt;&lt;a href=&quot;#『第十五节课』标签的创建&quot; class=&quot;headerlink&quot; title=&quot;『第十五节课』标签的创建&quot;&gt;&lt;/a&gt;『第十五节课』标签的创建&lt;/h1&gt;&lt;p&gt;演示操作：&lt;/p&gt;
+&lt;p&gt;&lt;img
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="Git" scheme="http://blog.pikbug.me/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>再买二手手机我就是煞笔！</title>
@@ -42,7 +90,7 @@
     <link href="http://blog.pikbug.me/2017/04/13/learn-git-03/"/>
     <id>http://blog.pikbug.me/2017/04/13/learn-git-03/</id>
     <published>2017-04-13T09:07:33.000Z</published>
-    <updated>2017-05-28T11:31:50.000Z</updated>
+    <updated>2017-05-28T12:50:30.000Z</updated>
     
     <content type="html"><![CDATA[<p>[TOC]</p>
 <blockquote>
