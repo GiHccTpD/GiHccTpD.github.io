@@ -105,7 +105,8 @@
 <meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.35.03.png">
 <meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.35.29.png">
 <meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-04-20 14.48.50.png">
-<meta property="og:updated_time" content="2017-04-25T14:19:49.000Z">
+<meta property="og:image" content="http://blog.pikbug.me/2017/04/13/learn-git-03/屏幕快照 2017-05-26 11.36.17.png">
+<meta property="og:updated_time" content="2017-05-28T11:31:50.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git学习笔记✔️03">
 <meta name="twitter:description" content="[TOC]
@@ -374,8 +375,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-04-25T22:19:49+08:00">
-                2017-04-25
+              <time title="更新于" itemprop="dateModified" datetime="2017-05-28T19:31:50+08:00">
+                2017-05-28
               </time>
             
           </span>
@@ -413,7 +414,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 526 </span>
+              <span> 961 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
@@ -475,7 +476,32 @@
 </blockquote>
 <h1 id="『第十三节课』Feature分支"><a href="#『第十三节课』Feature分支" class="headerlink" title="『第十三节课』Feature分支"></a>『第十三节课』Feature分支</h1><p>当开发新功能的时候推荐使用Feature分支。在这个新建的Feature分支上开发，完成功能开发之后合并分支，最后将Feature分支删除掉。</p>
 <p>如果要丢弃一个没有被合并过的分支，可以通过 <code>git branch -D &lt;name&gt;</code> 强行删除。</p>
-<h1 id="『第十四节课』多人协作"><a href="#『第十四节课』多人协作" class="headerlink" title="『第十四节课』多人协作"></a>『第十四节课』多人协作</h1><p> 未完待续</p>
+<h1 id="『第十四节课』多人协作"><a href="#『第十四节课』多人协作" class="headerlink" title="『第十四节课』多人协作"></a>『第十四节课』多人协作</h1><p>可以通过 <code>git remote</code> 命令查看远程仓库的信息；也可以通过 <code>git remote -v</code> 显示更详细的信息。如下图显示。</p>
+<p><img src="/2017/04/13/learn-git-03/屏幕快照 2017-05-26 11.36.17.png" alt=""></p>
+<h2 id="推送分支"><a href="#推送分支" class="headerlink" title="推送分支"></a>推送分支</h2><p>可以通过命令 <code>git push origin master</code> 制定推送到远程仓库的对应远程分支。</p>
+<blockquote>
+<p>注意:</p>
+<ul>
+<li><code>master</code> 分支是主分支，因此要时刻与远程同步</li>
+<li><code>dev</code> 分支是开发分支，开发新功能都在这上面实现，所以也要时刻保持同步</li>
+<li><code>bug</code> 分支主要记录着修复的bug分支，没必要同步</li>
+<li><code>feature</code> 分支同步与否视情况而定，假如开发的功能和别人一起完成就需要同步到上面去</li>
+</ul>
+</blockquote>
+<h2 id="从远端仓库拉去代码"><a href="#从远端仓库拉去代码" class="headerlink" title="从远端仓库拉去代码"></a>从远端仓库拉去代码</h2><p>执行如下命令：</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">git clone <span class="string">https:</span><span class="comment">//github.com/GiHccTpD/test-learn-git</span></div><div class="line">Cloning into <span class="string">'test-learn-git'</span>...</div><div class="line"><span class="string">remote:</span> Counting <span class="string">objects:</span> <span class="number">46</span>, done.</div><div class="line"><span class="string">remote:</span> Compressing <span class="string">objects:</span> <span class="number">100</span>% (<span class="number">26</span>/<span class="number">26</span>), done.</div><div class="line"><span class="string">remote:</span> Total <span class="number">46</span> (delta <span class="number">16</span>), reused <span class="number">45</span> (delta <span class="number">15</span>)</div><div class="line">Receiving <span class="string">objects:</span> <span class="number">100</span>% (<span class="number">46</span><span class="regexp">/46), 15.69 KiB | 6 KiB/</span>s, done.</div><div class="line">Resolving <span class="string">deltas:</span> <span class="number">100</span>% (<span class="number">16</span>/<span class="number">16</span>), done.</div></pre></td></tr></table></figure>
+<p>从远端仓库拉取的代码，，默认情况下，只能看到 <code>master</code> 分支，可以通过 <code>git branch</code> 命令查看：</p>
+<figure class="highlight gams"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">$</span> git branch</div><div class="line"><span class="comment">* master</span></div></pre></td></tr></table></figure>
+<p>当需要在 <code>dev</code> 分支上开发的时候， 需要先将 <code>origin</code> 的 <code>dev</code> 分支拉取到本地，命令如下：</p>
+<p><code>git checkout -b dev origin/dev</code></p>
+<p>当需要吧 <code>dev</code> 分支 <code>push</code> 到远端仓库的时候</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ git <span class="keyword">commit</span> -m <span class="string">"add /usr/bin/env"</span></div><div class="line">[dev <span class="number">291</span>bea8] <span class="keyword">add</span> /usr/<span class="keyword">bin</span>/env</div><div class="line"> <span class="number">1</span> <span class="keyword">file</span> <span class="keyword">changed</span>, <span class="number">1</span> insertion(+)</div><div class="line">$ git push origin dev</div></pre></td></tr></table></figure>
+<blockquote>
+<p>总结：</p>
+<p>在本地创建和远程分支对应的分支，使用<code>git checkout -b branch-name origin/branch-name</code>，本地和远程分支的名称最好一致</p>
+</blockquote>
+<p>建立本地分支和远程分支的关联，使用<code>git branch --set-upstream branch-name origin/branch-name</code>；</p>
+<p>从远程抓取分支，使用<code>git pull</code>，如果有冲突，要先处理冲突。</p>
 
       
     </div>
@@ -743,7 +769,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十节课』-分支管理-创建与合并分支"><span class="nav-number">1.</span> <span class="nav-text">『第十节课』 分支管理-创建与合并分支</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git鼓励大量使用分支："><span class="nav-number">1.1.</span> <span class="nav-text">Git鼓励大量使用分支：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示："><span class="nav-number">1.2.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十一节课』解决冲突"><span class="nav-number">2.</span> <span class="nav-text">『第十一节课』解决冲突</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示：-1"><span class="nav-number">2.1.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十二节课』Bug分支"><span class="nav-number">3.</span> <span class="nav-text">『第十二节课』Bug分支</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示：-2"><span class="nav-number">3.1.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十三节课』Feature分支"><span class="nav-number">4.</span> <span class="nav-text">『第十三节课』Feature分支</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十四节课』多人协作"><span class="nav-number">5.</span> <span class="nav-text">『第十四节课』多人协作</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十节课』-分支管理-创建与合并分支"><span class="nav-number">1.</span> <span class="nav-text">『第十节课』 分支管理-创建与合并分支</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git鼓励大量使用分支："><span class="nav-number">1.1.</span> <span class="nav-text">Git鼓励大量使用分支：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示："><span class="nav-number">1.2.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十一节课』解决冲突"><span class="nav-number">2.</span> <span class="nav-text">『第十一节课』解决冲突</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示：-1"><span class="nav-number">2.1.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十二节课』Bug分支"><span class="nav-number">3.</span> <span class="nav-text">『第十二节课』Bug分支</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#操作演示：-2"><span class="nav-number">3.1.</span> <span class="nav-text">操作演示：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十三节课』Feature分支"><span class="nav-number">4.</span> <span class="nav-text">『第十三节课』Feature分支</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#『第十四节课』多人协作"><span class="nav-number">5.</span> <span class="nav-text">『第十四节课』多人协作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#推送分支"><span class="nav-number">5.1.</span> <span class="nav-text">推送分支</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#从远端仓库拉去代码"><span class="nav-number">5.2.</span> <span class="nav-text">从远端仓库拉去代码</span></a></li></ol></li></ol></div>
             
 
           </div>
