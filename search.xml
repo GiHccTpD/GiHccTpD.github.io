@@ -7,6 +7,7 @@
       <title><![CDATA[git学习笔记✔️04]]></title>
       <url>http://blog.pikbug.me/2017/05/28/learn-git-04/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记 <a id="more"></a></p>
 <h1 id="『第十五节课』标签的创建"><a href="#『第十五节课』标签的创建" class="headerlink" title="『第十五节课』标签的创建"></a>『第十五节课』标签的创建</h1><p>演示操作：</p>
 <p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 20.45.43.png" alt=""></p>
 <p><img src="/2017/05/28/learn-git-04/屏幕快照 2017-05-28 20.33.33.png" alt=""></p>
