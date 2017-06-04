@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/about/index.html</loc>
+    
+    <lastmod>2017-06-04T13:56:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/2017/05/28/learn-git-04/</loc>
     
     <lastmod>2017-05-28T13:13:57.000Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/</loc>
     
     <lastmod>2017-04-11T06:32:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/about/index.html</loc>
-    
-    <lastmod>2017-04-07T10:16:41.000Z</lastmod>
     
   </url>
   
