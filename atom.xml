@@ -793,15 +793,15 @@
     <link href="http://blog.pikbug.me/2017/04/06/web-logs/"/>
     <id>http://blog.pikbug.me/2017/04/06/web-logs/</id>
     <published>2017-04-06T03:57:42.000Z</published>
-    <updated>2017-06-05T13:12:46.000Z</updated>
+    <updated>2017-06-05T13:14:42.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="2016-11-21-更新内容："><a href="#2016-11-21-更新内容：" class="headerlink" title="2016-11-21 更新内容："></a>2016-11-21 更新内容：</h1><h2 id="完成主要的框架工作"><a href="#完成主要的框架工作" class="headerlink" title="完成主要的框架工作"></a>完成主要的框架工作</h2><blockquote>
+    <content type="html"><![CDATA[<h1 id="2016-11-21-更新内容："><a href="#2016-11-21-更新内容：" class="headerlink" title="2016-11-21 更新内容："></a>2016-11-21 更新内容：<a id="more"></a></h1><h2 id="完成主要的框架工作"><a href="#完成主要的框架工作" class="headerlink" title="完成主要的框架工作"></a>完成主要的框架工作</h2><blockquote>
 <ul>
 <li>熟悉Hexo</li>
 <li>GitHub创建仓库、初始化项目</li>
 <li>选取并且确定了Next主题</li>
 <li><del>绑定域名blog.pikbug.me</del></li>
-<li>新增一篇测试文章<a id="more"></a></li>
+<li>新增一篇测试文章</li>
 </ul>
 </blockquote>
 <h1 id="2017-02-18-更新内容："><a href="#2017-02-18-更新内容：" class="headerlink" title="2017-02-18 更新内容："></a>2017-02-18 更新内容：</h1><h2 id="主要完成了Next主题的配置工作"><a href="#主要完成了Next主题的配置工作" class="headerlink" title="主要完成了Next主题的配置工作"></a>主要完成了Next主题的配置工作</h2><blockquote>
@@ -860,13 +860,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;2016-11-21-更新内容：&quot;&gt;&lt;a href=&quot;#2016-11-21-更新内容：&quot; class=&quot;headerlink&quot; title=&quot;2016-11-21 更新内容：&quot;&gt;&lt;/a&gt;2016-11-21 更新内容：&lt;/h1&gt;&lt;h2 id=&quot;完成主要的框架工作&quot;&gt;&lt;a href=&quot;#完成主要的框架工作&quot; class=&quot;headerlink&quot; title=&quot;完成主要的框架工作&quot;&gt;&lt;/a&gt;完成主要的框架工作&lt;/h2&gt;&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;熟悉Hexo&lt;/li&gt;
-&lt;li&gt;GitHub创建仓库、初始化项目&lt;/li&gt;
-&lt;li&gt;选取并且确定了Next主题&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;绑定域名blog.pikbug.me&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;新增一篇测试文章&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;
+      &lt;h1 id=&quot;2016-11-21-更新内容：&quot;&gt;&lt;a href=&quot;#2016-11-21-更新内容：&quot; class=&quot;headerlink&quot; title=&quot;2016-11-21 更新内容：&quot;&gt;&lt;/a&gt;2016-11-21 更新内容：&lt;/h1&gt;
     
     </summary>
     
@@ -881,10 +875,10 @@
   
   <entry>
     <title>暗时间</title>
-    <link href="http://blog.pikbug.me/2016/11/26/anshijian/"/>
-    <id>http://blog.pikbug.me/2016/11/26/anshijian/</id>
-    <published>2016-11-26T10:39:08.000Z</published>
-    <updated>2017-06-05T13:05:49.000Z</updated>
+    <link href="http://blog.pikbug.me/2016/11/21/anshijian/"/>
+    <id>http://blog.pikbug.me/2016/11/21/anshijian/</id>
+    <published>2016-11-21T10:39:08.000Z</published>
+    <updated>2017-06-05T13:14:25.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="知识结构"><a href="#知识结构" class="headerlink" title="知识结构"></a>知识结构</h1><p>1.抓住不变量。<br>1️⃣底层知识：英语以及编程的语法知识等<br>2️⃣工具<br>3️⃣要熟悉自己的工具 熟练运用 熟悉运用<br><a id="more"></a></p>
 <h1 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h1><p>本质：学习新知识的带着第三只眼睛判断哪些知识是变量，或者不易变量，是否可以在用的时候查手册即可。<br>🤔补充：学习新知识的时候：⚡︎本质是什么；第一原则是什么；改制时的（体系或者层次）结构是什么。<br>😀现在是一个信息泛滥的时代，→需要学会在浩瀚的信息中选择我们需要的信息；→避免被不好的信息左右我们的大脑。<br>习惯的养成<br>〶江山易改，本性难移。<br>我们评价一个信念的标准是satisficing原则，即足够，能行就好。<br>🙃可以改变习惯<br>1️⃣认识到习惯的改变不是一两天实现的，承认它的难度；<br>2️⃣真想改掉自己习惯，注意观察自己的习惯，把要克服的习惯的那个自我当做自己的一个孩子，然后去打败他；<br>🐷我喜欢这句话：知难而不退，值得做的事情几乎总是如此😀。<br>我在南大的七年<br>父亲告诉我的第二件事情是：遇到问题，找书去就行。<br>🤔改变一生的两个习惯：1️⃣学习东西不觉得是累，自得其乐。2️⃣学习新东西的方法。<br>🐶与父母共同的性格：遇到麻烦和困难的事情从不放弃。<br>🐱我在CSDN上开了博客，开始学习C++和编程中的一些总结。这个博客一直写到离开南大，伴随了我真个七年的学习和成长，回过头去看像时光机一样，能够看到一路过来我都关注了什么是怎么想的，以及对一些事情的看法是怎么变化的。这些东西如果不记录下来，会逐渐忘记，也就无法参照过去的自己，对未来提供更好的借鉴了。所以我一直把记录当做一个很重要的工具。另外我也同感这个博客认识了很多朋友，得到了很多的帮助。</p>
@@ -919,10 +913,10 @@
   
   <entry>
     <title>第一篇日志</title>
-    <link href="http://blog.pikbug.me/2016/11/26/Hello-Blog/"/>
-    <id>http://blog.pikbug.me/2016/11/26/Hello-Blog/</id>
-    <published>2016-11-26T10:24:12.000Z</published>
-    <updated>2017-06-05T10:59:37.000Z</updated>
+    <link href="http://blog.pikbug.me/2016/11/21/Hello-Blog/"/>
+    <id>http://blog.pikbug.me/2016/11/21/Hello-Blog/</id>
+    <published>2016-11-21T10:24:12.000Z</published>
+    <updated>2017-06-05T13:15:00.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="第一篇日志"><a href="#第一篇日志" class="headerlink" title="第一篇日志"></a>第一篇日志</h2><p>这是一个新的开始，花了一下午外加一晚上的时间，差不多趟了所有的坑。<br><a id="more"></a><br>终于搭好了个人博客。接下来的日子，就需要慢慢来优化了！大家拭目以待！</p>
 ]]></content>
