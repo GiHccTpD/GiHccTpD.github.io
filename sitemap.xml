@@ -2,51 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.pikbug.me/2017/06/05/test-categories/</loc>
+    <loc>http://blog.pikbug.me/2017/06/05/Hello-Blog/</loc>
     
-    <lastmod>2017-06-05T10:25:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/categories/index.html</loc>
-    
-    <lastmod>2017-06-05T10:24:59.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/about/index.html</loc>
-    
-    <lastmod>2017-06-05T10:20:37.000Z</lastmod>
+    <lastmod>2017-06-05T10:45:44.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.pikbug.me/2017/06/05/centos-file-system/</loc>
     
-    <lastmod>2017-06-05T08:34:53.000Z</lastmod>
+    <lastmod>2017-06-05T10:42:54.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</loc>
+    <loc>http://blog.pikbug.me/about/index.html</loc>
     
-    <lastmod>2017-06-05T08:33:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</loc>
-    
-    <lastmod>2017-06-05T08:20:56.000Z</lastmod>
+    <lastmod>2017-06-05T10:42:36.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.pikbug.me/2017/06/05/closure/</loc>
     
-    <lastmod>2017-06-05T08:10:20.000Z</lastmod>
+    <lastmod>2017-06-05T10:41:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</loc>
+    
+    <lastmod>2017-06-05T10:41:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</loc>
+    
+    <lastmod>2017-06-05T10:41:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/06/05/anshijian/</loc>
+    
+    <lastmod>2017-06-05T10:40:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/categories/index.html</loc>
+    
+    <lastmod>2017-06-05T10:33:16.000Z</lastmod>
     
   </url>
   
@@ -124,13 +131,6 @@
     <loc>http://blog.pikbug.me/tags/index.html</loc>
     
     <lastmod>2017-04-06T06:28:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/02/18/%E6%B5%8B%E8%AF%95/</loc>
-    
-    <lastmod>2017-04-06T06:16:48.000Z</lastmod>
     
   </url>
   
