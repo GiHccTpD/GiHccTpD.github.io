@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/about/index.html</loc>
+    
+    <lastmod>2017-06-05T08:59:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/2017/06/05/centos-file-system/</loc>
     
     <lastmod>2017-06-05T08:34:53.000Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://blog.pikbug.me/2017/06/05/closure/</loc>
     
     <lastmod>2017-06-05T08:10:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/about/index.html</loc>
-    
-    <lastmod>2017-06-04T15:37:51.000Z</lastmod>
     
   </url>
   
