@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/2017/06/05/centos-file-system/</loc>
+    
+    <lastmod>2017-06-05T08:34:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</loc>
     
     <lastmod>2017-06-05T08:33:42.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</loc>
     
     <lastmod>2017-06-05T08:20:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/06/05/centos-file-system/</loc>
-    
-    <lastmod>2017-06-05T08:15:43.000Z</lastmod>
     
   </url>
   
