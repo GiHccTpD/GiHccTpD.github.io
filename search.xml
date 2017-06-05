@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title><![CDATA[查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数]]></title>
+      <url>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</url>
+      <content type="html"><![CDATA[<figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 查看物理CPU个数</span></div><div class="line"></div><div class="line">  cat /proc/cpuinfo| <span class="keyword">grep</span> <span class="string">"physical id"</span> | <span class="keyword">sort</span>| uni<span class="string">q | wc -l</span></div><div class="line"></div><div class="line"># 查看每个物理CPU中core的个数(即核数)</div><div class="line"></div><div class="line">  cat /proc/cpuinfo| <span class="keyword">grep</span> <span class="string">"cpu cores"</span>| uniq</div><div class="line"></div><div class="line"><span class="comment"># 查看逻辑CPU的个数</span></div><div class="line"></div><div class="line">  cat /proc/cpuinfo| <span class="keyword">grep</span> <span class="string">"processor"</span>| wc -l</div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> Centos </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[文件的压缩与打包]]></title>
       <url>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</url>
       <content type="html"><![CDATA[<p>该篇文章主要学习和总结了Linux文件的打包与压缩🤡<a id="more"></a></p>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-06-05T08:20:56.000Z</updated>
+  <updated>2017-06-05T08:26:16.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数</title>
+    <link href="http://blog.pikbug.me/2017/06/05/the-number-of-cpu/"/>
+    <id>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</id>
+    <published>2017-06-05T08:25:14.000Z</published>
+    <updated>2017-06-05T08:26:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 查看物理CPU个数</span></div><div class="line"></div><div class="line">  cat /proc/cpuinfo| <span class="keyword">grep</span> <span class="string">"physical id"</span> | <span class="keyword">sort</span>| uni<span class="string">q | wc -l</span></div><div class="line"></div><div class="line"># 查看每个物理CPU中core的个数(即核数)</div><div class="line"></div><div class="line">  cat /proc/cpuinfo| <span class="keyword">grep</span> <span class="string">"cpu cores"</span>| uniq</div><div class="line"></div><div class="line"><span class="comment"># 查看逻辑CPU的个数</span></div><div class="line"></div><div class="line">  cat /proc/cpuinfo| <span class="keyword">grep</span> <span class="string">"processor"</span>| wc -l</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight perl&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="Linux" scheme="http://blog.pikbug.me/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.pikbug.me/tags/Centos/"/>
+    
+  </entry>
   
   <entry>
     <title>文件的压缩与打包</title>
