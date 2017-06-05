@@ -4,6 +4,20 @@
   
     
     <entry>
+      <title><![CDATA[test-categories]]></title>
+      <url>http://blog.pikbug.me/2017/06/05/test-categories/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> 测试 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数]]></title>
       <url>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</url>
       <content type="html"><![CDATA[<blockquote>
@@ -826,9 +840,9 @@
         
         <tags>
             
-            <tag> 个人博客 </tag>
-            
             <tag> 测试 </tag>
+            
+            <tag> 个人博客 </tag>
             
         </tags>
         
@@ -849,11 +863,11 @@
         
         <tags>
             
-            <tag> 个人博客 </tag>
-            
             <tag> 日记 </tag>
             
             <tag> 测试 </tag>
+            
+            <tag> 个人博客 </tag>
             
         </tags>
         

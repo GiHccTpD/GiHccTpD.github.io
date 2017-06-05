@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-06-05T08:33:42.000Z</updated>
+  <updated>2017-06-05T10:25:18.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -14,6 +14,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test-categories</title>
+    <link href="http://blog.pikbug.me/2017/06/05/test-categories/"/>
+    <id>http://blog.pikbug.me/2017/06/05/test-categories/</id>
+    <published>2017-06-05T10:23:35.000Z</published>
+    <updated>2017-06-05T10:25:18.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="测试" scheme="http://blog.pikbug.me/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数</title>
@@ -884,9 +900,9 @@
       <category term="日志" scheme="http://blog.pikbug.me/categories/%E6%97%A5%E5%BF%97/"/>
     
     
-      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="测试" scheme="http://blog.pikbug.me/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -909,11 +925,11 @@
       <category term="日志" scheme="http://blog.pikbug.me/categories/%E6%97%A5%E5%BF%97/"/>
     
     
-      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="日记" scheme="http://blog.pikbug.me/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="测试" scheme="http://blog.pikbug.me/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.pikbug.me/about/index.html</loc>
+    <loc>http://blog.pikbug.me/2017/06/05/test-categories/</loc>
     
-    <lastmod>2017-06-05T10:20:37.000Z</lastmod>
+    <lastmod>2017-06-05T10:25:18.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.pikbug.me/categories/index.html</loc>
     
-    <lastmod>2017-06-05T09:39:10.000Z</lastmod>
+    <lastmod>2017-06-05T10:24:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/about/index.html</loc>
+    
+    <lastmod>2017-06-05T10:20:37.000Z</lastmod>
     
   </url>
   
