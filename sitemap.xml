@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/2016/11/26/anshijian/</loc>
+    
+    <lastmod>2017-06-05T13:05:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/06/05/closure/</loc>
+    
+    <lastmod>2017-06-05T13:05:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/</loc>
+    
+    <lastmod>2017-06-05T13:05:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/04/13/learn-git-02/</loc>
+    
+    <lastmod>2017-06-05T13:04:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/04/13/learn-git-03/</loc>
+    
+    <lastmod>2017-06-05T13:04:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/05/28/learn-git-04/</loc>
+    
+    <lastmod>2017-06-05T13:04:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/04/12/learn-git/</loc>
+    
+    <lastmod>2017-06-05T13:04:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</loc>
+    
+    <lastmod>2017-06-05T13:04:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/tags/index.html</loc>
     
     <lastmod>2017-06-05T11:41:12.000Z</lastmod>
@@ -51,48 +107,6 @@
   </url>
   
   <url>
-    <loc>http://blog.pikbug.me/2017/04/12/learn-git/</loc>
-    
-    <lastmod>2017-06-05T11:00:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/05/28/learn-git-04/</loc>
-    
-    <lastmod>2017-06-05T11:00:24.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/04/13/learn-git-03/</loc>
-    
-    <lastmod>2017-06-05T11:00:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/04/13/learn-git-02/</loc>
-    
-    <lastmod>2017-06-05T11:00:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/</loc>
-    
-    <lastmod>2017-06-05T10:59:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</loc>
-    
-    <lastmod>2017-06-05T10:59:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.pikbug.me/2016/11/26/Hello-Blog/</loc>
     
     <lastmod>2017-06-05T10:59:37.000Z</lastmod>
@@ -103,20 +117,6 @@
     <loc>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</loc>
     
     <lastmod>2017-06-05T10:59:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/06/05/closure/</loc>
-    
-    <lastmod>2017-06-05T10:59:24.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2016/11/26/anshijian/</loc>
-    
-    <lastmod>2017-06-05T10:59:06.000Z</lastmod>
     
   </url>
   
