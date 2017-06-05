@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/2016/11/26/anshijian/</loc>
+    
+    <lastmod>2017-06-05T10:48:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/2017/06/05/Hello-Blog/</loc>
     
     <lastmod>2017-06-05T10:45:44.000Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</loc>
     
     <lastmod>2017-06-05T10:41:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/06/05/anshijian/</loc>
-    
-    <lastmod>2017-06-05T10:40:55.000Z</lastmod>
     
   </url>
   
