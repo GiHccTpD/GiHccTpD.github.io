@@ -112,7 +112,7 @@
     <link href="http://blog.pikbug.me/2017/06/05/centos-file-system/"/>
     <id>http://blog.pikbug.me/2017/06/05/centos-file-system/</id>
     <published>2017-06-05T07:48:50.000Z</published>
-    <updated>2017-06-05T10:57:18.000Z</updated>
+    <updated>2017-06-05T11:37:04.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>该篇文章为学习 <code>Centos</code> 操作命令的记录👾<a id="more"></a></p>
@@ -203,9 +203,9 @@
     
     </summary>
     
-      <category term="学习记录" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/study/"/>
     
-      <category term="Linux" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/linux/"/>
+      <category term="Linux" scheme="http://blog.pikbug.me/categories/study/linux/"/>
     
     
       <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
