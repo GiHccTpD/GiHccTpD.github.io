@@ -14,9 +14,9 @@
       
         <categories>
             
-            <category> study </category>
+            <category> 学习笔记 </category>
             
-            <category> linux </category>
+            <category> Linux </category>
             
         </categories>
         
@@ -71,7 +71,9 @@
       
         <categories>
             
-            <category> study </category>
+            <category> 学习笔记 </category>
+            
+            <category> Linux </category>
             
         </categories>
         
@@ -175,9 +177,9 @@
       
         <categories>
             
-            <category> study </category>
+            <category> 学习记录 </category>
             
-            <category> linux </category>
+            <category> Linux </category>
             
         </categories>
         
@@ -201,7 +203,7 @@
       
         <categories>
             
-            <category> study </category>
+            <category> 学习笔记 </category>
             
         </categories>
         
@@ -787,7 +789,7 @@
       
         <categories>
             
-            <category> 个人博客 </category>
+            <category> 学习笔记 </category>
             
         </categories>
         
@@ -819,7 +821,7 @@
       
         <categories>
             
-            <category> book </category>
+            <category> 读书吧！ </category>
             
         </categories>
         
@@ -844,35 +846,12 @@
       
         <categories>
             
-            <category> blog </category>
+            <category> 个人博客 </category>
             
         </categories>
         
         
         <tags>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello Blog]]></title>
-      <url>http://blog.pikbug.me/2016/11/21/Hello%20World/</url>
-      <content type="html"><![CDATA[<p>这是一个新的开始，花了一下午外加一晚上的时间，差不多趟了所有的坑。<br><a id="more"></a><br>终于搭好了个人博客。接下来的日子，就需要慢慢来优化了！大家拭目以待！</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 日志 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 日记 </tag>
             
             <tag> 测试 </tag>
             
