@@ -70,7 +70,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="学习,JavaScript,数据结构与算法,排序," />
+  <meta name="keywords" content="学习,Linux,Centos," />
 
 
 
@@ -88,16 +88,16 @@
 
 
 
-<meta name="description" content="『转载』十大经典排序算法https://sort.hust.cc/">
+<meta name="description" content="该篇文章主要学习和总结了Linux文件的打包与压缩🤡">
 <meta property="og:type" content="article">
-<meta property="og:title" content="十大经典排序算法">
-<meta property="og:url" content="http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/index.html">
+<meta property="og:title" content="文件的压缩与打包">
+<meta property="og:url" content="http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/index.html">
 <meta property="og:site_name" content="加州提子面包">
-<meta property="og:description" content="『转载』十大经典排序算法https://sort.hust.cc/">
-<meta property="og:updated_time" content="2017-04-11T06:32:40.000Z">
+<meta property="og:description" content="该篇文章主要学习和总结了Linux文件的打包与压缩🤡">
+<meta property="og:updated_time" content="2017-06-05T08:20:56.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="十大经典排序算法">
-<meta name="twitter:description" content="『转载』十大经典排序算法https://sort.hust.cc/">
+<meta name="twitter:title" content="文件的压缩与打包">
+<meta name="twitter:description" content="该篇文章主要学习和总结了Linux文件的打包与压缩🤡">
 
 
 
@@ -125,13 +125,13 @@
 
 
 
-  <link rel="canonical" href="http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/"/>
+  <link rel="canonical" href="http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/"/>
 
 
 
 
 
-  <title> 十大经典排序算法 | 加州提子面包 </title>
+  <title> 文件的压缩与打包 | 加州提子面包 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -309,7 +309,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -333,7 +333,7 @@
             
             
               
-                十大经典排序算法
+                文件的压缩与打包
               
             
           </h1>
@@ -346,8 +346,8 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-11T14:24:42+08:00">
-                2017-04-11
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-05T16:13:46+08:00">
+                2017-06-05
               </time>
             
 
@@ -360,8 +360,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-04-11T14:32:40+08:00">
-                2017-04-11
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-05T16:20:56+08:00">
+                2017-06-05
               </time>
             
           </span>
@@ -399,14 +399,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 14 </span>
+              <span> 264 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/04/11/JS-Sorting-Algorithm/" class="leancloud_visitors" data-flag-title="十大经典排序算法">
+             <span id="/2017/06/05/File-compression-and-packaging/" class="leancloud_visitors" data-flag-title="文件的压缩与打包">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -431,7 +431,37 @@
       
 
       
-        <h1 id="『转载』十大经典排序算法"><a href="#『转载』十大经典排序算法" class="headerlink" title="『转载』十大经典排序算法"></a>『转载』十大经典排序算法</h1><p><a href="https://sort.hust.cc/" target="_blank" rel="external">https://sort.hust.cc/</a></p>
+        <p>该篇文章主要学习和总结了Linux文件的打包与压缩🤡<a id="more"></a></p>
+<h2 id="压缩命令"><a href="#压缩命令" class="headerlink" title="压缩命令"></a>压缩命令</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="title">Compress</span><span class="params">(默认不安装)</span></span></div><div class="line"></div><div class="line">gzip zcat</div><div class="line"></div><div class="line">bzip bzcat</div></pre></td></tr></table></figure>
+<h2 id="打包"><a href="#打包" class="headerlink" title="打包"></a>打包</h2><ul>
+<li>tar 打包后的文件会增大 tar 没有压缩功能</li>
+</ul>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">tar cvf hosts<span class="selector-class">.tar</span> hosts 保留原文件</div><div class="line"></div><div class="line">tar cvf hosts<span class="selector-class">.tar</span> hosts —remove-files 不保留原文件</div></pre></td></tr></table></figure>
+<ul>
+<li>查看打包好的归档文件 tar tvf hosts.tar</li>
+</ul>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">tar xvf host<span class="selector-class">.tar</span> 解开归档文件</div><div class="line"></div><div class="line">tar xvf host<span class="selector-class">.tar</span> -C 目的文件夹   将文件解压到指定文件夹</div><div class="line"></div><div class="line">tar xvf hosts 指定要解压的文件（部分文件）</div><div class="line"></div><div class="line">tar cvf xx<span class="selector-class">.tar</span> file1 file2 file3 归档对个任务</div></pre></td></tr></table></figure>
+<ul>
+<li>既要打包又要压缩</li>
+</ul>
+<blockquote>
+<p>打包文件附带压缩功能</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">tar</span> <span class="selector-tag">zcvf</span> <span class="selector-tag">xx</span><span class="selector-class">.tar</span><span class="selector-class">.gz</span> * —<span class="selector-tag">remove-files</span></div></pre></td></tr></table></figure>
+<h2 id="解压文件"><a href="#解压文件" class="headerlink" title="解压文件"></a>解压文件</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">tar</span> <span class="selector-tag">zxvf</span> <span class="selector-tag">xx</span><span class="selector-class">.tar</span><span class="selector-class">.gz</span> * —<span class="selector-tag">remove-files</span></div></pre></td></tr></table></figure>
+<h2 id="打包-1"><a href="#打包-1" class="headerlink" title="打包"></a>打包</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar jcvf xx<span class="selector-class">.tar</span><span class="selector-class">.bz2</span> *</div></pre></td></tr></table></figure>
+<h2 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">tar</span> <span class="selector-tag">jxvf</span> <span class="selector-tag">xx</span><span class="selector-class">.tar</span><span class="selector-class">.bz2</span> *</div><div class="line"></div><div class="line"><span class="selector-tag">tar</span> —<span class="selector-tag">help</span></div></pre></td></tr></table></figure>
+<h2 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h2><ul>
+<li><p>三种：完全备份、增量备份、差异备份</p>
+</li>
+<li><p>数字：低到高 增量备份</p>
+<p>高到低 差异备份</p>
+</li>
+</ul>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">dump -数字 数字：<span class="number">0</span><span class="number">-9</span></div></pre></td></tr></table></figure>
+<ul>
+<li>只会备份数字比他小的数字开始备份 </li>
+</ul>
 
       
     </div>
@@ -469,11 +499,9 @@
           
             <a href="/tags/学习/" rel="tag"># 学习</a>
           
-            <a href="/tags/JavaScript/" rel="tag"># JavaScript</a>
+            <a href="/tags/Linux/" rel="tag"># Linux</a>
           
-            <a href="/tags/数据结构与算法/" rel="tag"># 数据结构与算法</a>
-          
-            <a href="/tags/排序/" rel="tag"># 排序</a>
+            <a href="/tags/Centos/" rel="tag"># Centos</a>
           
         </div>
       
@@ -482,8 +510,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/04/09/JavaScript-ways-of-create-object/" rel="next" title="JavaScript创建对象的方式">
-                <i class="fa fa-chevron-left"></i> JavaScript创建对象的方式
+              <a href="/2017/06/05/centos-file-system/" rel="next" title="Centos文件系统">
+                <i class="fa fa-chevron-left"></i> Centos文件系统
               </a>
             
           </div>
@@ -491,10 +519,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/04/12/learn-git/" rel="prev" title="git学习笔记✔️01">
-                git学习笔记✔️01 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -703,7 +727,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#『转载』十大经典排序算法"><span class="nav-number">1.</span> <span class="nav-text">『转载』十大经典排序算法</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#压缩命令"><span class="nav-number">1.</span> <span class="nav-text">压缩命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#打包"><span class="nav-number">2.</span> <span class="nav-text">打包</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解压文件"><span class="nav-number">3.</span> <span class="nav-text">解压文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#打包-1"><span class="nav-number">4.</span> <span class="nav-text">打包</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解压"><span class="nav-number">5.</span> <span class="nav-text">解压</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#备份"><span class="nav-number">6.</span> <span class="nav-text">备份</span></a></li></ol></div>
             
 
           </div>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-05-28T13:13:57.000Z</updated>
+  <updated>2017-06-05T08:20:56.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -14,6 +14,192 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>文件的压缩与打包</title>
+    <link href="http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/"/>
+    <id>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</id>
+    <published>2017-06-05T08:13:46.000Z</published>
+    <updated>2017-06-05T08:20:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>该篇文章主要学习和总结了Linux文件的打包与压缩🤡<a id="more"></a></p>
+<h2 id="压缩命令"><a href="#压缩命令" class="headerlink" title="压缩命令"></a>压缩命令</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="title">Compress</span><span class="params">(默认不安装)</span></span></div><div class="line"></div><div class="line">gzip zcat</div><div class="line"></div><div class="line">bzip bzcat</div></pre></td></tr></table></figure>
+<h2 id="打包"><a href="#打包" class="headerlink" title="打包"></a>打包</h2><ul>
+<li>tar 打包后的文件会增大 tar 没有压缩功能</li>
+</ul>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">tar cvf hosts<span class="selector-class">.tar</span> hosts 保留原文件</div><div class="line"></div><div class="line">tar cvf hosts<span class="selector-class">.tar</span> hosts —remove-files 不保留原文件</div></pre></td></tr></table></figure>
+<ul>
+<li>查看打包好的归档文件 tar tvf hosts.tar</li>
+</ul>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">tar xvf host<span class="selector-class">.tar</span> 解开归档文件</div><div class="line"></div><div class="line">tar xvf host<span class="selector-class">.tar</span> -C 目的文件夹   将文件解压到指定文件夹</div><div class="line"></div><div class="line">tar xvf hosts 指定要解压的文件（部分文件）</div><div class="line"></div><div class="line">tar cvf xx<span class="selector-class">.tar</span> file1 file2 file3 归档对个任务</div></pre></td></tr></table></figure>
+<ul>
+<li>既要打包又要压缩</li>
+</ul>
+<blockquote>
+<p>打包文件附带压缩功能</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">tar</span> <span class="selector-tag">zcvf</span> <span class="selector-tag">xx</span><span class="selector-class">.tar</span><span class="selector-class">.gz</span> * —<span class="selector-tag">remove-files</span></div></pre></td></tr></table></figure>
+<h2 id="解压文件"><a href="#解压文件" class="headerlink" title="解压文件"></a>解压文件</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">tar</span> <span class="selector-tag">zxvf</span> <span class="selector-tag">xx</span><span class="selector-class">.tar</span><span class="selector-class">.gz</span> * —<span class="selector-tag">remove-files</span></div></pre></td></tr></table></figure>
+<h2 id="打包-1"><a href="#打包-1" class="headerlink" title="打包"></a>打包</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar jcvf xx<span class="selector-class">.tar</span><span class="selector-class">.bz2</span> *</div></pre></td></tr></table></figure>
+<h2 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">tar</span> <span class="selector-tag">jxvf</span> <span class="selector-tag">xx</span><span class="selector-class">.tar</span><span class="selector-class">.bz2</span> *</div><div class="line"></div><div class="line"><span class="selector-tag">tar</span> —<span class="selector-tag">help</span></div></pre></td></tr></table></figure>
+<h2 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h2><ul>
+<li><p>三种：完全备份、增量备份、差异备份</p>
+</li>
+<li><p>数字：低到高 增量备份</p>
+<p>高到低 差异备份</p>
+</li>
+</ul>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">dump -数字 数字：<span class="number">0</span><span class="number">-9</span></div></pre></td></tr></table></figure>
+<ul>
+<li>只会备份数字比他小的数字开始备份 </li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;该篇文章主要学习和总结了Linux文件的打包与压缩🤡&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="Linux" scheme="http://blog.pikbug.me/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.pikbug.me/tags/Centos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos文件系统</title>
+    <link href="http://blog.pikbug.me/2017/06/05/centos-file-system/"/>
+    <id>http://blog.pikbug.me/2017/06/05/centos-file-system/</id>
+    <published>2017-06-05T07:48:50.000Z</published>
+    <updated>2017-06-05T08:15:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>该篇文章为学习 <code>Centos</code> 操作命令的记录👾<a id="more"></a></p>
+</blockquote>
+<h1 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h1><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ls -l  <span class="meta">#查看文件的权限</span></div><div class="line">ls -lh <span class="meta">#查看文件的权限和时间（更改时间或者添加时间）</span></div><div class="line">ls -<span class="keyword">ld</span> <span class="meta">#d代表目录</span></div></pre></td></tr></table></figure>
+<h1 id="更改文件权限命令"><a href="#更改文件权限命令" class="headerlink" title="更改文件权限命令"></a>更改文件权限命令</h1><figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">chmod</span>    u</div><div class="line"><span class="keyword">chmod</span>    g</div><div class="line"><span class="keyword">chmod</span>    o</div><div class="line"><span class="keyword">chmod</span>    ugo(a)      +<span class="regexp">/-/</span>=  r w <span class="keyword">x</span>     文件名</div></pre></td></tr></table></figure>
+<blockquote>
+<p>说明：</p>
+<ul>
+<li><p>+：添加，-：去除 =：原权限改为 等号后面的权限</p>
+</li>
+<li><p>r  w  x</p>
+<p>4  2  1</p>
+</li>
+</ul>
+<hr>
+<pre><code>u       g       o
+</code></pre><p>  r w -  r - -    r - -</p>
+<pre><code>6       4       4
+</code></pre><ul>
+<li><p>chmod 644 文件名 # 命令格式</p>
+</li>
+<li><p>chmod -R 755 递归改变权限 改变当前文件的权限，同时改变文件目录下所有文件的权限</p>
+</li>
+<li><p>改变文件所有者chown 所有者 要改变的文件名</p>
+</li>
+<li><p>chown -R </p>
+<p> #说明：递归改变权限 改变当前文件的所有者，同时改变文件目录下所有文件的所有者</p>
+</li>
+<li><p>改变用户和组用户</p>
+<p>chown username.(:)groupname  filename</p>
+</li>
+<li><p>改变组用户</p>
+<p>chgrp groupname filename</p>
+</li>
+<li><p>r w x:对于一个文件来说，具有可执行权限，所有者可以执行他。对于一个文件夹来说，可执行意味着，是否可以进入（cd）的权限</p>
+</li>
+</ul>
+</blockquote>
+<h1 id="扩展名"><a href="#扩展名" class="headerlink" title="扩展名"></a>扩展名</h1><p>在Linux里不是很重要。</p>
+<p>查看文件类型</p>
+<p>file filename</p>
+<h1 id="Linux目录结构"><a href="#Linux目录结构" class="headerlink" title="Linux目录结构"></a>Linux目录结构</h1><ul>
+<li>bin目录：存放二进制文件。</li>
+<li>boot目录：存放的是系统以及内核启动相关的文件。</li>
+<li>dev目录：设备文件 优盘等</li>
+<li>etc目录：配置文件</li>
+<li>home目录：家目录</li>
+<li>lib目录：存放的是链接库文件</li>
+<li>lost+found目录</li>
+<li>media目录：系统挂载点，比如，插如优盘桌面会出来一个图标，优盘挂载在此处。</li>
+<li>mnt目录：手动去挂载的地方 约定俗成的地方。</li>
+<li>opt目录：源码包安装程序安装在此处。假如不指名安装地址安装在usr/local中</li>
+<li>proc目录：内核的参数，不占用磁盘大小</li>
+<li>root目录：root用户的家目录</li>
+<li>sbin目录：类似于bin，存放的是系统管理员用到的命令</li>
+<li>tmp目录：临时文件</li>
+<li>usr目录：默认情况下 程序安装在此次</li>
+<li>var目录：缓存文件 日志文件  数据库文件等文件</li>
+</ul>
+<blockquote>
+<p>所有的Linux发行版本文件系统都是差不多的 都遵循FHS标准。</p>
+</blockquote>
+<ul>
+<li><p>相对路径与绝对路径</p>
+<p>.  当前路径</p>
+<p>.. 上一层路径</p>
+</li>
+</ul>
+<p>uname</p>
+<h1 id="查看系统信息"><a href="#查看系统信息" class="headerlink" title="查看系统信息"></a>查看系统信息</h1><h2 id="拷贝命令"><a href="#拷贝命令" class="headerlink" title="拷贝命令"></a>拷贝命令</h2><p><strong>格式：</strong> </p>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">cp [选项].....   /path1/.../xx    /path/.../yy</div><div class="line"></div><div class="line">cp -rf …… 强制复制  r 递归 f 强制</div><div class="line"></div><div class="line">cp -p …… 把属性也复制过去</div></pre></td></tr></table></figure>
+<h2 id="剪切命令"><a href="#剪切命令" class="headerlink" title="剪切命令"></a>剪切命令</h2><figure class="highlight accesslog"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mv <span class="string">[选项]</span> path1 path2</div></pre></td></tr></table></figure>
+<h2 id="cat命令"><a href="#cat命令" class="headerlink" title="cat命令"></a>cat命令</h2><figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">cat</span> 适合查看小文件</div><div class="line"></div><div class="line"><span class="keyword">cat</span> -<span class="keyword">n</span> …. 加编号</div><div class="line"></div><div class="line">tac 倒序查看</div><div class="line"></div><div class="line"><span class="keyword">nl</span> = <span class="keyword">cat</span> -<span class="keyword">n</span></div><div class="line"></div><div class="line"><span class="keyword">more</span>/less 可以分屏查看文件信息 适合查看大文件</div><div class="line"></div><div class="line">less可以前后翻 可以查找关键字 支持page up page down home end 键</div><div class="line"></div><div class="line">查看文件信息 head <span class="keyword">man</span></div><div class="line"></div><div class="line">格式：head + filename</div><div class="line"></div><div class="line">head -<span class="keyword">n</span> 5 查看前五行</div><div class="line"></div><div class="line">等同于 head -5</div><div class="line"></div><div class="line">tail -<span class="keyword">n</span> 3 等同于tail -3 查看文件的最后三行</div><div class="line"></div><div class="line">tail -f 等同于 tailf 日志文件 可以实时显示日志文件</div><div class="line"></div><div class="line">退出是 control + c 命令</div><div class="line"></div><div class="line">查看二进制文件 od strings</div></pre></td></tr></table></figure>
+<h2 id="touch命令"><a href="#touch命令" class="headerlink" title="touch命令"></a>touch命令</h2><p>touch filename 假如这个文件没有 就会创建这个文件 </p>
+<p>假如这个文件存在，就把这个文件的创建/修改时间修改为当前</p>
+<p>touch filename </p>
+<h2 id="创建文件夹命令"><a href="#创建文件夹命令" class="headerlink" title="创建文件夹命令"></a>创建文件夹命令</h2><figure class="highlight arduino"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">mkdir</span> dirname</div></pre></td></tr></table></figure>
+<h2 id="umask"><a href="#umask" class="headerlink" title="umask"></a>umask</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">umask</span> 权限过滤符</div><div class="line"></div><div class="line"><span class="built_in">umask</span> 022 设置过滤值</div><div class="line"></div><div class="line"><span class="built_in">umask</span> -S 设置保留的值</div></pre></td></tr></table></figure>
+<h2 id="chattr"><a href="#chattr" class="headerlink" title="chattr"></a>chattr</h2><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">用chattr命令防止系统中某个关键文件被修改：</div><div class="line"></div><div class="line">\# chattr +i /etc/resolv.<span class="keyword">conf</span></div><div class="line"></div><div class="line">lsattr /etc/resolv.<span class="keyword">conf</span></div><div class="line"></div><div class="line">会显示如下属性</div><div class="line"></div><div class="line">----i-------- /etc/resolv.<span class="keyword">conf</span></div><div class="line"></div><div class="line">让某个文件只能往里面追加数据，但不能删除，适用于各种日志文件：</div><div class="line"></div><div class="line">\# chattr +<span class="keyword">a</span> /var/<span class="built_in">log</span>/<span class="keyword">messages</span></div><div class="line"></div><div class="line"><span class="keyword">ll</span> = <span class="keyword">ls</span> -<span class="keyword">l</span></div><div class="line"></div><div class="line">chmod <span class="keyword">u</span>/g/<span class="keyword">o</span>+s filename</div></pre></td></tr></table></figure>
+<h2 id="查找文件"><a href="#查找文件" class="headerlink" title="查找文件"></a>查找文件</h2><figure class="highlight crystal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">which filename</div><div class="line"></div><div class="line">whereis ordername</div><div class="line"></div><div class="line">whereis -b ordername</div><div class="line"></div><div class="line">whereis -m ordername</div><div class="line"></div><div class="line">locate filename</div><div class="line"></div><div class="line">locate -i  filename  忽略大小写</div><div class="line"></div><div class="line">查找含有filename的文件</div><div class="line"></div><div class="line">他是在 /var/<span class="class"><span class="keyword">lib</span>/<span class="title">mlocate</span>.<span class="title">db</span>中查找 这个数据库每天更新一次</span></div><div class="line"></div><div class="line">可以通过 updatedb 来更新数据库</div><div class="line"></div><div class="line">find dirname  -属性（） value</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;该篇文章为学习 &lt;code&gt;Centos&lt;/code&gt; 操作命令的记录👾&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="Linux" scheme="http://blog.pikbug.me/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.pikbug.me/tags/Centos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>闭包</title>
+    <link href="http://blog.pikbug.me/2017/06/05/closure/"/>
+    <id>http://blog.pikbug.me/2017/06/05/closure/</id>
+    <published>2017-06-05T07:31:02.000Z</published>
+    <updated>2017-06-05T08:10:20.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="JavaScript高级程序设计（第三版）" scheme="http://blog.pikbug.me/tags/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC%E4%B8%89%E7%89%88%EF%BC%89/"/>
+    
+  </entry>
   
   <entry>
     <title>git学习笔记✔️04</title>
