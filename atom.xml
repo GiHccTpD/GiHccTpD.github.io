@@ -793,7 +793,7 @@
     <link href="http://blog.pikbug.me/2017/04/06/web-logs/"/>
     <id>http://blog.pikbug.me/2017/04/06/web-logs/</id>
     <published>2017-04-06T03:57:42.000Z</published>
-    <updated>2017-06-05T11:01:10.000Z</updated>
+    <updated>2017-06-05T13:11:19.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2016-11-21-更新内容："><a href="#2016-11-21-更新内容：" class="headerlink" title="2016-11-21 更新内容："></a>2016-11-21 更新内容：</h1><h2 id="完成主要的框架工作"><a href="#完成主要的框架工作" class="headerlink" title="完成主要的框架工作"></a>完成主要的框架工作</h2><blockquote>
 <ul>
@@ -849,6 +849,13 @@
 <li>将网站的头像（avator.png）有正方形改为圆形</li>
 </ul>
 </blockquote>
+<h2 id="2017-06-05-更新内容："><a href="#2017-06-05-更新内容：" class="headerlink" title="2017-06-05 更新内容："></a>2017-06-05 更新内容：</h2><ul>
+<li><p>添加 “分类页面”以及“分类”导航</p>
+</li>
+<li><p>规范分类类别</p>
+<p><img src="/2017/04/06/web-logs/屏幕快照 2017-06-05 21.09.22.png" alt=""></p>
+</li>
+</ul>
 ]]></content>
     
     <summary type="html">

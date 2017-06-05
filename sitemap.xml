@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/2017/04/06/web-logs/</loc>
+    
+    <lastmod>2017-06-05T13:11:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/2016/11/26/anshijian/</loc>
     
     <lastmod>2017-06-05T13:05:49.000Z</lastmod>
@@ -82,13 +89,6 @@
     <loc>http://blog.pikbug.me/categories/index.html</loc>
     
     <lastmod>2017-06-05T11:29:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/04/06/web-logs/</loc>
-    
-    <lastmod>2017-06-05T11:01:10.000Z</lastmod>
     
   </url>
   
