@@ -4,27 +4,6 @@
   
     
     <entry>
-      <title><![CDATA[Hello Blog]]></title>
-      <url>http://blog.pikbug.me/2017/06/05/Hello-Blog/</url>
-      <content type="html"><![CDATA[<h2 id="第一篇日志"><a href="#第一篇日志" class="headerlink" title="第一篇日志"></a>第一篇日志</h2><p>这是一个新的开始，花了一下午外加一晚上的时间，差不多趟了所有的坑。<br><a id="more"></a><br>终于搭好了个人博客。接下来的日子，就需要慢慢来优化了！大家拭目以待！</p>
-]]></content>
-      
-        <categories>
-            
-            <category> blog </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数]]></title>
       <url>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</url>
       <content type="html"><![CDATA[<blockquote>
@@ -852,6 +831,27 @@
             <tag> 书摘 </tag>
             
             <tag> 读书 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[第一篇日志]]></title>
+      <url>http://blog.pikbug.me/2016/11/26/Hello-Blog/</url>
+      <content type="html"><![CDATA[<h2 id="第一篇日志"><a href="#第一篇日志" class="headerlink" title="第一篇日志"></a>第一篇日志</h2><p>这是一个新的开始，花了一下午外加一晚上的时间，差不多趟了所有的坑。<br><a id="more"></a><br>终于搭好了个人博客。接下来的日子，就需要慢慢来优化了！大家拭目以待！</p>
+]]></content>
+      
+        <categories>
+            
+            <category> blog </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 测试 </tag>
             
         </tags>
         
