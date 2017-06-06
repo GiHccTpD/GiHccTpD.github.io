@@ -221,11 +221,11 @@
     <link href="http://blog.pikbug.me/2017/06/05/closure/"/>
     <id>http://blog.pikbug.me/2017/06/05/closure/</id>
     <published>2017-06-05T07:31:02.000Z</published>
-    <updated>2017-06-06T09:49:24.000Z</updated>
+    <updated>2017-06-06T09:56:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>[TOC]</p>
 <h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><blockquote>
-<p><em>闭包</em> 是指有权访问另一个函数作用域中的变量的函数。</p>
+<p><em>闭包</em> 是指有权访问另一个函数作用域中的变量的函数。<a id="more"></a></p>
 </blockquote>
 <h2 id="创建闭包的方式"><a href="#创建闭包的方式" class="headerlink" title="创建闭包的方式"></a>创建闭包的方式</h2><h2 id="常见方式"><a href="#常见方式" class="headerlink" title="常见方式"></a>常见方式</h2><p>在一个函数内部创建另外一个函数，演示如下：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createComparisonFunction</span>(<span class="params">propertyName</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params">object1, object2</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> value1 = object1[propertyName];</div><div class="line">    <span class="keyword">var</span> value2 = object2[propertyName];</div><div class="line">    </div><div class="line">    <span class="keyword">if</span> (value1 &lt; value2) &#123;</div><div class="line">      <span class="keyword">return</span> <span class="number">-1</span></div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (value1 &gt; value2) &#123;</div><div class="line">      <span class="keyword">return</span> <span class="number">1</span></div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">      <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -258,8 +258,7 @@
     
       &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;闭包&lt;/em&gt; 是指有权访问另一个函数作用域中的变量的函数。&lt;/p&gt;
-&lt;/blo
+&lt;p&gt;&lt;em&gt;闭包&lt;/em&gt; 是指有权访问另一个函数作用域中的变量的函数。&lt;/p&gt;&lt;/blockquote&gt;
     
     </summary>
     

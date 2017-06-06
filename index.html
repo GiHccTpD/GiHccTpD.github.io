@@ -919,7 +919,7 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-06T17:49:24+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-06T17:56:09+08:00">
                 2017-06-06
               </time>
             
@@ -1002,38 +1002,16 @@
 
       
         
-          
-            <p>[TOC]</p>
+          <p>[TOC]</p>
 <h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><blockquote>
-<p><em>闭包</em> 是指有权访问另一个函数作用域中的变量的函数。</p>
-</blockquote>
-<h2 id="创建闭包的方式"><a href="#创建闭包的方式" class="headerlink" title="创建闭包的方式"></a>创建闭包的方式</h2><h2 id="常见方式"><a href="#常见方式" class="headerlink" title="常见方式"></a>常见方式</h2><p>在一个函数内部创建另外一个函数，演示如下：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createComparisonFunction</span>(<span class="params">propertyName</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params">object1, object2</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> value1 = object1[propertyName];</div><div class="line">    <span class="keyword">var</span> value2 = object2[propertyName];</div><div class="line">    </div><div class="line">    <span class="keyword">if</span> (value1 &lt; value2) &#123;</div><div class="line">      <span class="keyword">return</span> <span class="number">-1</span></div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (value1 &gt; value2) &#123;</div><div class="line">      <span class="keyword">return</span> <span class="number">1</span></div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">      <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>代码中三四行代码所在的匿名函数可以访问外部函数也就是 <code>createComparisonFunction</code> 的变量 <code>propertyName</code> 。</p>
-<h2 id="作用域链"><a href="#作用域链" class="headerlink" title="作用域链"></a>作用域链</h2><p>本质是指向变量对象的指针列表，它只引用但不实际包含变量对象。</p>
-<p>包含：本地活动对象和全局变量对象。</p>
-<p>当某个函数被调用的时候，会创建一个执行环境以及对应的作用域链。然后，使用 <code>argument</code> 和其他命名参数值来初始化函数的活动对象。但在作用域链中，外部函数的活动对象始终处于第二位，外部函数的外部函数的活动对象处于第三位，······直至作为作用域终点的全局执行环境。</p>
-<h3 id="一个例子"><a href="#一个例子" class="headerlink" title="一个例子"></a>一个例子</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">compare</span>(<span class="params">value1, value2</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span> (value1 &lt; value2) &#123;</div><div class="line">    <span class="keyword">return</span> <span class="number">-1</span>;</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (value1 &gt; value2) &#123;</div><div class="line">    <span class="keyword">return</span> <span class="number">1</span>;</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">var</span> result = compare(<span class="number">5</span>, <span class="number">10</span>);</div></pre></td></tr></table></figure>
-<blockquote>
-<p>解释：定义了一个 <code>compare()</code> 函数，然后又在全局作用域中调用了它。当调用 <code>compare()</code> 的时候，会创建一个包含 <code>arguments</code> 、 <code>value1</code> 和 <code>value2</code>的活动对象。全局执行环境的变量对象（包含 <code>result</code> 和 <code>compare</code> ）在 <code>compare()</code> 执行环境的作用域链中则处于第二位。如下图所示。</p>
-</blockquote>
-<p><img src="/2017/06/05/closure/IMG_8921.JPG" alt="函数执行的作用域链"></p>
-<h2 id="作用域链小结"><a href="#作用域链小结" class="headerlink" title="作用域链小结"></a>作用域链小结</h2><p>一般说来，在函数中访问一个变量的时候，就会从作用域链中搜索具有相应名字的变量。一般情况下，局部活动对象就会被销毁，内存中仅保存着全局作用域。但是，闭包有所不同。</p>
-<h2 id="闭包小结"><a href="#闭包小结" class="headerlink" title="闭包小结"></a>闭包小结</h2><p>在另一个函数的内部定义的函数会将包含函数（即外部函数）的活动对象添加到它的作用域链中。</p>
-<p><img src="/2017/06/05/closure/IMG_8922.JPG" alt="函数执行的作用域链"></p>
-<p>匿名函数从 <code>createComparisonFunction()</code> 中被返回之后，它的作用域链被初始化为包含 <code>createComparisonFunction()</code> 函数的活动对象和全局变量对象。匿名函数可以访问 <code>createComparisonFunction()</code> 中定义的所有变量。更重要的是， <code>createComparisonFunction()</code> 函数执行完毕后，期活动对象不会被销毁，因为匿名函数的作用域链仍然在引用这个活动对象。</p>
-<p><strong>换句话说</strong>，<code>createComparisonFunction()</code> 函数返回后，其执行环境的作用域链会被销毁，但它的活动对象仍然留在内存中；直到匿名函数被销毁后， <code>createComparisonFunction()</code> 的活动对象才会被销毁。</p>
-<blockquote>
-<p>提示： 闭包会携带包含它的函数的作用域，会比其他函数占用更多的内存。过多的使用闭包可能会导致内存占用过高。</p>
-</blockquote>
-<h2 id="闭包与变量"><a href="#闭包与变量" class="headerlink" title="闭包与变量"></a>闭包与变量</h2><p>闭包只能取得包含函数中任何变量的最后一个值。</p>
-<h3 id="一个🌰"><a href="#一个🌰" class="headerlink" title="一个🌰"></a>一个🌰</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createFunction</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> result = [];</div><div class="line">  </div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</div><div class="line">    result[i] = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">      <span class="keyword">return</span> i;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">  </div><div class="line">  <span class="keyword">return</span> result;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>表面上每个函数会返回自己的索引值。其实，每个函数都会返回10.</p>
-<p>这是因为每个函数的作用域链中都保存着 <code>createFunction()</code> 函数的活动对象，所以它们引用的都是同一个变量 <code>i</code> 。</p>
-<p>假如要想达到预期，应该如下修改代码：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createFunction</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> result = [];</div><div class="line">  </div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</div><div class="line">    result[i] = <span class="function"><span class="keyword">function</span>(<span class="params">num</span>) </span>&#123;</div><div class="line">      <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">return</span> num;</div><div class="line">      &#125;;</div><div class="line">    &#125;(i);</div><div class="line">  &#125;</div><div class="line">  </div><div class="line">  <span class="keyword">return</span> result;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-          
+<p><em>闭包</em> 是指有权访问另一个函数作用域中的变量的函数。</p></blockquote>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/06/05/closure/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
