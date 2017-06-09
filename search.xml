@@ -4,6 +4,38 @@
   
     
     <entry>
+      <title><![CDATA[ECMAScript 6 入门：let和const命令]]></title>
+      <url>http://blog.pikbug.me/2017/06/08/es6-let-const/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>提示：根据<a href="http://es6.ruanyifeng.com/" target="_blank" rel="external"> 阮一峰老师的ECMAScript 6 入门 </a>(<a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">http://es6.ruanyifeng.com/</a>) 学习记录 <a id="more"></a></p>
+<ol>
+<li><code>let</code> 所声明的代码只在所在的代码块状才有效</li>
+</ol>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+            <category> JavaScript </category>
+            
+            <category> ES6 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[闭包]]></title>
       <url>http://blog.pikbug.me/2017/06/06/closure/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
@@ -905,9 +937,9 @@
         
         <tags>
             
-            <tag> 测试 </tag>
-            
             <tag> 个人博客 </tag>
+            
+            <tag> 测试 </tag>
             
         </tags>
         
