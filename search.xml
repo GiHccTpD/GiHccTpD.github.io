@@ -4,6 +4,66 @@
   
     
     <entry>
+      <title><![CDATA[JavaScript算法试题系列-02]]></title>
+      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-02/</url>
+      <content type="html"><![CDATA[<p>题目要求：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 数组交集给定两个数组，要求求出两个数组的交集，注意，交集中的元素应该是唯一的。var firstArray = [2, 2, 4, 1];</span></div><div class="line"><span class="keyword">var</span> secondArray = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">0</span>, <span class="number">2</span>];</div><div class="line"></div><div class="line">intersection(firstArray, secondArray); <span class="comment">// [2, 1]</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">intersection</span>(<span class="params">firstArray, secondArray</span>) </span>&#123;</div><div class="line">  <span class="comment">// The logic here is to create a hashmap with the elements of the firstArray as the keys.</span></div><div class="line">  <span class="comment">// After that, you can use the hashmap's O(1) look up time to check if the element exists in the hash</span></div><div class="line">  <span class="comment">// If it does exist, add that element to the new array.</span></div><div class="line"></div><div class="line">  <span class="keyword">var</span> hashmap = &#123;&#125;;</div><div class="line">  <span class="keyword">var</span> intersectionArray = [];</div><div class="line"></div><div class="line">  firstArray.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">element</span>) </span>&#123;</div><div class="line">    hashmap[element] = <span class="number">1</span>;</div><div class="line">  &#125;);</div><div class="line"></div><div class="line">  <span class="comment">// Since we only want to push unique elements in our case... we can implement a counter to keep track of what we already added</span></div><div class="line">  secondArray.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">element</span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span> (hashmap[element] === <span class="number">1</span>) &#123;</div><div class="line">      intersectionArray.push(element);</div><div class="line">      hashmap[element]++;</div><div class="line">    &#125;</div><div class="line">  &#125;);</div><div class="line"></div><div class="line">  <span class="keyword">return</span> intersectionArray;</div><div class="line"></div><div class="line">  <span class="comment">// Time complexity O(n), Space complexity O(n)</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+            <category> JavaScript </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[JavaScript算法试题系列-01]]></title>
+      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-01/</url>
+      <content type="html"><![CDATA[<p>题目要求：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> firstArray = [<span class="number">2</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">1</span>];</div><div class="line"><span class="keyword">var</span> secondArray = [<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">2</span>];</div><div class="line"><span class="keyword">var</span> thirdArray = [<span class="number">-2</span>, <span class="number">-2</span>, <span class="number">-3</span>, <span class="number">2</span>];</div><div class="line"></div><div class="line">productExceptSelf(firstArray); <span class="comment">// [8, 8, 4, 16]</span></div><div class="line">productExceptSelf(secondArray); <span class="comment">// [0, 0, 0, 0]</span></div><div class="line">productExceptSelf(thirdArray); <span class="comment">// [12, 12, 8, -12]</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">productExceptSelf</span>(<span class="params">numArray</span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> product = <span class="number">1</span>;</div><div class="line">  <span class="keyword">var</span> size = numArray.length;</div><div class="line">  <span class="keyword">var</span> output = [];</div><div class="line"></div><div class="line">  <span class="comment">// From first array: [1, 2, 4, 16]</span></div><div class="line">  <span class="comment">// The last number in this case is already in the right spot (allows for us)</span></div><div class="line">  <span class="comment">// to just multiply by 1 in the next step.</span></div><div class="line">  <span class="comment">// This step essentially gets the product to the left of the index at index + 1</span></div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> x = <span class="number">0</span>; x &lt; size; x++) &#123;</div><div class="line">      output.push(product);</div><div class="line">      product = product * numArray[x];</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">// From the back, we multiply the current output element (which represents the product</span></div><div class="line">  <span class="comment">// on the left of the index, and multiplies it by the product on the right of the element)</span></div><div class="line">  <span class="keyword">var</span> product = <span class="number">1</span>;</div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = size - <span class="number">1</span>; i &gt; <span class="number">-1</span>; i--) &#123;</div><div class="line">      output[i] = output[i] * product;</div><div class="line">      product = product * numArray[i];</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="keyword">return</span> output;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+            <category> JavaScript </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[闭包]]></title>
       <url>http://blog.pikbug.me/2017/06/06/closure/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>

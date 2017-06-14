@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-02/</loc>
+    
+    <lastmod>2017-06-14T16:16:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-01/</loc>
+    
+    <lastmod>2017-06-14T16:14:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/about/index.html</loc>
     
-    <lastmod>2017-06-13T16:11:24.000Z</lastmod>
+    <lastmod>2017-06-13T16:26:43.000Z</lastmod>
     
   </url>
   
