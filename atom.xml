@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-06-14T16:16:59.000Z</updated>
+  <updated>2017-06-15T09:13:20.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -14,6 +14,268 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript算法试题系列-10</title>
+    <link href="http://blog.pikbug.me/2017/06/15/%E5%BE%85%E5%8F%91%E5%B8%83/JavaScript-Algorithm-10/"/>
+    <id>http://blog.pikbug.me/2017/06/15/待发布/JavaScript-Algorithm-10/</id>
+    <published>2017-06-15T09:12:12.000Z</published>
+    <updated>2017-06-15T09:13:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>问题描述：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 数字判断是否为 2 的指数值isPowerOfTwo(4); // true</span></div><div class="line">isPowerOfTwo(<span class="number">64</span>); <span class="comment">// true</span></div><div class="line">isPowerOfTwo(<span class="number">1</span>); <span class="comment">// true</span></div><div class="line">isPowerOfTwo(<span class="number">0</span>); <span class="comment">// false</span></div><div class="line">isPowerOfTwo(<span class="number">-1</span>); <span class="comment">// false</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// For the non-zero case:</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isPowerOfTwo</span>(<span class="params">number</span>) </span>&#123;</div><div class="line">  <span class="comment">// `&amp;` uses the bitwise n.</span></div><div class="line">  <span class="comment">// In the case of number = 4; the expression would be identical to:</span></div><div class="line">  <span class="comment">// `return (4 &amp; 3 === 0)`</span></div><div class="line">  <span class="comment">// In bitwise, 4 is 100, and 3 is 011. Using &amp;, if two values at the same</span></div><div class="line">  <span class="comment">// spot is 1, then result is 1, else 0. In this case, it would return 000,</span></div><div class="line">  <span class="comment">// and thus, 4 satisfies are expression.</span></div><div class="line">  <span class="comment">// In turn, if the expression is `return (5 &amp; 4 === 0)`, it would be false</span></div><div class="line">  <span class="comment">// since it returns 101 &amp; 100 = 100 (NOT === 0)</span></div><div class="line"></div><div class="line">  <span class="keyword">return</span> number &amp; (number - <span class="number">1</span>) === <span class="number">0</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// For zero-case:</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isPowerOfTwoZeroCase</span>(<span class="params">number</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> (number !== <span class="number">0</span>) &amp;&amp; ((number &amp; (number - <span class="number">1</span>)) === <span class="number">0</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;问题描述：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript算法试题系列-09</title>
+    <link href="http://blog.pikbug.me/2017/06/15/%E5%BE%85%E5%8F%91%E5%B8%83/JavaScript-Algorithm-09/"/>
+    <id>http://blog.pikbug.me/2017/06/15/待发布/JavaScript-Algorithm-09/</id>
+    <published>2017-06-15T09:10:45.000Z</published>
+    <updated>2017-06-15T09:11:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>二分法搜索：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 二分搜索function</span></div><div class="line"> recursiveBinarySearch(array, value, leftPosition, rightPosition) &#123;</div><div class="line">  <span class="comment">// Value DNE</span></div><div class="line">  <span class="keyword">if</span> (leftPosition &gt; rightPosition) <span class="keyword">return</span> <span class="number">-1</span>;</div><div class="line"></div><div class="line">  <span class="keyword">var</span> middlePivot = <span class="built_in">Math</span>.floor((leftPosition + rightPosition) / <span class="number">2</span>);</div><div class="line">  <span class="keyword">if</span> (array[middlePivot] === value) &#123;</div><div class="line">    <span class="keyword">return</span> middlePivot;</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (array[middlePivot] &gt; value) &#123;</div><div class="line">    <span class="keyword">return</span> recursiveBinarySearch(array, value, leftPosition, middlePivot - <span class="number">1</span>);</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="keyword">return</span> recursiveBinarySearch(array, value, middlePivot + <span class="number">1</span>, rightPosition);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;二分法搜索：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript算法试题系列-08</title>
+    <link href="http://blog.pikbug.me/2017/06/15/%E5%BE%85%E5%8F%91%E5%B8%83/JavaScript-Algorithm-08/"/>
+    <id>http://blog.pikbug.me/2017/06/15/待发布/JavaScript-Algorithm-08/</id>
+    <published>2017-06-15T09:07:38.000Z</published>
+    <updated>2017-06-15T09:08:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>问题描述:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 递归二进制转换通过某个递归函数将输入的数字转化为二进制字符串：decimalToBinary(3); // 11</span></div><div class="line">decimalToBinary(<span class="number">8</span>); <span class="comment">// 1000</span></div><div class="line">decimalToBinary(<span class="number">1000</span>); <span class="comment">// 1111101000</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">decimalToBinary</span>(<span class="params">digit</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span>(digit &gt;= <span class="number">1</span>) &#123;</div><div class="line">    <span class="comment">// If digit is not divisible by 2 then recursively return proceeding</span></div><div class="line">    <span class="comment">// binary of the digit minus 1, 1 is added for the leftover 1 digit</span></div><div class="line">    <span class="keyword">if</span> (digit % <span class="number">2</span>) &#123;</div><div class="line">      <span class="keyword">return</span> decimalToBinary((digit - <span class="number">1</span>) / <span class="number">2</span>) + <span class="number">1</span>;</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">      <span class="comment">// Recursively return proceeding binary digits</span></div><div class="line">      <span class="keyword">return</span> decimalToBinary(digit / <span class="number">2</span>) + <span class="number">0</span>;</div><div class="line">    &#125;</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="comment">// Exit condition</span></div><div class="line">    <span class="keyword">return</span> <span class="string">''</span>;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;问题描述:&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript算法试题系列-07</title>
+    <link href="http://blog.pikbug.me/2017/06/15/%E5%BE%85%E5%8F%91%E5%B8%83/JavaScript-Algorithm-07/"/>
+    <id>http://blog.pikbug.me/2017/06/15/待发布/JavaScript-Algorithm-07/</id>
+    <published>2017-06-15T09:05:59.000Z</published>
+    <updated>2017-06-15T09:07:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>问题描述：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 判断大括号是否闭合创建一个函数来判断给定的表达式中的大括号是否闭合：</span></div><div class="line"><span class="keyword">var</span> expression = <span class="string">"&#123;&#123;&#125;&#125;&#123;&#125;&#123;&#125;"</span>;</div><div class="line"><span class="keyword">var</span> expressionFalse = <span class="string">"&#123;&#125;&#123;&#123;&#125;"</span>;</div><div class="line"></div><div class="line">isBalanced(expression); <span class="comment">// true</span></div><div class="line">isBalanced(expressionFalse); <span class="comment">// false</span></div><div class="line">isBalanced(<span class="string">""</span>); <span class="comment">// true</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isBalanced</span>(<span class="params">expression</span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> checkString = expression;</div><div class="line">  <span class="keyword">var</span> stack = [];</div><div class="line"></div><div class="line">  <span class="comment">// If empty, parentheses are technically balanced</span></div><div class="line">  <span class="keyword">if</span> (checkString.length &lt;= <span class="number">0</span>) <span class="keyword">return</span> <span class="literal">true</span>;</div><div class="line"></div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; checkString.length; i++) &#123;</div><div class="line">    <span class="keyword">if</span>(checkString[i] === <span class="string">'&#123;'</span>) &#123;</div><div class="line">      stack.push(checkString[i]);</div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (checkString[i] === <span class="string">'&#125;'</span>) &#123;</div><div class="line">      <span class="comment">// Pop on an empty array is undefined</span></div><div class="line">      <span class="keyword">if</span> (stack.length &gt; <span class="number">0</span>) &#123;</div><div class="line">        stack.pop();</div><div class="line">      &#125; <span class="keyword">else</span> &#123;</div><div class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">// If the array is not empty, it is not balanced</span></div><div class="line">  <span class="keyword">if</span> (stack.pop()) <span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">  <span class="keyword">return</span> <span class="literal">true</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;问题描述：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript算法试题系列-06</title>
+    <link href="http://blog.pikbug.me/2017/06/15/%E5%BE%85%E5%8F%91%E5%B8%83/JavaScript-Algorithm-06/"/>
+    <id>http://blog.pikbug.me/2017/06/15/待发布/JavaScript-Algorithm-06/</id>
+    <published>2017-06-15T09:03:01.000Z</published>
+    <updated>2017-06-15T09:04:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>题目要求：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 栈与队列使用两个栈实现入队与出队var inputStack = []; // First stack</span></div><div class="line"><span class="keyword">var</span> outputStack = []; <span class="comment">// Second stack</span></div><div class="line"></div><div class="line"><span class="comment">// For enqueue, just push the item into the first stack</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">enqueue</span>(<span class="params">stackInput, item</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> stackInput.push(item);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">dequeue</span>(<span class="params">stackInput, stackOutput</span>) </span>&#123;</div><div class="line">  <span class="comment">// Reverse the stack such that the first element of the output stack is the</span></div><div class="line">  <span class="comment">// last element of the input stack. After that, pop the top of the output to</span></div><div class="line">  <span class="comment">// get the first element that was ever pushed into the input stack</span></div><div class="line">  <span class="keyword">if</span> (stackOutput.length &lt;= <span class="number">0</span>) &#123;</div><div class="line">    <span class="keyword">while</span>(stackInput.length &gt; <span class="number">0</span>) &#123;</div><div class="line">      <span class="keyword">var</span> elementToOutput = stackInput.pop();</div><div class="line">      stackOutput.push(elementToOutput);</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="keyword">return</span> stackOutput.pop();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;题目要求：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript算法试题系列-05</title>
+    <link href="http://blog.pikbug.me/2017/06/15/%E5%BE%85%E5%8F%91%E5%B8%83/JavaScript-Algorithm-05/"/>
+    <id>http://blog.pikbug.me/2017/06/15/待发布/JavaScript-Algorithm-05/</id>
+    <published>2017-06-15T09:00:14.000Z</published>
+    <updated>2017-06-15T09:02:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>题目要求：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 会问字符串判断某个字符串是否为回文字符串，譬如racecar与race car都是回文字符串：isPalindrome("racecar"); // true</span></div><div class="line">isPalindrome(<span class="string">"race Car"</span>); <span class="comment">// true</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isPalindrome</span>(<span class="params">word</span>) </span>&#123;</div><div class="line">  <span class="comment">// Replace all non-letter chars with "" and change to lowercase</span></div><div class="line">  <span class="keyword">var</span> lettersOnly = word.toLowerCase().replace(<span class="regexp">/\s/g</span>, <span class="string">""</span>);</div><div class="line"></div><div class="line">  <span class="comment">// Compare the string with the reversed version of the string</span></div><div class="line">  <span class="keyword">return</span> lettersOnly === lettersOnly.split(<span class="string">""</span>).reverse().join(<span class="string">""</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;题目要求：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript算法试题系列-04</title>
+    <link href="http://blog.pikbug.me/2017/06/15/%E5%BE%85%E5%8F%91%E5%B8%83/JavaScript-Algorithm-04/"/>
+    <id>http://blog.pikbug.me/2017/06/15/待发布/JavaScript-Algorithm-04/</id>
+    <published>2017-06-15T08:58:32.000Z</published>
+    <updated>2017-06-15T09:04:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>题目要求：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 乱序同字母字符串给定两个字符串，判断是否颠倒字母而成的字符串，譬如Mary与Army就是同字母而顺序颠倒：var firstWord = "Mary";</span></div><div class="line"><span class="keyword">var</span> secondWord = <span class="string">"Army"</span>;</div><div class="line"></div><div class="line">isAnagram(firstWord, secondWord); <span class="comment">// true</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isAnagram</span>(<span class="params">first, second</span>) </span>&#123;</div><div class="line">  <span class="comment">// For case insensitivity, change both words to lowercase.</span></div><div class="line">  <span class="keyword">var</span> a = first.toLowerCase();</div><div class="line">  <span class="keyword">var</span> b = second.toLowerCase();</div><div class="line"></div><div class="line">  <span class="comment">// Sort the strings, and join the resulting array to a string. Compare the results</span></div><div class="line">  a = a.split(<span class="string">""</span>).sort().join(<span class="string">""</span>);</div><div class="line">  b = b.split(<span class="string">""</span>).sort().join(<span class="string">""</span>);</div><div class="line"></div><div class="line">  <span class="keyword">return</span> a === b;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;题目要求：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript算法试题系列-03</title>
+    <link href="http://blog.pikbug.me/2017/06/15/%E5%BE%85%E5%8F%91%E5%B8%83/JavaScript-Algorithm-03/"/>
+    <id>http://blog.pikbug.me/2017/06/15/待发布/JavaScript-Algorithm-03/</id>
+    <published>2017-06-15T08:55:17.000Z</published>
+    <updated>2017-06-15T08:58:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>题目要求：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 字符串颠倒字符串给定某个字符串，要求将其中单词倒转之后然后输出，譬如"Welcome to this Javascript Guide!" 应该输出为 "emocleW ot siht tpircsavaJ !ediuG"。var string = "Welcome to this Javascript Guide!";</span></div><div class="line"></div><div class="line"><span class="comment">// Output becomes !ediuG tpircsavaJ siht ot emocleW</span></div><div class="line"><span class="keyword">var</span> reverseEntireSentence = reverseBySeparator(string, <span class="string">""</span>);</div><div class="line"></div><div class="line"><span class="comment">// Output becomes emocleW ot siht tpircsavaJ !ediuG</span></div><div class="line"><span class="keyword">var</span> reverseEachWord = reverseBySeparator(reverseEntireSentence, <span class="string">" "</span>);</div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">reverseBySeparator</span>(<span class="params">string, separator</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> string.split(separator).reverse().join(separator);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;题目要求：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript算法试题系列-02</title>
@@ -844,16 +1106,16 @@
   </entry>
   
   <entry>
-    <title>Hexo个人博客搭建遇到的问题1</title>
-    <link href="http://blog.pikbug.me/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/"/>
-    <id>http://blog.pikbug.me/2017/04/06/Hexo个人博客搭建遇到的问题1/</id>
+    <title>Hexo个人博客搭建遇到的问题-01</title>
+    <link href="http://blog.pikbug.me/2017/04/06/Hexo-problems-01/"/>
+    <id>http://blog.pikbug.me/2017/04/06/Hexo-problems-01/</id>
     <published>2017-04-06T09:49:34.000Z</published>
-    <updated>2017-06-05T10:58:22.000Z</updated>
+    <updated>2017-06-15T09:20:13.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><ul>
 <li>如图1、2</li>
 </ul>
-<p><img src="/2017/04/06/Hexo个人博客搭建遇到的问题1/QQ20170406-172817@2x.png" alt="1"><br><a id="more"></a><br><img src="/2017/04/06/Hexo个人博客搭建遇到的问题1/QQ20170406-173821@2x.png" alt="2"></p>
+<p><img src="/2017/04/06/Hexo-problems-01/QQ20170406-172817@2x.png" alt="1"><br><a id="more"></a><br><img src="/2017/04/06/Hexo-problems-01/QQ20170406-173821@2x.png" alt="2"></p>
 <p>对比可知，在<strong>发表于</strong>、<strong>更新于</strong>、<strong>分类于</strong>、<strong>阅读</strong>前边加了一些提示的icon。</p>
 <ul>
 <li><strong>分析问题</strong></li>
@@ -862,7 +1124,7 @@
 <ul>
 <li><strong>如图3</strong></li>
 </ul>
-<p><img src="/2017/04/06/Hexo个人博客搭建遇到的问题1/next配置问题.png" alt="3"></p>
+<p><img src="/2017/04/06/Hexo-problems-01/next配置问题.png" alt="3"></p>
 <ul>
 <li>找到问题所在</li>
 </ul>
@@ -878,7 +1140,7 @@
       &lt;h1 id=&quot;遇到的问题&quot;&gt;&lt;a href=&quot;#遇到的问题&quot; class=&quot;headerlink&quot; title=&quot;遇到的问题&quot;&gt;&lt;/a&gt;遇到的问题&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;如图1、2&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/2017/04/06/Hexo个人博客搭建遇到的问题1/QQ20170406-172817@2x.png&quot; alt=&quot;1&quot;&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2017/04/06/Hexo-problems-01/QQ20170406-172817@2x.png&quot; alt=&quot;1&quot;&gt;&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -1031,9 +1293,9 @@
       <category term="个人博客" scheme="http://blog.pikbug.me/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="测试" scheme="http://blog.pikbug.me/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
