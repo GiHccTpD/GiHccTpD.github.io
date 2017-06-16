@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-06-14T16:16:59.000Z</updated>
+  <updated>2017-06-15T09:04:53.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -14,6 +14,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript算法试题系列-04</title>
+    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-04/"/>
+    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-04/</id>
+    <published>2017-06-15T08:58:32.000Z</published>
+    <updated>2017-06-15T09:04:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>题目要求：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 乱序同字母字符串给定两个字符串，判断是否颠倒字母而成的字符串，譬如Mary与Army就是同字母而顺序颠倒：var firstWord = "Mary";</span></div><div class="line"><span class="keyword">var</span> secondWord = <span class="string">"Army"</span>;</div><div class="line"></div><div class="line">isAnagram(firstWord, secondWord); <span class="comment">// true</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isAnagram</span>(<span class="params">first, second</span>) </span>&#123;</div><div class="line">  <span class="comment">// For case insensitivity, change both words to lowercase.</span></div><div class="line">  <span class="keyword">var</span> a = first.toLowerCase();</div><div class="line">  <span class="keyword">var</span> b = second.toLowerCase();</div><div class="line"></div><div class="line">  <span class="comment">// Sort the strings, and join the resulting array to a string. Compare the results</span></div><div class="line">  a = a.split(<span class="string">""</span>).sort().join(<span class="string">""</span>);</div><div class="line">  b = b.split(<span class="string">""</span>).sort().join(<span class="string">""</span>);</div><div class="line"></div><div class="line">  <span class="keyword">return</span> a === b;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;题目要求：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript算法试题系列-03</title>
+    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-03/"/>
+    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-03/</id>
+    <published>2017-06-15T08:55:17.000Z</published>
+    <updated>2017-06-15T08:58:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>题目要求：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 字符串颠倒字符串给定某个字符串，要求将其中单词倒转之后然后输出，譬如"Welcome to this Javascript Guide!" 应该输出为 "emocleW ot siht tpircsavaJ !ediuG"。var string = "Welcome to this Javascript Guide!";</span></div><div class="line"></div><div class="line"><span class="comment">// Output becomes !ediuG tpircsavaJ siht ot emocleW</span></div><div class="line"><span class="keyword">var</span> reverseEntireSentence = reverseBySeparator(string, <span class="string">""</span>);</div><div class="line"></div><div class="line"><span class="comment">// Output becomes emocleW ot siht tpircsavaJ !ediuG</span></div><div class="line"><span class="keyword">var</span> reverseEachWord = reverseBySeparator(reverseEntireSentence, <span class="string">" "</span>);</div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">reverseBySeparator</span>(<span class="params">string, separator</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> string.split(separator).reverse().join(separator);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;题目要求：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript算法试题系列-02</title>
