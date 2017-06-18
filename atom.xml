@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-06-15T09:04:45.000Z</updated>
+  <updated>2017-06-15T09:08:54.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -14,6 +14,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript算法试题系列-08</title>
+    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-08/"/>
+    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-08/</id>
+    <published>2017-06-15T09:07:38.000Z</published>
+    <updated>2017-06-15T09:08:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>问题描述:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 递归二进制转换通过某个递归函数将输入的数字转化为二进制字符串：decimalToBinary(3); // 11</span></div><div class="line">decimalToBinary(<span class="number">8</span>); <span class="comment">// 1000</span></div><div class="line">decimalToBinary(<span class="number">1000</span>); <span class="comment">// 1111101000</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">decimalToBinary</span>(<span class="params">digit</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span>(digit &gt;= <span class="number">1</span>) &#123;</div><div class="line">    <span class="comment">// If digit is not divisible by 2 then recursively return proceeding</span></div><div class="line">    <span class="comment">// binary of the digit minus 1, 1 is added for the leftover 1 digit</span></div><div class="line">    <span class="keyword">if</span> (digit % <span class="number">2</span>) &#123;</div><div class="line">      <span class="keyword">return</span> decimalToBinary((digit - <span class="number">1</span>) / <span class="number">2</span>) + <span class="number">1</span>;</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">      <span class="comment">// Recursively return proceeding binary digits</span></div><div class="line">      <span class="keyword">return</span> decimalToBinary(digit / <span class="number">2</span>) + <span class="number">0</span>;</div><div class="line">    &#125;</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="comment">// Exit condition</span></div><div class="line">    <span class="keyword">return</span> <span class="string">''</span>;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;问题描述:&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript算法试题系列-07</title>
+    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-07/"/>
+    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-07/</id>
+    <published>2017-06-15T09:05:59.000Z</published>
+    <updated>2017-06-15T09:07:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>问题描述：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 判断大括号是否闭合创建一个函数来判断给定的表达式中的大括号是否闭合：</span></div><div class="line"><span class="keyword">var</span> expression = <span class="string">"&#123;&#123;&#125;&#125;&#123;&#125;&#123;&#125;"</span>;</div><div class="line"><span class="keyword">var</span> expressionFalse = <span class="string">"&#123;&#125;&#123;&#123;&#125;"</span>;</div><div class="line"></div><div class="line">isBalanced(expression); <span class="comment">// true</span></div><div class="line">isBalanced(expressionFalse); <span class="comment">// false</span></div><div class="line">isBalanced(<span class="string">""</span>); <span class="comment">// true</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isBalanced</span>(<span class="params">expression</span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> checkString = expression;</div><div class="line">  <span class="keyword">var</span> stack = [];</div><div class="line"></div><div class="line">  <span class="comment">// If empty, parentheses are technically balanced</span></div><div class="line">  <span class="keyword">if</span> (checkString.length &lt;= <span class="number">0</span>) <span class="keyword">return</span> <span class="literal">true</span>;</div><div class="line"></div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; checkString.length; i++) &#123;</div><div class="line">    <span class="keyword">if</span>(checkString[i] === <span class="string">'&#123;'</span>) &#123;</div><div class="line">      stack.push(checkString[i]);</div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (checkString[i] === <span class="string">'&#125;'</span>) &#123;</div><div class="line">      <span class="comment">// Pop on an empty array is undefined</span></div><div class="line">      <span class="keyword">if</span> (stack.length &gt; <span class="number">0</span>) &#123;</div><div class="line">        stack.pop();</div><div class="line">      &#125; <span class="keyword">else</span> &#123;</div><div class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">// If the array is not empty, it is not balanced</span></div><div class="line">  <span class="keyword">if</span> (stack.pop()) <span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">  <span class="keyword">return</span> <span class="literal">true</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;问题描述：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div 
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+    
+    
+      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+    
+      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript算法试题系列-06</title>
