@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title><![CDATA[JavaScript算法试题系列-10]]></title>
+      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-10/</url>
+      <content type="html"><![CDATA[<p>问题描述：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 数字判断是否为 2 的指数值isPowerOfTwo(4); // true</span></div><div class="line">isPowerOfTwo(<span class="number">64</span>); <span class="comment">// true</span></div><div class="line">isPowerOfTwo(<span class="number">1</span>); <span class="comment">// true</span></div><div class="line">isPowerOfTwo(<span class="number">0</span>); <span class="comment">// false</span></div><div class="line">isPowerOfTwo(<span class="number">-1</span>); <span class="comment">// false</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// For the non-zero case:</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isPowerOfTwo</span>(<span class="params">number</span>) </span>&#123;</div><div class="line">  <span class="comment">// `&amp;` uses the bitwise n.</span></div><div class="line">  <span class="comment">// In the case of number = 4; the expression would be identical to:</span></div><div class="line">  <span class="comment">// `return (4 &amp; 3 === 0)`</span></div><div class="line">  <span class="comment">// In bitwise, 4 is 100, and 3 is 011. Using &amp;, if two values at the same</span></div><div class="line">  <span class="comment">// spot is 1, then result is 1, else 0. In this case, it would return 000,</span></div><div class="line">  <span class="comment">// and thus, 4 satisfies are expression.</span></div><div class="line">  <span class="comment">// In turn, if the expression is `return (5 &amp; 4 === 0)`, it would be false</span></div><div class="line">  <span class="comment">// since it returns 101 &amp; 100 = 100 (NOT === 0)</span></div><div class="line"></div><div class="line">  <span class="keyword">return</span> number &amp; (number - <span class="number">1</span>) === <span class="number">0</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// For zero-case:</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isPowerOfTwoZeroCase</span>(<span class="params">number</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> (number !== <span class="number">0</span>) &amp;&amp; ((number &amp; (number - <span class="number">1</span>)) === <span class="number">0</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+            <category> JavaScript </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[JavaScript算法试题系列-09]]></title>
+      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-09/</url>
+      <content type="html"><![CDATA[<p>二分法搜索：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 二分搜索function</span></div><div class="line"> recursiveBinarySearch(array, value, leftPosition, rightPosition) &#123;</div><div class="line">  <span class="comment">// Value DNE</span></div><div class="line">  <span class="keyword">if</span> (leftPosition &gt; rightPosition) <span class="keyword">return</span> <span class="number">-1</span>;</div><div class="line"></div><div class="line">  <span class="keyword">var</span> middlePivot = <span class="built_in">Math</span>.floor((leftPosition + rightPosition) / <span class="number">2</span>);</div><div class="line">  <span class="keyword">if</span> (array[middlePivot] === value) &#123;</div><div class="line">    <span class="keyword">return</span> middlePivot;</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (array[middlePivot] &gt; value) &#123;</div><div class="line">    <span class="keyword">return</span> recursiveBinarySearch(array, value, leftPosition, middlePivot - <span class="number">1</span>);</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="keyword">return</span> recursiveBinarySearch(array, value, middlePivot + <span class="number">1</span>, rightPosition);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+            <category> JavaScript </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[JavaScript算法试题系列-08]]></title>
       <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-08/</url>
       <content type="html"><![CDATA[<p>问题描述:</p>
