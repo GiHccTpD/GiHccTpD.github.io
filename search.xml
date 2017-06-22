@@ -4,6 +4,62 @@
   
     
     <entry>
+      <title><![CDATA[使用iTerm2在Mac上登录远程服务器]]></title>
+      <url>http://blog.pikbug.me/2017/06/22/iterm2-macos-00/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文主要介绍我在工作中，如何通过脚本登录远程服务器的。<a id="more"></a></p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>iterm2的官网是：<a href="http://www.iterm2.com/" target="_blank" rel="external">http://www.iterm2.com/</a></p>
+<p>点击’Download’，下载安装即可。</p>
+<p><img src="/2017/06/22/iterm2-macos-00/屏幕快照 2017-06-22 18.30.17.png" alt="屏幕快照 2017-06-22 18.30.17"></p>
+<h1 id="配置脚本"><a href="#配置脚本" class="headerlink" title="配置脚本"></a>配置脚本</h1><p>进入根目录下 <code>.ssh</code>文件夹， 假如没有的话，新建一个 <code>.ssh</code> 文件夹。<img src="/2017/06/22/iterm2-macos-00/屏幕快照 2017-06-22 18.35.49.png" alt="屏幕快照 2017-06-22 18.35.49"></p>
+<p>通过vim命令，新建一个文件，例如，我们新建一个名字为 <code>example</code> 的文件 。</p>
+<p><img src="/2017/06/22/iterm2-macos-00/屏幕快照 2017-06-22 18.43.41.png" alt="屏幕快照 2017-06-22 18.43.41"></p>
+<p>文件内容如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">#/usr/bin/expect -f</div><div class="line">  set user root</div><div class="line">  set host your_host #Need to modify</div><div class="line">  set password your_password #Need to modify</div><div class="line">  set timeout -1</div><div class="line"></div><div class="line">  spawn ssh $user@$host -p your_port #Need to modify</div><div class="line">  expect &quot;*assword:*&quot;</div><div class="line">  send &quot;$password\r&quot;</div><div class="line">  interact</div><div class="line">  expect eof</div></pre></td></tr></table></figure>
+<p>然后 <code>:wq</code> 保存退出。</p>
+<h1 id="配置iTerm2"><a href="#配置iTerm2" class="headerlink" title="配置iTerm2"></a>配置iTerm2</h1><p>打开iTerm2，点击 <code>profiles</code></p>
+<p><img src="/2017/06/22/iterm2-macos-00/屏幕快照 2017-06-22 18.47.24.png" alt="屏幕快照 2017-06-22 18.47.24"></p>
+<p>然后打开如下界面：</p>
+<p><img src="/2017/06/22/iterm2-macos-00/屏幕快照_2017-06-22_18_48_50.png" alt="屏幕快照_2017-06-22_18_48_50"></p>
+<p>然后点击 <code>Edit Profiles...</code></p>
+<p>进入如下界面</p>
+<p><img src="/2017/06/22/iterm2-macos-00/QQ20170622-185647@2x.png" alt="QQ20170622-185647@2x"></p>
+<p>按照图中的介绍进行操作：</p>
+<ul>
+<li>第一步：点击添加</li>
+<li>第二步：对姓名进行自定义</li>
+<li>第三步：点击 <code>command</code> 在后面的框中添加执行命令 <code>expect ~/.ssh/example</code> 即可。</li>
+</ul>
+<p><strong>需要注意的是：</strong> 第一次登录需要手动登录，也就是通过ssh命令登录。</p>
+<p>可以参考这篇文章:<a href="http://blog.csdn.net/edward_qing_lee/article/details/23133331" target="_blank" rel="external">Linux ssh登录命令</a>。</p>
+<p>这样就可以登录远程服务器了。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+            <category> Linux </category>
+            
+            <category> macOS </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> macOS </tag>
+            
+            <tag> iTerm2 </tag>
+            
+            <tag> 工作 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[我眼中的pm2命令]]></title>
       <url>http://blog.pikbug.me/2017/06/15/pm2/</url>
       <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>PM2是node进程管理工具，可以利用它来简化很多node应用管理的繁琐任务，如性能监控、自动重启、负载均衡等，而且使用非常简单。<a id="more"></a></p>
@@ -83,9 +139,9 @@
             
             <tag> JavaScript </tag>
             
-            <tag> Node.js </tag>
-            
             <tag> 工作 </tag>
+            
+            <tag> Node.js </tag>
             
         </tags>
         

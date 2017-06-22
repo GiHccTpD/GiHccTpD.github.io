@@ -320,6 +320,186 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-02/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="MiG">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/uploads/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="加州提子面包">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="加州提子面包" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/06/15/JavaScript-Algorithm-02/" itemprop="url">
+                  JavaScript算法试题系列-02
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o" ></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-15T00:14:05+08:00">
+                2017-06-15
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              <span class="post-meta-item-text">更新于</span>
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-15T00:16:59+08:00">
+                2017-06-15
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/学习笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">学习笔记</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/学习笔记/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+            <span class="post-letters-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              <span class="post-meta-item-text">共 </span>
+              <span> 172 </span>
+              <span class="post-meta-item-text">字 </span>
+            </span>
+          
+
+          
+          
+             <span id="/2017/06/15/JavaScript-Algorithm-02/" class="leancloud_visitors" data-flag-title="JavaScript算法试题系列-02">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text"> 阅读 </span>
+               <span class="leancloud-visitors-count"></span>
+               <span class="post-meta-item-text">次 </span>
+              </span>
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>题目要求：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 数组交集给定两个数组，要求求出两个数组的交集，注意，交集中的元素应该是唯一的。var firstArray = [2, 2, 4, 1];</span></div><div class="line"><span class="keyword">var</span> secondArray = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">0</span>, <span class="number">2</span>];</div><div class="line"></div><div class="line">intersection(firstArray, secondArray); <span class="comment">// [2, 1]</span></div></pre></td></tr></table></figure>
+<p>解答：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">intersection</span>(<span class="params">firstArray, secondArray</span>) </span>&#123;</div><div class="line">  <span class="comment">// The logic here is to create a hashmap with the elements of the firstArray as the keys.</span></div><div class="line">  <span class="comment">// After that, you can use the hashmap's O(1) look up time to check if the element exists in the hash</span></div><div class="line">  <span class="comment">// If it does exist, add that element to the new array.</span></div><div class="line"></div><div class="line">  <span class="keyword">var</span> hashmap = &#123;&#125;;</div><div class="line">  <span class="keyword">var</span> intersectionArray = [];</div><div class="line"></div><div class="line">  firstArray.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">element</span>) </span>&#123;</div><div class="line">    hashmap[element] = <span class="number">1</span>;</div><div class="line">  &#125;);</div><div class="line"></div><div class="line">  <span class="comment">// Since we only want to push unique elements in our case... we can implement a counter to keep track of what we already added</span></div><div class="line">  secondArray.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">element</span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span> (hashmap[element] === <span class="number">1</span>) &#123;</div><div class="line">      intersectionArray.push(element);</div><div class="line">      hashmap[element]++;</div><div class="line">    &#125;</div><div class="line">  &#125;);</div><div class="line"></div><div class="line">  <span class="keyword">return</span> intersectionArray;</div><div class="line"></div><div class="line">  <span class="comment">// Time complexity O(n), Space complexity O(n)</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
   <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-01/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1037,188 +1217,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/05/centos-file-system/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="MiG">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/uploads/avatar.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="加州提子面包">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="加州提子面包" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/05/centos-file-system/" itemprop="url">
-                  Centos文件系统
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o" ></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-05T15:48:50+08:00">
-                2017-06-05
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-05T19:37:04+08:00">
-                2017-06-05
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">学习笔记</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/Linux/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-            <span class="post-letters-count">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-              <span class="post-meta-item-text">共 </span>
-              <span> 1,001 </span>
-              <span class="post-meta-item-text">字 </span>
-            </span>
-          
-
-          
-          
-             <span id="/2017/06/05/centos-file-system/" class="leancloud_visitors" data-flag-title="Centos文件系统">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text"> 阅读 </span>
-               <span class="leancloud-visitors-count"></span>
-               <span class="post-meta-item-text">次 </span>
-              </span>
-          
-
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <blockquote>
-<p>该篇文章为学习 <code>Centos</code> 操作命令的记录👾</p></blockquote>
-          <!--noindex-->
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/05/centos-file-system/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-
-  </article>
-
-
-    
   </section>
 
   
@@ -1264,7 +1262,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">26</span>
+              <span class="site-state-item-count">27</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1272,7 +1270,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -1281,7 +1279,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-count">18</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
