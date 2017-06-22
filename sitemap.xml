@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.pikbug.me/2017/06/05/centos-file-system/</loc>
+    <loc>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</loc>
     
-    <lastmod>2017-06-22T11:29:50.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</loc>
-    
-    <lastmod>2017-06-22T11:27:31.000Z</lastmod>
+    <lastmod>2017-06-22T11:31:44.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.pikbug.me/2017/06/22/iterm2-macos-00/</loc>
     
-    <lastmod>2017-06-22T11:27:16.000Z</lastmod>
+    <lastmod>2017-06-22T11:31:34.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</loc>
+    <loc>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</loc>
     
-    <lastmod>2017-06-22T11:27:10.000Z</lastmod>
+    <lastmod>2017-06-22T11:31:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/06/05/centos-file-system/</loc>
+    
+    <lastmod>2017-06-22T11:31:01.000Z</lastmod>
     
   </url>
   
