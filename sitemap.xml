@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</loc>
+    
+    <lastmod>2017-06-22T11:25:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/2017/06/22/iterm2-macos-00/</loc>
     
-    <lastmod>2017-06-22T11:22:58.000Z</lastmod>
+    <lastmod>2017-06-22T11:25:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</loc>
+    
+    <lastmod>2017-06-22T11:25:25.000Z</lastmod>
     
   </url>
   
@@ -191,23 +205,9 @@
   </url>
   
   <url>
-    <loc>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</loc>
-    
-    <lastmod>2017-06-05T11:00:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.pikbug.me/2017/04/24/Remember/</loc>
     
     <lastmod>2017-06-05T11:00:41.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</loc>
-    
-    <lastmod>2017-06-05T10:59:31.000Z</lastmod>
     
   </url>
   
