@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title><![CDATA[MySQL-kill-deadlock]]></title>
+      <url>http://blog.pikbug.me/2017/06/27/MySQL-kill-deadlock/</url>
+      <content type="html"><![CDATA[<h1 id="MySQL数据库去除死锁以及显示进程id"><a href="#MySQL数据库去除死锁以及显示进程id" class="headerlink" title="MySQL数据库去除死锁以及显示进程id"></a>MySQL数据库去除死锁以及显示进程id</h1><p>kill id;<br>show processlist</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习笔记 </category>
+            
+            <category> DataBase </category>
+            
+            <category> MySQL </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> DataBase </tag>
+            
+            <tag> MySQL </tag>
+            
+            <tag> 工作 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[流水账：2017-06-26]]></title>
       <url>http://blog.pikbug.me/2017/06/26/2017-06-26/</url>
       <content type="html"><![CDATA[<p>最近这几天有点心神不宁，不想看书，不想学习。<a id="more"></a>所以，想想就写点个人日记滥竽充数吧。我记不将就通顺，也不讲究逻辑。就算是记下来，以后有机会再来读读吧。因为，我知道没几个人真的会关注到我。我说过，我之前有的时候，是很矛盾的，既想引起别人的关注，又不想被别人看到自己的牢骚。但是到头来才发现，这些都是多虑了，因为，真的一直没什么人会关注到我。这么想想，我也就心安了。</p>
@@ -182,11 +213,11 @@
             
             <tag> Linux </tag>
             
+            <tag> 工作 </tag>
+            
             <tag> macOS </tag>
             
             <tag> iTerm2 </tag>
-            
-            <tag> 工作 </tag>
             
         </tags>
         
@@ -1480,9 +1511,9 @@
         
         <tags>
             
-            <tag> 测试 </tag>
-            
             <tag> 个人博客 </tag>
+            
+            <tag> 测试 </tag>
             
         </tags>
         

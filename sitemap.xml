@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.pikbug.me/2017/06/27/MySQL-kill-deadlock/</loc>
+    
+    <lastmod>2017-06-27T15:49:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.pikbug.me/2017/06/26/2017-06-26/</loc>
     
     <lastmod>2017-06-26T16:27:21.000Z</lastmod>
