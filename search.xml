@@ -4,6 +4,40 @@
   
     
     <entry>
+      <title><![CDATA[How-to-Win-Friends-and-Influence-People]]></title>
+      <url>http://blog.pikbug.me/2017/06/28/How-to-Win-Friends-and-Influence-People/</url>
+      <content type="html"><![CDATA[<h1 id="《人性的弱点》"><a href="#《人性的弱点》" class="headerlink" title="《人性的弱点》"></a>《人性的弱点》</h1><p><strong>卡耐基</strong></p>
+<h2 id="Chapter-1-如欲采蜜，勿蹴蜂房"><a href="#Chapter-1-如欲采蜜，勿蹴蜂房" class="headerlink" title="Chapter 1 如欲采蜜，勿蹴蜂房"></a>Chapter 1 如欲采蜜，勿蹴蜂房</h2><ul>
+<li>他最喜欢引用的一句格言是“只有你不议论别人，别人才不会议论你”。</li>
+</ul>
+<ul>
+<li>“当一个人具备了先从自己开始，具备了战胜自我的精神的时候”勃朗宁说，“他就是一个不同凡响的人。”</li>
+</ul>
+<ul>
+<li>在与人相处时，要切记：与我们交往的不是纯粹按道理或逻辑生活的人，而是充满了感情的，带有偏见、傲慢和虚荣的人。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 阅读吧！ </category>
+            
+            <category> 书摘 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 书摘 </tag>
+            
+            <tag> 读书 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[MySQL-kill-deadlock]]></title>
       <url>http://blog.pikbug.me/2017/06/27/MySQL-kill-deadlock/</url>
       <content type="html"><![CDATA[<h1 id="MySQL数据库去除死锁以及显示进程id"><a href="#MySQL数据库去除死锁以及显示进程id" class="headerlink" title="MySQL数据库去除死锁以及显示进程id"></a>MySQL数据库去除死锁以及显示进程id</h1><p>kill id;<br>show processlist</p>
@@ -1511,9 +1545,9 @@
         
         <tags>
             
-            <tag> 个人博客 </tag>
-            
             <tag> 测试 </tag>
+            
+            <tag> 个人博客 </tag>
             
         </tags>
         
