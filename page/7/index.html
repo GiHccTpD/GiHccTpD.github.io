@@ -2,10 +2,8 @@
 
 
 
-  
 
-
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next pisces" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,50 +25,16 @@
 
 
 
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
 
 
 
-  
+<link href="/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="//main.css?v=" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -80,8 +44,6 @@
 
 
 
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
 
 
 
@@ -104,10 +66,10 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post"},
-    fancybox: true,
-    motion: true,
+    scheme: 'Pisces',
+    sidebar: "",
+    fancybox: ,
+    motion: ,
     duoshuo: {
       userId: 'undefined',
       author: '博主'
@@ -124,8 +86,6 @@
 
 
 
-  <link rel="canonical" href="http://blog.pikbug.me/page/7/"/>
-
 
 
 
@@ -138,25 +98,6 @@
   
 
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-96853777-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?[object Object]";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
 
 
 
@@ -167,10 +108,8 @@
 
   
   
-    
-  
 
-  <div class="container one-collumn sidebar-position-left 
+  <div class="container one-collumn  
    page-home 
  ">
     <div class="headband"></div>
@@ -207,8 +146,6 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
             首页
           </a>
         </li>
@@ -216,8 +153,6 @@
         
         <li class="menu-item menu-item-categories">
           <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
             分类
           </a>
@@ -227,8 +162,6 @@
         <li class="menu-item menu-item-about">
           <a href="/about" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
             关于
           </a>
         </li>
@@ -236,8 +169,6 @@
         
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-save"></i> <br />
             
             归档
           </a>
@@ -247,55 +178,31 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
             标签
           </a>
         </li>
       
-
-      
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
+            Sitemap
           </a>
         </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+            公益404
+          </a>
+        </li>
+      
+
       
     </ul>
   
 
-  
-    <div class="site-search">
-      
-  
-  <div class="algolia-popup popup">
-    <div class="algolia-search">
-      <div class="algolia-search-input-icon">
-        <i class="fa fa-search"></i>
-      </div>
-      <div class="algolia-search-input" id="algolia-search-input"></div>
-    </div>
-
-    <div class="algolia-results">
-      <div id="algolia-stats"></div>
-      <div id="algolia-hits"></div>
-      <div id="algolia-pagination" class="algolia-pagination"></div>
-    </div>
-
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-  </div>
-
-
-
-
-    </div>
   
 </nav>
 
@@ -325,7 +232,7 @@
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
     <meta itemprop="description" content="">
-    <meta itemprop="image" content="/uploads/avatar.png">
+    <meta itemprop="image" content="/avatar.gif">
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -356,60 +263,13 @@
         <div class="post-meta">
           <span class="post-time">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o" ></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-21T18:39:08+08:00">
-                2016-11-21
-              </time>
-            
 
             
-              <span class="post-meta-divider">|</span>
-            
 
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-06T18:05:12+08:00">
-                2017-06-06
-              </time>
             
           </span>
 
           
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/阅读吧！/" itemprop="url" rel="index">
-                    <span itemprop="name">阅读吧！</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/阅读吧！/书摘/" itemprop="url" rel="index">
-                    <span itemprop="name">书摘</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
 
           
             
@@ -418,28 +278,8 @@
           
 
           
-            <span class="post-letters-count">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-              <span class="post-meta-item-text">共 </span>
-              <span> 3,179 </span>
-              <span class="post-meta-item-text">字 </span>
-            </span>
-          
 
           
-          
-             <span id="/2016/11/21/anshijian/" class="leancloud_visitors" data-flag-title="暗时间">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text"> 阅读 </span>
-               <span class="leancloud-visitors-count"></span>
-               <span class="post-meta-item-text">次 </span>
-              </span>
           
 
           
@@ -460,7 +300,7 @@
           <h1 id="知识结构"><a href="#知识结构" class="headerlink" title="知识结构"></a>知识结构</h1><p>1.抓住不变量。<br>1️⃣底层知识：英语以及编程的语法知识等<br>2️⃣工具<br>3️⃣要熟悉自己的工具 熟练运用 熟悉运用<br></p>
           <!--noindex-->
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/11/21/anshijian/#more" rel="contents">
+            <a class="btn" href="/2016/11/21/anshijian/" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -506,7 +346,7 @@
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
     <meta itemprop="description" content="">
-    <meta itemprop="image" content="/uploads/avatar.png">
+    <meta itemprop="image" content="/avatar.gif">
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -537,49 +377,13 @@
         <div class="post-meta">
           <span class="post-time">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o" ></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-21T18:24:12+08:00">
-                2016-11-21
-              </time>
-            
 
             
-              <span class="post-meta-divider">|</span>
-            
 
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-15T00:30:45+08:00">
-                2017-06-15
-              </time>
             
           </span>
 
           
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/个人博客/" itemprop="url" rel="index">
-                    <span itemprop="name">个人博客</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
 
           
             
@@ -588,28 +392,8 @@
           
 
           
-            <span class="post-letters-count">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-              <span class="post-meta-item-text">共 </span>
-              <span> 65 </span>
-              <span class="post-meta-item-text">字 </span>
-            </span>
-          
 
           
-          
-             <span id="/2016/11/21/Hello-Blog/" class="leancloud_visitors" data-flag-title="第一篇日志">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text"> 阅读 </span>
-               <span class="leancloud-visitors-count"></span>
-               <span class="post-meta-item-text">次 </span>
-              </span>
           
 
           
@@ -630,7 +414,7 @@
           <h2 id="第一篇日志"><a href="#第一篇日志" class="headerlink" title="第一篇日志"></a>第一篇日志</h2><p>这是一个新的开始，花了一下午外加一晚上的时间，差不多趟了所有的坑。<br></p>
           <!--noindex-->
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/11/21/Hello-Blog/#more" rel="contents">
+            <a class="btn" href="/2016/11/21/Hello-Blog/" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -699,7 +483,7 @@
       <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/uploads/avatar.png"
+               src="/avatar.gif"
                alt="MiG" />
           <p class="site-author-name" itemprop="name">MiG</p>
           <p class="site-description motion-element" itemprop="description">Learning | Coding | Reading | Running</p>
@@ -743,59 +527,12 @@
 
         <div class="links-of-author motion-element">
           
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/GiHccTpD" target="_blank" title="GitHub">
-                  
-                  GitHub
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="https://weibo.com/2769523061" target="_blank" title="微博">
-                  
-                  微博
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="https://www.zhihu.com/people/wang-xiao-22-45-27" target="_blank" title="知乎">
-                  
-                  知乎
-                </a>
-              </span>
-            
-          
         </div>
 
         
         
-          <div class="cc-license motion-element" itemprop="license">
-            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
-              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
-            </a>
-          </div>
-        
 
         
-        
-          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
-            <div class="links-of-blogroll-title">
-              <i class="fa  fa-fw fa-globe"></i>
-              Links
-            </div>
-            <ul class="links-of-blogroll-list">
-              
-                <li class="links-of-blogroll-item">
-                  <a href="http://pikbug.me/2017/04/06/web-logs/#more" title="更新日志" target="_blank">更新日志</a>
-                </li>
-              
-                <li class="links-of-blogroll-item">
-                  <a href="https://cnodejs.org/" title="cnode" target="_blank">cnode</a>
-                </li>
-              
-            </ul>
-          </div>
         
 
         
@@ -817,7 +554,7 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy;  2016 - 
+  &copy; 
   <span itemprop="copyrightYear">2017</span>
   <span class="with-love">
     <i class="fa fa-reorder"></i>
@@ -826,30 +563,6 @@
   <span class="author" itemprop="copyrightHolder">MiG</span>
 </div>
 
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
-
-<div class="theme-info">
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-96853777-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-</div>
 
 
         
@@ -879,47 +592,49 @@
 
 
 
-  
-
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  <script type="text/javascript" src="//jquery/index.js?v=2.1.3"></script>
 
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  <script type="text/javascript" src="//fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  <script type="text/javascript" src="//jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script type="text/javascript" src="//velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="//velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+  <script type="text/javascript" src="//src/utils.js?v="></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+  <script type="text/javascript" src="//src/motion.js?v="></script>
 
 
 
   
   
 
-  
+
+  <script type="text/javascript" src="//src/affix.js?v="></script>
+
+  <script type="text/javascript" src="//src/schemes/pisces.js?v="></script>
+
+
 
   
 
+  
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="//src/bootstrap.js?v="></script>
 
 
 
@@ -1069,128 +784,8 @@
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("tik718aqQJXL0nqlhyrItoUF-gzGzoHsz", "BXnAqFDd7LANYl0vT8vCwl7N");</script>
-  <script>
-    function showTime(Counter) {
-      var query = new AV.Query(Counter);
-      var entries = [];
-      var $visitors = $(".leancloud_visitors");
-
-      $visitors.each(function () {
-        entries.push( $(this).attr("id").trim() );
-      });
-
-      query.containedIn('url', entries);
-      query.find()
-        .done(function (results) {
-          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
-
-          if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
-            return;
-          }
-
-          for (var i = 0; i < results.length; i++) {
-            var item = results[i];
-            var url = item.get('url');
-            var time = item.get('time');
-            var element = document.getElementById(url);
-
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-          for(var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = document.getElementById(url);
-            var countSpan = $(element).find(COUNT_CONTAINER_REF);
-            if( countSpan.text() == '') {
-              countSpan.text(0);
-            }
-          }
-        })
-        .fail(function (object, error) {
-          console.log("Error: " + error.code + " " + error.message);
-        });
-    }
-
-    function addCount(Counter) {
-      var $visitors = $(".leancloud_visitors");
-      var url = $visitors.attr('id').trim();
-      var title = $visitors.attr('data-flag-title').trim();
-      var query = new AV.Query(Counter);
-
-      query.equalTo("url", url);
-      query.find({
-        success: function(results) {
-          if (results.length > 0) {
-            var counter = results[0];
-            counter.fetchWhenSave(true);
-            counter.increment("time");
-            counter.save(null, {
-              success: function(counter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
-              },
-              error: function(counter, error) {
-                console.log('Failed to save Visitor num, with error message: ' + error.message);
-              }
-            });
-          } else {
-            var newcounter = new Counter();
-            /* Set ACL */
-            var acl = new AV.ACL();
-            acl.setPublicReadAccess(true);
-            acl.setPublicWriteAccess(true);
-            newcounter.setACL(acl);
-            /* End Set ACL */
-            newcounter.set("title", title);
-            newcounter.set("url", url);
-            newcounter.set("time", 1);
-            newcounter.save(null, {
-              success: function(newcounter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
-              },
-              error: function(newcounter, error) {
-                console.log('Failed to create');
-              }
-            });
-          }
-        },
-        error: function(error) {
-          console.log('Error:' + error.code + " " + error.message);
-        }
-      });
-    }
-
-    $(function() {
-      var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
-      }
-    });
-  </script>
-
-
 
   
-
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
-
-  
-  
-  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
-  
-
-  <script src="/js/src/algolia-search.js?v=5.1.0"></script>
-
 
 </body>
 </html>
