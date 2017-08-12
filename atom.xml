@@ -1513,7 +1513,7 @@
     <link href="http://blog.pikbug.me/2017/04/06/web-logs/"/>
     <id>http://blog.pikbug.me/2017/04/06/web-logs/</id>
     <published>2017-04-06T03:57:42.000Z</published>
-    <updated>2017-06-05T13:14:42.000Z</updated>
+    <updated>2017-08-12T12:58:18.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2016-11-21-更新内容："><a href="#2016-11-21-更新内容：" class="headerlink" title="2016-11-21 更新内容："></a>2016-11-21 更新内容：<a id="more"></a></h1><h2 id="完成主要的框架工作"><a href="#完成主要的框架工作" class="headerlink" title="完成主要的框架工作"></a>完成主要的框架工作</h2><blockquote>
 <ul>
@@ -1543,7 +1543,7 @@
 <li>配置header 确定「首页」、「关于」、「归档」、「标签」、「搜索」</li>
 <li>配置Algolia搜索功能，成功运行</li>
 <li>增加谷歌统计功能</li>
-<li>增加网易云跟帖功能，替代多说评论功能</li>
+<li><del>增加网易云跟帖功能，替代多说评论功能</del></li>
 <li>增加JiaThis分享功能，替代多说分享功能</li>
 <li>增加侧边栏版权说明</li>
 <li>增加侧边栏社交链接</li>
@@ -1574,6 +1574,9 @@
 </li>
 <li><p>规范分类类别</p>
 <p><img src="/2017/04/06/web-logs/屏幕快照 2017-06-05 21.09.22.png" alt=""></p>
+<p>2017-08-12 更新内容：</p>
+</li>
+<li><p>配置disqus评论系统</p>
 </li>
 </ul>
 ]]></content>
