@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.pikbug.me/"/>
-  <updated>2017-06-28T15:52:33.000Z</updated>
+  <updated>2017-08-13T12:02:55.000Z</updated>
   <id>http://blog.pikbug.me/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>流水账：2017-08-18</title>
+    <link href="http://blog.pikbug.me/2017/08/13/2017-08-13/"/>
+    <id>http://blog.pikbug.me/2017/08/13/2017-08-13/</id>
+    <published>2017-08-13T11:56:52.000Z</published>
+    <updated>2017-08-13T12:02:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在过去的将近一年中，我本以为，每天上班下班加班，下班看书、跑步、学习、敲代码，就可以忘记你。至少在我没回家的时候，我是这么觉得的。直到，我厌倦了这样等待、无所事事的生活之后，才发现，这一年其实将很多回忆冰冻起来，被搁置在内心深处，而今，这些回忆都融化了，重现涌现在心头。</p>
+<p>我学着继续尽可能的忙起来，即使是无用功，但是，发现都是徒劳的。</p>
+<p>太多感受，太多歉意，太多回忆让我很难受。每天只能行尸走肉般去忍受自己<strong>作</strong>的结果。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在过去的将近一年中，我本以为，每天上班下班加班，下班看书、跑步、学习、敲代码，就可以忘记你。至少在我没回家的时候，我是这么觉得的。直到，我厌倦了这样等待、无所事事的生活之后，才发现，这一年其实将很多回忆冰冻起来，被搁置在内心深处，而今，这些回忆都融化了，重现涌现在心头。&lt;/
+    
+    </summary>
+    
+      <category term="个人日记" scheme="http://blog.pikbug.me/categories/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="个人日记" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="生活" scheme="http://blog.pikbug.me/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>How-to-Win-Friends-and-Influence-People</title>
@@ -1513,7 +1540,7 @@
     <link href="http://blog.pikbug.me/2017/04/06/web-logs/"/>
     <id>http://blog.pikbug.me/2017/04/06/web-logs/</id>
     <published>2017-04-06T03:57:42.000Z</published>
-    <updated>2017-08-12T16:12:59.000Z</updated>
+    <updated>2017-08-12T17:33:58.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2016-11-21-更新内容："><a href="#2016-11-21-更新内容：" class="headerlink" title="2016-11-21 更新内容："></a>2016-11-21 更新内容：<a id="more"></a></h1><h2 id="完成主要的框架工作"><a href="#完成主要的框架工作" class="headerlink" title="完成主要的框架工作"></a>完成主要的框架工作</h2><blockquote>
 <ul>
