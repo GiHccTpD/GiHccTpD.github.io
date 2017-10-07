@@ -320,7 +320,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-06/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-01/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -345,8 +345,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/15/JavaScript-Algorithm-06/" itemprop="url">
-                  JavaScript算法试题系列-06
+                <a class="post-title-link" href="/2017/06/15/JavaScript-Algorithm-01/" itemprop="url">
+                  JavaScript算法试题系列-01
                 </a>
               
             
@@ -360,7 +360,7 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-15T17:03:01+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-15T00:09:38+08:00">
                 2017-06-15
               </time>
             
@@ -374,7 +374,7 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-15T17:04:45+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-15T00:14:33+08:00">
                 2017-06-15
               </time>
             
@@ -415,8 +415,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/06/15/JavaScript-Algorithm-06/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/15/JavaScript-Algorithm-06/" itemprop="commentCount"></span>
+                <a href="/2017/06/15/JavaScript-Algorithm-01/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/15/JavaScript-Algorithm-01/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -431,14 +431,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 111 </span>
+              <span> 169 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/06/15/JavaScript-Algorithm-06/" class="leancloud_visitors" data-flag-title="JavaScript算法试题系列-06">
+             <span id="/2017/06/15/JavaScript-Algorithm-01/" class="leancloud_visitors" data-flag-title="JavaScript算法试题系列-01">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -466,9 +466,9 @@
         
           
             <p>题目要求：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 栈与队列使用两个栈实现入队与出队var inputStack = []; // First stack</span></div><div class="line"><span class="keyword">var</span> outputStack = []; <span class="comment">// Second stack</span></div><div class="line"></div><div class="line"><span class="comment">// For enqueue, just push the item into the first stack</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">enqueue</span>(<span class="params">stackInput, item</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> stackInput.push(item);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> firstArray = [<span class="number">2</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">1</span>];</div><div class="line"><span class="keyword">var</span> secondArray = [<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">2</span>];</div><div class="line"><span class="keyword">var</span> thirdArray = [<span class="number">-2</span>, <span class="number">-2</span>, <span class="number">-3</span>, <span class="number">2</span>];</div><div class="line"></div><div class="line">productExceptSelf(firstArray); <span class="comment">// [8, 8, 4, 16]</span></div><div class="line">productExceptSelf(secondArray); <span class="comment">// [0, 0, 0, 0]</span></div><div class="line">productExceptSelf(thirdArray); <span class="comment">// [12, 12, 8, -12]</span></div></pre></td></tr></table></figure>
 <p>解答：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">dequeue</span>(<span class="params">stackInput, stackOutput</span>) </span>&#123;</div><div class="line">  <span class="comment">// Reverse the stack such that the first element of the output stack is the</span></div><div class="line">  <span class="comment">// last element of the input stack. After that, pop the top of the output to</span></div><div class="line">  <span class="comment">// get the first element that was ever pushed into the input stack</span></div><div class="line">  <span class="keyword">if</span> (stackOutput.length &lt;= <span class="number">0</span>) &#123;</div><div class="line">    <span class="keyword">while</span>(stackInput.length &gt; <span class="number">0</span>) &#123;</div><div class="line">      <span class="keyword">var</span> elementToOutput = stackInput.pop();</div><div class="line">      stackOutput.push(elementToOutput);</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="keyword">return</span> stackOutput.pop();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">productExceptSelf</span>(<span class="params">numArray</span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> product = <span class="number">1</span>;</div><div class="line">  <span class="keyword">var</span> size = numArray.length;</div><div class="line">  <span class="keyword">var</span> output = [];</div><div class="line"></div><div class="line">  <span class="comment">// From first array: [1, 2, 4, 16]</span></div><div class="line">  <span class="comment">// The last number in this case is already in the right spot (allows for us)</span></div><div class="line">  <span class="comment">// to just multiply by 1 in the next step.</span></div><div class="line">  <span class="comment">// This step essentially gets the product to the left of the index at index + 1</span></div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> x = <span class="number">0</span>; x &lt; size; x++) &#123;</div><div class="line">      output.push(product);</div><div class="line">      product = product * numArray[x];</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">// From the back, we multiply the current output element (which represents the product</span></div><div class="line">  <span class="comment">// on the left of the index, and multiplies it by the product on the right of the element)</span></div><div class="line">  <span class="keyword">var</span> product = <span class="number">1</span>;</div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = size - <span class="number">1</span>; i &gt; <span class="number">-1</span>; i--) &#123;</div><div class="line">      output[i] = output[i] * product;</div><div class="line">      product = product * numArray[i];</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="keyword">return</span> output;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 
           
         
@@ -507,7 +507,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-05/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/06/closure/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -532,8 +532,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/15/JavaScript-Algorithm-05/" itemprop="url">
-                  JavaScript算法试题系列-05
+                <a class="post-title-link" href="/2017/06/06/closure/" itemprop="url">
+                  闭包
                 </a>
               
             
@@ -547,8 +547,8 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-15T17:00:14+08:00">
-                2017-06-15
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-06T15:31:02+08:00">
+                2017-06-06
               </time>
             
 
@@ -561,8 +561,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-15T17:02:43+08:00">
-                2017-06-15
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-06T19:43:12+08:00">
+                2017-06-06
               </time>
             
           </span>
@@ -602,8 +602,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/06/15/JavaScript-Algorithm-05/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/15/JavaScript-Algorithm-05/" itemprop="commentCount"></span>
+                <a href="/2017/06/06/closure/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/06/closure/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -618,14 +618,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 82 </span>
+              <span> 874 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/06/15/JavaScript-Algorithm-05/" class="leancloud_visitors" data-flag-title="JavaScript算法试题系列-05">
+             <span id="/2017/06/06/closure/" class="leancloud_visitors" data-flag-title="闭包">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -651,13 +651,16 @@
 
       
         
-          
-            <p>题目要求：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 会问字符串判断某个字符串是否为回文字符串，譬如racecar与race car都是回文字符串：isPalindrome("racecar"); // true</span></div><div class="line">isPalindrome(<span class="string">"race Car"</span>); <span class="comment">// true</span></div></pre></td></tr></table></figure>
-<p>解答：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isPalindrome</span>(<span class="params">word</span>) </span>&#123;</div><div class="line">  <span class="comment">// Replace all non-letter chars with "" and change to lowercase</span></div><div class="line">  <span class="keyword">var</span> lettersOnly = word.toLowerCase().replace(<span class="regexp">/\s/g</span>, <span class="string">""</span>);</div><div class="line"></div><div class="line">  <span class="comment">// Compare the string with the reversed version of the string</span></div><div class="line">  <span class="keyword">return</span> lettersOnly === lettersOnly.split(<span class="string">""</span>).reverse().join(<span class="string">""</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-          
+          <p>[TOC]</p>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><blockquote>
+<p><em>闭包</em> 是指有权访问另一个函数作用域中的变量的函数。</p></blockquote>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/06/06/closure/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -694,7 +697,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-04/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/05/the-number-of-cpu/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -719,8 +722,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/15/JavaScript-Algorithm-04/" itemprop="url">
-                  JavaScript算法试题系列-04
+                <a class="post-title-link" href="/2017/06/05/the-number-of-cpu/" itemprop="url">
+                  查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数
                 </a>
               
             
@@ -734,8 +737,8 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-15T16:58:32+08:00">
-                2017-06-15
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-05T16:25:14+08:00">
+                2017-06-05
               </time>
             
 
@@ -748,8 +751,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-15T17:04:53+08:00">
-                2017-06-15
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-22T19:31:24+08:00">
+                2017-06-22
               </time>
             
           </span>
@@ -774,8 +777,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/JavaScript/" itemprop="url" rel="index">
-                    <span itemprop="name">JavaScript</span>
+                  <a href="/categories/学习笔记/Linux-macOS/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux|macOS</span>
                   </a>
                 </span>
 
@@ -789,8 +792,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/06/15/JavaScript-Algorithm-04/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/15/JavaScript-Algorithm-04/" itemprop="commentCount"></span>
+                <a href="/2017/06/05/the-number-of-cpu/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/the-number-of-cpu/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -805,14 +808,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 108 </span>
+              <span> 83 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/06/15/JavaScript-Algorithm-04/" class="leancloud_visitors" data-flag-title="JavaScript算法试题系列-04">
+             <span id="/2017/06/05/the-number-of-cpu/" class="leancloud_visitors" data-flag-title="查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -838,13 +841,15 @@
 
       
         
-          
-            <p>题目要求：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 乱序同字母字符串给定两个字符串，判断是否颠倒字母而成的字符串，譬如Mary与Army就是同字母而顺序颠倒：var firstWord = "Mary";</span></div><div class="line"><span class="keyword">var</span> secondWord = <span class="string">"Army"</span>;</div><div class="line"></div><div class="line">isAnagram(firstWord, secondWord); <span class="comment">// true</span></div></pre></td></tr></table></figure>
-<p>解答：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isAnagram</span>(<span class="params">first, second</span>) </span>&#123;</div><div class="line">  <span class="comment">// For case insensitivity, change both words to lowercase.</span></div><div class="line">  <span class="keyword">var</span> a = first.toLowerCase();</div><div class="line">  <span class="keyword">var</span> b = second.toLowerCase();</div><div class="line"></div><div class="line">  <span class="comment">// Sort the strings, and join the resulting array to a string. Compare the results</span></div><div class="line">  a = a.split(<span class="string">""</span>).sort().join(<span class="string">""</span>);</div><div class="line">  b = b.split(<span class="string">""</span>).sort().join(<span class="string">""</span>);</div><div class="line"></div><div class="line">  <span class="keyword">return</span> a === b;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-          
+          <blockquote>
+<p>查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数🦀</p></blockquote>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/06/05/the-number-of-cpu/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -881,7 +886,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-03/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -906,8 +911,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/15/JavaScript-Algorithm-03/" itemprop="url">
-                  JavaScript算法试题系列-03
+                <a class="post-title-link" href="/2017/06/05/File-compression-and-packaging/" itemprop="url">
+                  文件的压缩与打包
                 </a>
               
             
@@ -921,8 +926,8 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-15T16:55:17+08:00">
-                2017-06-15
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-05T16:13:46+08:00">
+                2017-06-05
               </time>
             
 
@@ -935,8 +940,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-15T16:58:00+08:00">
-                2017-06-15
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-22T19:34:47+08:00">
+                2017-06-22
               </time>
             
           </span>
@@ -961,8 +966,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/JavaScript/" itemprop="url" rel="index">
-                    <span itemprop="name">JavaScript</span>
+                  <a href="/categories/学习笔记/Linux-macOS/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux|macOS</span>
                   </a>
                 </span>
 
@@ -976,8 +981,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/06/15/JavaScript-Algorithm-03/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/15/JavaScript-Algorithm-03/" itemprop="commentCount"></span>
+                <a href="/2017/06/05/File-compression-and-packaging/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/File-compression-and-packaging/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -992,14 +997,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 93 </span>
+              <span> 264 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/06/15/JavaScript-Algorithm-03/" class="leancloud_visitors" data-flag-title="JavaScript算法试题系列-03">
+             <span id="/2017/06/05/File-compression-and-packaging/" class="leancloud_visitors" data-flag-title="文件的压缩与打包">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1025,13 +1030,14 @@
 
       
         
-          
-            <p>题目要求：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 字符串颠倒字符串给定某个字符串，要求将其中单词倒转之后然后输出，譬如"Welcome to this Javascript Guide!" 应该输出为 "emocleW ot siht tpircsavaJ !ediuG"。var string = "Welcome to this Javascript Guide!";</span></div><div class="line"></div><div class="line"><span class="comment">// Output becomes !ediuG tpircsavaJ siht ot emocleW</span></div><div class="line"><span class="keyword">var</span> reverseEntireSentence = reverseBySeparator(string, <span class="string">""</span>);</div><div class="line"></div><div class="line"><span class="comment">// Output becomes emocleW ot siht tpircsavaJ !ediuG</span></div><div class="line"><span class="keyword">var</span> reverseEachWord = reverseBySeparator(reverseEntireSentence, <span class="string">" "</span>);</div></pre></td></tr></table></figure>
-<p>解答：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">reverseBySeparator</span>(<span class="params">string, separator</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> string.split(separator).reverse().join(separator);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-          
+          <p>该篇文章主要学习和总结了Linux文件的打包与压缩🤡</p>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/06/05/File-compression-and-packaging/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1068,7 +1074,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-02/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/05/centos-file-system/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -1093,8 +1099,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/15/JavaScript-Algorithm-02/" itemprop="url">
-                  JavaScript算法试题系列-02
+                <a class="post-title-link" href="/2017/06/05/centos-file-system/" itemprop="url">
+                  Centos文件系统
                 </a>
               
             
@@ -1108,8 +1114,8 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-15T00:14:05+08:00">
-                2017-06-15
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-05T15:48:50+08:00">
+                2017-06-05
               </time>
             
 
@@ -1122,8 +1128,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-15T00:16:59+08:00">
-                2017-06-15
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-22T19:34:55+08:00">
+                2017-06-22
               </time>
             
           </span>
@@ -1148,8 +1154,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/JavaScript/" itemprop="url" rel="index">
-                    <span itemprop="name">JavaScript</span>
+                  <a href="/categories/学习笔记/Linux-macOS/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux|macOS</span>
                   </a>
                 </span>
 
@@ -1163,8 +1169,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/06/15/JavaScript-Algorithm-02/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/15/JavaScript-Algorithm-02/" itemprop="commentCount"></span>
+                <a href="/2017/06/05/centos-file-system/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/centos-file-system/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1179,14 +1185,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 172 </span>
+              <span> 1,001 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/06/15/JavaScript-Algorithm-02/" class="leancloud_visitors" data-flag-title="JavaScript算法试题系列-02">
+             <span id="/2017/06/05/centos-file-system/" class="leancloud_visitors" data-flag-title="Centos文件系统">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1212,13 +1218,15 @@
 
       
         
-          
-            <p>题目要求：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 数组交集给定两个数组，要求求出两个数组的交集，注意，交集中的元素应该是唯一的。var firstArray = [2, 2, 4, 1];</span></div><div class="line"><span class="keyword">var</span> secondArray = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">0</span>, <span class="number">2</span>];</div><div class="line"></div><div class="line">intersection(firstArray, secondArray); <span class="comment">// [2, 1]</span></div></pre></td></tr></table></figure>
-<p>解答：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">intersection</span>(<span class="params">firstArray, secondArray</span>) </span>&#123;</div><div class="line">  <span class="comment">// The logic here is to create a hashmap with the elements of the firstArray as the keys.</span></div><div class="line">  <span class="comment">// After that, you can use the hashmap's O(1) look up time to check if the element exists in the hash</span></div><div class="line">  <span class="comment">// If it does exist, add that element to the new array.</span></div><div class="line"></div><div class="line">  <span class="keyword">var</span> hashmap = &#123;&#125;;</div><div class="line">  <span class="keyword">var</span> intersectionArray = [];</div><div class="line"></div><div class="line">  firstArray.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">element</span>) </span>&#123;</div><div class="line">    hashmap[element] = <span class="number">1</span>;</div><div class="line">  &#125;);</div><div class="line"></div><div class="line">  <span class="comment">// Since we only want to push unique elements in our case... we can implement a counter to keep track of what we already added</span></div><div class="line">  secondArray.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">element</span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span> (hashmap[element] === <span class="number">1</span>) &#123;</div><div class="line">      intersectionArray.push(element);</div><div class="line">      hashmap[element]++;</div><div class="line">    &#125;</div><div class="line">  &#125;);</div><div class="line"></div><div class="line">  <span class="keyword">return</span> intersectionArray;</div><div class="line"></div><div class="line">  <span class="comment">// Time complexity O(n), Space complexity O(n)</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-          
+          <blockquote>
+<p>该篇文章为学习 <code>Centos</code> 操作命令的记录👾</p></blockquote>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/06/05/centos-file-system/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1250,7 +1258,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1291,7 +1299,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">36</span>
+              <span class="site-state-item-count">31</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>

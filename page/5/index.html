@@ -320,7 +320,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-01/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/05/28/learn-git-04/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -345,8 +345,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/15/JavaScript-Algorithm-01/" itemprop="url">
-                  JavaScript算法试题系列-01
+                <a class="post-title-link" href="/2017/05/28/learn-git-04/" itemprop="url">
+                  git学习笔记✔️04
                 </a>
               
             
@@ -360,8 +360,8 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-15T00:09:38+08:00">
-                2017-06-15
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-28T19:51:28+08:00">
+                2017-05-28
               </time>
             
 
@@ -374,8 +374,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-15T00:14:33+08:00">
-                2017-06-15
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-05T21:04:41+08:00">
+                2017-06-05
               </time>
             
           </span>
@@ -400,8 +400,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/JavaScript/" itemprop="url" rel="index">
-                    <span itemprop="name">JavaScript</span>
+                  <a href="/categories/学习笔记/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
                   </a>
                 </span>
 
@@ -415,8 +415,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/06/15/JavaScript-Algorithm-01/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/15/JavaScript-Algorithm-01/" itemprop="commentCount"></span>
+                <a href="/2017/05/28/learn-git-04/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/28/learn-git-04/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -431,201 +431,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 169 </span>
+              <span> 191 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/06/15/JavaScript-Algorithm-01/" class="leancloud_visitors" data-flag-title="JavaScript算法试题系列-01">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text"> 阅读 </span>
-               <span class="leancloud-visitors-count"></span>
-               <span class="post-meta-item-text">次 </span>
-              </span>
-          
-
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>题目要求：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> firstArray = [<span class="number">2</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">1</span>];</div><div class="line"><span class="keyword">var</span> secondArray = [<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">2</span>];</div><div class="line"><span class="keyword">var</span> thirdArray = [<span class="number">-2</span>, <span class="number">-2</span>, <span class="number">-3</span>, <span class="number">2</span>];</div><div class="line"></div><div class="line">productExceptSelf(firstArray); <span class="comment">// [8, 8, 4, 16]</span></div><div class="line">productExceptSelf(secondArray); <span class="comment">// [0, 0, 0, 0]</span></div><div class="line">productExceptSelf(thirdArray); <span class="comment">// [12, 12, 8, -12]</span></div></pre></td></tr></table></figure>
-<p>解答：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">productExceptSelf</span>(<span class="params">numArray</span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> product = <span class="number">1</span>;</div><div class="line">  <span class="keyword">var</span> size = numArray.length;</div><div class="line">  <span class="keyword">var</span> output = [];</div><div class="line"></div><div class="line">  <span class="comment">// From first array: [1, 2, 4, 16]</span></div><div class="line">  <span class="comment">// The last number in this case is already in the right spot (allows for us)</span></div><div class="line">  <span class="comment">// to just multiply by 1 in the next step.</span></div><div class="line">  <span class="comment">// This step essentially gets the product to the left of the index at index + 1</span></div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> x = <span class="number">0</span>; x &lt; size; x++) &#123;</div><div class="line">      output.push(product);</div><div class="line">      product = product * numArray[x];</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">// From the back, we multiply the current output element (which represents the product</span></div><div class="line">  <span class="comment">// on the left of the index, and multiplies it by the product on the right of the element)</span></div><div class="line">  <span class="keyword">var</span> product = <span class="number">1</span>;</div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = size - <span class="number">1</span>; i &gt; <span class="number">-1</span>; i--) &#123;</div><div class="line">      output[i] = output[i] * product;</div><div class="line">      product = product * numArray[i];</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="keyword">return</span> output;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/06/closure/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="MiG">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/uploads/avatar.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="加州提子面包">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="加州提子面包" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/06/closure/" itemprop="url">
-                  闭包
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o" ></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-06T15:31:02+08:00">
-                2017-06-06
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-06T19:43:12+08:00">
-                2017-06-06
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">学习笔记</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/JavaScript/" itemprop="url" rel="index">
-                    <span itemprop="name">JavaScript</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/2017/06/06/closure/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/06/closure/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-            <span class="post-letters-count">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-              <span class="post-meta-item-text">共 </span>
-              <span> 874 </span>
-              <span class="post-meta-item-text">字 </span>
-            </span>
-          
-
-          
-          
-             <span id="/2017/06/06/closure/" class="leancloud_visitors" data-flag-title="闭包">
+             <span id="/2017/05/28/learn-git-04/" class="leancloud_visitors" data-flag-title="git学习笔记✔️04">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -652,11 +465,10 @@
       
         
           <p>[TOC]</p>
-<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><blockquote>
-<p><em>闭包</em> 是指有权访问另一个函数作用域中的变量的函数。</p></blockquote>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰的官方网站的Git教程</a> 的学习笔记</p>
           <!--noindex-->
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/06/closure/#more" rel="contents">
+            <a class="btn" href="/2017/05/28/learn-git-04/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -697,7 +509,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/05/the-number-of-cpu/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/04/24/Remember/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -722,8 +534,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/05/the-number-of-cpu/" itemprop="url">
-                  查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数
+                <a class="post-title-link" href="/2017/04/24/Remember/" itemprop="url">
+                  再买二手手机我就是煞笔！
                 </a>
               
             
@@ -737,8 +549,8 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-05T16:25:14+08:00">
-                2017-06-05
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-24T22:35:26+08:00">
+                2017-04-24
               </time>
             
 
@@ -751,8 +563,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-22T19:31:24+08:00">
-                2017-06-22
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-05T19:00:41+08:00">
+                2017-06-05
               </time>
             
           </span>
@@ -766,19 +578,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">学习笔记</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/Linux-macOS/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux|macOS</span>
+                  <a href="/categories/个人日记/" itemprop="url" rel="index">
+                    <span itemprop="name">个人日记</span>
                   </a>
                 </span>
 
@@ -792,8 +593,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/06/05/the-number-of-cpu/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/the-number-of-cpu/" itemprop="commentCount"></span>
+                <a href="/2017/04/24/Remember/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/24/Remember/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -808,14 +609,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 83 </span>
+              <span> 11 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/06/05/the-number-of-cpu/" class="leancloud_visitors" data-flag-title="查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数">
+             <span id="/2017/04/24/Remember/" class="leancloud_visitors" data-flag-title="再买二手手机我就是煞笔！">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -841,11 +642,10 @@
 
       
         
-          <blockquote>
-<p>查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数🦀</p></blockquote>
+          <h1 id="再买二手手机我就是煞笔！"><a href="#再买二手手机我就是煞笔！" class="headerlink" title="再买二手手机我就是煞笔！"></a>再买二手手机我就是煞笔！</h1>
           <!--noindex-->
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/05/the-number-of-cpu/#more" rel="contents">
+            <a class="btn" href="/2017/04/24/Remember/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -886,7 +686,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/04/13/learn-git-03/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -911,8 +711,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/05/File-compression-and-packaging/" itemprop="url">
-                  文件的压缩与打包
+                <a class="post-title-link" href="/2017/04/13/learn-git-03/" itemprop="url">
+                  git学习笔记✔️03
                 </a>
               
             
@@ -926,8 +726,8 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-05T16:13:46+08:00">
-                2017-06-05
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-13T17:07:33+08:00">
+                2017-04-13
               </time>
             
 
@@ -940,8 +740,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-22T19:34:47+08:00">
-                2017-06-22
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-05T21:04:48+08:00">
+                2017-06-05
               </time>
             
           </span>
@@ -966,8 +766,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/Linux-macOS/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux|macOS</span>
+                  <a href="/categories/学习笔记/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
                   </a>
                 </span>
 
@@ -981,8 +781,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/06/05/File-compression-and-packaging/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/File-compression-and-packaging/" itemprop="commentCount"></span>
+                <a href="/2017/04/13/learn-git-03/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/13/learn-git-03/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -997,14 +797,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 264 </span>
+              <span> 961 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/06/05/File-compression-and-packaging/" class="leancloud_visitors" data-flag-title="文件的压缩与打包">
+             <span id="/2017/04/13/learn-git-03/" class="leancloud_visitors" data-flag-title="git学习笔记✔️03">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1030,10 +830,12 @@
 
       
         
-          <p>该篇文章主要学习和总结了Linux文件的打包与压缩🤡</p>
+          <p>[TOC]</p>
+<blockquote>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰的官方网站的Git教程</a> 的学习笔记</p></blockquote>
           <!--noindex-->
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/05/File-compression-and-packaging/#more" rel="contents">
+            <a class="btn" href="/2017/04/13/learn-git-03/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1074,7 +876,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/06/05/centos-file-system/">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/04/13/learn-git-02/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="MiG">
@@ -1099,8 +901,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/05/centos-file-system/" itemprop="url">
-                  Centos文件系统
+                <a class="post-title-link" href="/2017/04/13/learn-git-02/" itemprop="url">
+                  git学习笔记✔️02
                 </a>
               
             
@@ -1114,8 +916,8 @@
                 <i class="fa fa-calendar-o" ></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-05T15:48:50+08:00">
-                2017-06-05
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-13T11:25:49+08:00">
+                2017-04-13
               </time>
             
 
@@ -1128,8 +930,8 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2017-06-22T19:34:55+08:00">
-                2017-06-22
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-05T21:04:53+08:00">
+                2017-06-05
               </time>
             
           </span>
@@ -1154,8 +956,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习笔记/Linux-macOS/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux|macOS</span>
+                  <a href="/categories/学习笔记/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
                   </a>
                 </span>
 
@@ -1169,8 +971,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/06/05/centos-file-system/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/centos-file-system/" itemprop="commentCount"></span>
+                <a href="/2017/04/13/learn-git-02/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/13/learn-git-02/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1185,14 +987,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
               <span class="post-meta-item-text">共 </span>
-              <span> 1,001 </span>
+              <span> 298 </span>
               <span class="post-meta-item-text">字 </span>
             </span>
           
 
           
           
-             <span id="/2017/06/05/centos-file-system/" class="leancloud_visitors" data-flag-title="Centos文件系统">
+             <span id="/2017/04/13/learn-git-02/" class="leancloud_visitors" data-flag-title="git学习笔记✔️02">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1218,11 +1020,202 @@
 
       
         
-          <blockquote>
-<p>该篇文章为学习 <code>Centos</code> 操作命令的记录👾</p></blockquote>
+          <p>[TOC]</p>
+<blockquote>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰的官方网站的Git教程</a> 的学习笔记</p></blockquote>
           <!--noindex-->
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/05/centos-file-system/#more" rel="contents">
+            <a class="btn" href="/2017/04/13/learn-git-02/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://blog.pikbug.me/2017/04/12/learn-git/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="MiG">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/uploads/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="加州提子面包">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="加州提子面包" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/12/learn-git/" itemprop="url">
+                  git学习笔记✔️01
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o" ></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-12T10:20:10+08:00">
+                2017-04-12
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              <span class="post-meta-item-text">更新于</span>
+              <time title="更新于" itemprop="dateModified" datetime="2017-06-05T21:04:30+08:00">
+                2017-06-05
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/学习笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">学习笔记</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/学习笔记/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <a href="/2017/04/12/learn-git/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/12/learn-git/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+            <span class="post-letters-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              <span class="post-meta-item-text">共 </span>
+              <span> 1,604 </span>
+              <span class="post-meta-item-text">字 </span>
+            </span>
+          
+
+          
+          
+             <span id="/2017/04/12/learn-git/" class="leancloud_visitors" data-flag-title="git学习笔记✔️01">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text"> 阅读 </span>
+               <span class="leancloud-visitors-count"></span>
+               <span class="post-meta-item-text">次 </span>
+              </span>
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>[TOC]</p>
+<blockquote>
+<p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰的官方网站的Git教程</a> 的学习笔记</p></blockquote>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/04/12/learn-git/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1258,7 +1251,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1299,7 +1292,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">36</span>
+              <span class="site-state-item-count">31</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>

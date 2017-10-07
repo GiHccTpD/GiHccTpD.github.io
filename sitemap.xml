@@ -2,30 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.pikbug.me/2017/10/05/2017-10-05/</loc>
-    
-    <lastmod>2017-10-04T21:39:35.493Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.pikbug.me/2017/09/28/redis-key/</loc>
     
     <lastmod>2017-09-28T01:13:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/08/28/2017-08-28/</loc>
-    
-    <lastmod>2017-08-27T17:43:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/08/13/2017-08-13/</loc>
-    
-    <lastmod>2017-08-13T12:05:36.000Z</lastmod>
     
   </url>
   
@@ -47,20 +26,6 @@
     <loc>http://blog.pikbug.me/2017/06/27/MySQL-kill-deadlock/</loc>
     
     <lastmod>2017-06-27T16:03:25.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/06/26/2017-06-26/</loc>
-    
-    <lastmod>2017-06-26T16:27:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.pikbug.me/2017/06/24/2017-06-24/</loc>
-    
-    <lastmod>2017-06-26T15:44:54.000Z</lastmod>
     
   </url>
   
