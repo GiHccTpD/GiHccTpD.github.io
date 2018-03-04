@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.pikbug.me/"/>
+  <link href="https://gihcctpd.github.io/"/>
   <updated>2017-10-07T15:59:58.406Z</updated>
-  <id>http://blog.pikbug.me/</id>
+  <id>https://gihcctpd.github.io/</id>
   
   <author>
     <name>MiG</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>redis-key命名规则</title>
-    <link href="http://blog.pikbug.me/2017/09/28/redis-key/"/>
-    <id>http://blog.pikbug.me/2017/09/28/redis-key/</id>
+    <link href="https://gihcctpd.github.io/2017/09/28/redis-key/"/>
+    <id>https://gihcctpd.github.io/2017/09/28/redis-key/</id>
     <published>2017-09-28T01:11:05.000Z</published>
     <updated>2017-10-07T15:59:58.406Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>How-to-Win-Friends-and-Influence-People</title>
-    <link href="http://blog.pikbug.me/2017/06/28/How-to-Win-Friends-and-Influence-People/"/>
-    <id>http://blog.pikbug.me/2017/06/28/How-to-Win-Friends-and-Influence-People/</id>
+    <link href="https://gihcctpd.github.io/2017/06/28/How-to-Win-Friends-and-Influence-People/"/>
+    <id>https://gihcctpd.github.io/2017/06/28/How-to-Win-Friends-and-Influence-People/</id>
     <published>2017-06-28T15:49:00.000Z</published>
     <updated>2017-06-28T15:52:33.000Z</updated>
     
@@ -64,21 +64,21 @@
     
     </summary>
     
-      <category term="阅读吧！" scheme="http://blog.pikbug.me/categories/%E9%98%85%E8%AF%BB%E5%90%A7%EF%BC%81/"/>
+      <category term="阅读吧！" scheme="https://gihcctpd.github.io/categories/%E9%98%85%E8%AF%BB%E5%90%A7%EF%BC%81/"/>
     
-      <category term="书摘" scheme="http://blog.pikbug.me/categories/%E9%98%85%E8%AF%BB%E5%90%A7%EF%BC%81/%E4%B9%A6%E6%91%98/"/>
+      <category term="书摘" scheme="https://gihcctpd.github.io/categories/%E9%98%85%E8%AF%BB%E5%90%A7%EF%BC%81/%E4%B9%A6%E6%91%98/"/>
     
     
-      <category term="书摘" scheme="http://blog.pikbug.me/tags/%E4%B9%A6%E6%91%98/"/>
+      <category term="书摘" scheme="https://gihcctpd.github.io/tags/%E4%B9%A6%E6%91%98/"/>
     
-      <category term="读书" scheme="http://blog.pikbug.me/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="https://gihcctpd.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>MySQL-kill-deadlock</title>
-    <link href="http://blog.pikbug.me/2017/06/27/MySQL-kill-deadlock/"/>
-    <id>http://blog.pikbug.me/2017/06/27/MySQL-kill-deadlock/</id>
+    <link href="https://gihcctpd.github.io/2017/06/27/MySQL-kill-deadlock/"/>
+    <id>https://gihcctpd.github.io/2017/06/27/MySQL-kill-deadlock/</id>
     <published>2017-06-27T15:47:21.000Z</published>
     <updated>2017-06-27T16:03:25.000Z</updated>
     
@@ -91,27 +91,27 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="DataBase" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/DataBase/"/>
+      <category term="DataBase" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/DataBase/"/>
     
-      <category term="MySQL" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/DataBase/MySQL/"/>
+      <category term="MySQL" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/DataBase/MySQL/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="DataBase" scheme="http://blog.pikbug.me/tags/DataBase/"/>
+      <category term="DataBase" scheme="https://gihcctpd.github.io/tags/DataBase/"/>
     
-      <category term="MySQL" scheme="http://blog.pikbug.me/tags/MySQL/"/>
+      <category term="MySQL" scheme="https://gihcctpd.github.io/tags/MySQL/"/>
     
-      <category term="工作" scheme="http://blog.pikbug.me/tags/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="工作" scheme="https://gihcctpd.github.io/tags/%E5%B7%A5%E4%BD%9C/"/>
     
   </entry>
   
   <entry>
     <title>使用iTerm2在Mac上登录远程服务器</title>
-    <link href="http://blog.pikbug.me/2017/06/22/iterm2-macos-00/"/>
-    <id>http://blog.pikbug.me/2017/06/22/iterm2-macos-00/</id>
+    <link href="https://gihcctpd.github.io/2017/06/22/iterm2-macos-00/"/>
+    <id>https://gihcctpd.github.io/2017/06/22/iterm2-macos-00/</id>
     <published>2017-06-22T10:22:25.000Z</published>
     <updated>2017-06-22T11:34:41.000Z</updated>
     
@@ -149,25 +149,25 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Linux|macOS" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux-macOS/"/>
+      <category term="Linux|macOS" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux-macOS/"/>
     
     
-      <category term="Linux" scheme="http://blog.pikbug.me/tags/Linux/"/>
+      <category term="Linux" scheme="https://gihcctpd.github.io/tags/Linux/"/>
     
-      <category term="工作" scheme="http://blog.pikbug.me/tags/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="工作" scheme="https://gihcctpd.github.io/tags/%E5%B7%A5%E4%BD%9C/"/>
     
-      <category term="macOS" scheme="http://blog.pikbug.me/tags/macOS/"/>
+      <category term="macOS" scheme="https://gihcctpd.github.io/tags/macOS/"/>
     
-      <category term="iTerm2" scheme="http://blog.pikbug.me/tags/iTerm2/"/>
+      <category term="iTerm2" scheme="https://gihcctpd.github.io/tags/iTerm2/"/>
     
   </entry>
   
   <entry>
     <title>我眼中的pm2命令</title>
-    <link href="http://blog.pikbug.me/2017/06/15/pm2/"/>
-    <id>http://blog.pikbug.me/2017/06/15/pm2/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/pm2/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/pm2/</id>
     <published>2017-06-15T12:08:59.000Z</published>
     <updated>2017-06-20T06:42:39.000Z</updated>
     
@@ -237,27 +237,27 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
-      <category term="Node.js" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/Node-js/"/>
+      <category term="Node.js" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/Node-js/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="工作" scheme="http://blog.pikbug.me/tags/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="工作" scheme="https://gihcctpd.github.io/tags/%E5%B7%A5%E4%BD%9C/"/>
     
-      <category term="Node.js" scheme="http://blog.pikbug.me/tags/Node-js/"/>
+      <category term="Node.js" scheme="https://gihcctpd.github.io/tags/Node-js/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-10</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-10/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-10/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-10/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-10/</id>
     <published>2017-06-15T09:12:12.000Z</published>
     <updated>2017-06-15T09:13:20.000Z</updated>
     
@@ -274,23 +274,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-09</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-09/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-09/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-09/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-09/</id>
     <published>2017-06-15T09:10:45.000Z</published>
     <updated>2017-06-15T09:11:26.000Z</updated>
     
@@ -305,23 +305,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-08</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-08/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-08/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-08/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-08/</id>
     <published>2017-06-15T09:07:38.000Z</published>
     <updated>2017-06-15T09:08:54.000Z</updated>
     
@@ -338,23 +338,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-07</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-07/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-07/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-07/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-07/</id>
     <published>2017-06-15T09:05:59.000Z</published>
     <updated>2017-06-15T09:07:27.000Z</updated>
     
@@ -371,23 +371,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-06</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-06/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-06/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-06/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-06/</id>
     <published>2017-06-15T09:03:01.000Z</published>
     <updated>2017-06-15T09:04:45.000Z</updated>
     
@@ -404,23 +404,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-05</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-05/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-05/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-05/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-05/</id>
     <published>2017-06-15T09:00:14.000Z</published>
     <updated>2017-06-15T09:02:43.000Z</updated>
     
@@ -437,23 +437,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-04</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-04/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-04/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-04/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-04/</id>
     <published>2017-06-15T08:58:32.000Z</published>
     <updated>2017-06-15T09:04:53.000Z</updated>
     
@@ -470,23 +470,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-03</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-03/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-03/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-03/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-03/</id>
     <published>2017-06-15T08:55:17.000Z</published>
     <updated>2017-06-15T08:58:00.000Z</updated>
     
@@ -503,23 +503,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-02</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-02/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-02/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-02/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-02/</id>
     <published>2017-06-14T16:14:05.000Z</published>
     <updated>2017-06-14T16:16:59.000Z</updated>
     
@@ -536,23 +536,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript算法试题系列-01</title>
-    <link href="http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-01/"/>
-    <id>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-01/</id>
+    <link href="https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-01/"/>
+    <id>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-01/</id>
     <published>2017-06-14T16:09:38.000Z</published>
     <updated>2017-06-14T16:14:33.000Z</updated>
     
@@ -569,23 +569,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>闭包</title>
-    <link href="http://blog.pikbug.me/2017/06/06/closure/"/>
-    <id>http://blog.pikbug.me/2017/06/06/closure/</id>
+    <link href="https://gihcctpd.github.io/2017/06/06/closure/"/>
+    <id>https://gihcctpd.github.io/2017/06/06/closure/</id>
     <published>2017-06-06T07:31:02.000Z</published>
     <updated>2017-06-06T11:43:12.000Z</updated>
     
@@ -628,23 +628,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="JavaScript高级程序设计（第三版）" scheme="http://blog.pikbug.me/tags/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC%E4%B8%89%E7%89%88%EF%BC%89/"/>
+      <category term="JavaScript高级程序设计（第三版）" scheme="https://gihcctpd.github.io/tags/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC%E4%B8%89%E7%89%88%EF%BC%89/"/>
     
   </entry>
   
   <entry>
     <title>查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数</title>
-    <link href="http://blog.pikbug.me/2017/06/05/the-number-of-cpu/"/>
-    <id>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</id>
+    <link href="https://gihcctpd.github.io/2017/06/05/the-number-of-cpu/"/>
+    <id>https://gihcctpd.github.io/2017/06/05/the-number-of-cpu/</id>
     <published>2017-06-05T08:25:14.000Z</published>
     <updated>2017-06-22T11:31:24.000Z</updated>
     
@@ -661,23 +661,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Linux|macOS" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux-macOS/"/>
+      <category term="Linux|macOS" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux-macOS/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="Linux" scheme="http://blog.pikbug.me/tags/Linux/"/>
+      <category term="Linux" scheme="https://gihcctpd.github.io/tags/Linux/"/>
     
-      <category term="Centos" scheme="http://blog.pikbug.me/tags/Centos/"/>
+      <category term="Centos" scheme="https://gihcctpd.github.io/tags/Centos/"/>
     
   </entry>
   
   <entry>
     <title>文件的压缩与打包</title>
-    <link href="http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/"/>
-    <id>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</id>
+    <link href="https://gihcctpd.github.io/2017/06/05/File-compression-and-packaging/"/>
+    <id>https://gihcctpd.github.io/2017/06/05/File-compression-and-packaging/</id>
     <published>2017-06-05T08:13:46.000Z</published>
     <updated>2017-06-22T11:34:47.000Z</updated>
     
@@ -720,23 +720,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Linux|macOS" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux-macOS/"/>
+      <category term="Linux|macOS" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux-macOS/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="Linux" scheme="http://blog.pikbug.me/tags/Linux/"/>
+      <category term="Linux" scheme="https://gihcctpd.github.io/tags/Linux/"/>
     
-      <category term="Centos" scheme="http://blog.pikbug.me/tags/Centos/"/>
+      <category term="Centos" scheme="https://gihcctpd.github.io/tags/Centos/"/>
     
   </entry>
   
   <entry>
     <title>Centos文件系统</title>
-    <link href="http://blog.pikbug.me/2017/06/05/centos-file-system/"/>
-    <id>http://blog.pikbug.me/2017/06/05/centos-file-system/</id>
+    <link href="https://gihcctpd.github.io/2017/06/05/centos-file-system/"/>
+    <id>https://gihcctpd.github.io/2017/06/05/centos-file-system/</id>
     <published>2017-06-05T07:48:50.000Z</published>
     <updated>2017-06-22T11:34:55.000Z</updated>
     
@@ -829,23 +829,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Linux|macOS" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux-macOS/"/>
+      <category term="Linux|macOS" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux-macOS/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="Linux" scheme="http://blog.pikbug.me/tags/Linux/"/>
+      <category term="Linux" scheme="https://gihcctpd.github.io/tags/Linux/"/>
     
-      <category term="Centos" scheme="http://blog.pikbug.me/tags/Centos/"/>
+      <category term="Centos" scheme="https://gihcctpd.github.io/tags/Centos/"/>
     
   </entry>
   
   <entry>
     <title>git学习笔记✔️04</title>
-    <link href="http://blog.pikbug.me/2017/05/28/learn-git-04/"/>
-    <id>http://blog.pikbug.me/2017/05/28/learn-git-04/</id>
+    <link href="https://gihcctpd.github.io/2017/05/28/learn-git-04/"/>
+    <id>https://gihcctpd.github.io/2017/05/28/learn-git-04/</id>
     <published>2017-05-28T11:51:28.000Z</published>
     <updated>2017-06-05T13:04:41.000Z</updated>
     
@@ -881,21 +881,21 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Git" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git/"/>
+      <category term="Git" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="Git" scheme="http://blog.pikbug.me/tags/Git/"/>
+      <category term="Git" scheme="https://gihcctpd.github.io/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>再买二手手机我就是煞笔！</title>
-    <link href="http://blog.pikbug.me/2017/04/24/Remember/"/>
-    <id>http://blog.pikbug.me/2017/04/24/Remember/</id>
+    <link href="https://gihcctpd.github.io/2017/04/24/Remember/"/>
+    <id>https://gihcctpd.github.io/2017/04/24/Remember/</id>
     <published>2017-04-24T14:35:26.000Z</published>
     <updated>2017-06-05T11:00:41.000Z</updated>
     
@@ -907,17 +907,17 @@
     
     </summary>
     
-      <category term="个人日记" scheme="http://blog.pikbug.me/categories/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+      <category term="个人日记" scheme="https://gihcctpd.github.io/categories/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
     
     
-      <category term="生活" scheme="http://blog.pikbug.me/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://gihcctpd.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>git学习笔记✔️03</title>
-    <link href="http://blog.pikbug.me/2017/04/13/learn-git-03/"/>
-    <id>http://blog.pikbug.me/2017/04/13/learn-git-03/</id>
+    <link href="https://gihcctpd.github.io/2017/04/13/learn-git-03/"/>
+    <id>https://gihcctpd.github.io/2017/04/13/learn-git-03/</id>
     <published>2017-04-13T09:07:33.000Z</published>
     <updated>2017-06-05T13:04:48.000Z</updated>
     
@@ -987,21 +987,21 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Git" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git/"/>
+      <category term="Git" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="Git" scheme="http://blog.pikbug.me/tags/Git/"/>
+      <category term="Git" scheme="https://gihcctpd.github.io/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>git学习笔记✔️02</title>
-    <link href="http://blog.pikbug.me/2017/04/13/learn-git-02/"/>
-    <id>http://blog.pikbug.me/2017/04/13/learn-git-02/</id>
+    <link href="https://gihcctpd.github.io/2017/04/13/learn-git-02/"/>
+    <id>https://gihcctpd.github.io/2017/04/13/learn-git-02/</id>
     <published>2017-04-13T03:25:49.000Z</published>
     <updated>2017-06-05T13:04:53.000Z</updated>
     
@@ -1032,21 +1032,21 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Git" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git/"/>
+      <category term="Git" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="Git" scheme="http://blog.pikbug.me/tags/Git/"/>
+      <category term="Git" scheme="https://gihcctpd.github.io/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>git学习笔记✔️01</title>
-    <link href="http://blog.pikbug.me/2017/04/12/learn-git/"/>
-    <id>http://blog.pikbug.me/2017/04/12/learn-git/</id>
+    <link href="https://gihcctpd.github.io/2017/04/12/learn-git/"/>
+    <id>https://gihcctpd.github.io/2017/04/12/learn-git/</id>
     <published>2017-04-12T02:20:10.000Z</published>
     <updated>2017-06-05T13:04:30.000Z</updated>
     
@@ -1152,21 +1152,21 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Git" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git/"/>
+      <category term="Git" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="Git" scheme="http://blog.pikbug.me/tags/Git/"/>
+      <category term="Git" scheme="https://gihcctpd.github.io/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>十大经典排序算法</title>
-    <link href="http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/"/>
-    <id>http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/</id>
+    <link href="https://gihcctpd.github.io/2017/04/11/JS-Sorting-Algorithm/"/>
+    <id>https://gihcctpd.github.io/2017/04/11/JS-Sorting-Algorithm/</id>
     <published>2017-04-11T06:24:42.000Z</published>
     <updated>2017-06-05T13:05:13.000Z</updated>
     
@@ -1179,25 +1179,25 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="数据结构与算法" scheme="http://blog.pikbug.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构与算法" scheme="https://gihcctpd.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
-      <category term="排序" scheme="http://blog.pikbug.me/tags/%E6%8E%92%E5%BA%8F/"/>
+      <category term="排序" scheme="https://gihcctpd.github.io/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript创建对象的方式</title>
-    <link href="http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/"/>
-    <id>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</id>
+    <link href="https://gihcctpd.github.io/2017/04/09/JavaScript-ways-of-create-object/"/>
+    <id>https://gihcctpd.github.io/2017/04/09/JavaScript-ways-of-create-object/</id>
     <published>2017-04-08T16:41:56.000Z</published>
     <updated>2017-06-05T13:04:13.000Z</updated>
     
@@ -1331,23 +1331,23 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JavaScript/"/>
     
     
-      <category term="学习" scheme="http://blog.pikbug.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://gihcctpd.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="JavaScript" scheme="http://blog.pikbug.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://gihcctpd.github.io/tags/JavaScript/"/>
     
-      <category term="JavaScript高级程序设计（第三版）" scheme="http://blog.pikbug.me/tags/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC%E4%B8%89%E7%89%88%EF%BC%89/"/>
+      <category term="JavaScript高级程序设计（第三版）" scheme="https://gihcctpd.github.io/tags/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC%E4%B8%89%E7%89%88%EF%BC%89/"/>
     
   </entry>
   
   <entry>
     <title>Hexo个人博客搭建遇到的问题-01</title>
-    <link href="http://blog.pikbug.me/2017/04/06/Hexo-problems-01/"/>
-    <id>http://blog.pikbug.me/2017/04/06/Hexo-problems-01/</id>
+    <link href="https://gihcctpd.github.io/2017/04/06/Hexo-problems-01/"/>
+    <id>https://gihcctpd.github.io/2017/04/06/Hexo-problems-01/</id>
     <published>2017-04-06T09:49:34.000Z</published>
     <updated>2017-06-15T09:20:13.000Z</updated>
     
@@ -1383,19 +1383,19 @@
     
     </summary>
     
-      <category term="个人博客" scheme="http://blog.pikbug.me/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="个人博客" scheme="https://gihcctpd.github.io/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="个人博客" scheme="https://gihcctpd.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>博客更新日志</title>
-    <link href="http://blog.pikbug.me/2017/04/06/web-logs/"/>
-    <id>http://blog.pikbug.me/2017/04/06/web-logs/</id>
+    <link href="https://gihcctpd.github.io/2017/04/06/web-logs/"/>
+    <id>https://gihcctpd.github.io/2017/04/06/web-logs/</id>
     <published>2017-04-06T03:57:42.000Z</published>
-    <updated>2017-08-12T17:33:58.000Z</updated>
+    <updated>2018-03-03T16:32:03.961Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2016-11-21-更新内容："><a href="#2016-11-21-更新内容：" class="headerlink" title="2016-11-21 更新内容："></a>2016-11-21 更新内容：<a id="more"></a></h1><h2 id="完成主要的框架工作"><a href="#完成主要的框架工作" class="headerlink" title="完成主要的框架工作"></a>完成主要的框架工作</h2><blockquote>
 <ul>
@@ -1440,7 +1440,7 @@
 <li>再执行 <code>hexo g -d</code> 命令就可以生成静态博客并推送到GitHub了</li>
 </ol>
 </li>
-<li>增加 <strong>发布于</strong>、<strong>更新于</strong>等多个标签前的icon 详情请看 <a href="http://pikbug.me/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/" target="_blank" rel="external">这篇文章</a></li>
+<li>增加 <strong>发布于</strong>、<strong>更新于</strong>等多个标签前的icon 详情请看 <a href="https://gihcctpd.github.io/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/">这篇文章</a></li>
 </ul>
 </blockquote>
 <h1 id="2017-04-07-更新内容："><a href="#2017-04-07-更新内容：" class="headerlink" title="2017-04-07 更新内容："></a>2017-04-07 更新内容：</h1><h2 id="进一步完成主题配置-完善网页显示"><a href="#进一步完成主题配置-完善网页显示" class="headerlink" title="进一步完成主题配置 完善网页显示"></a>进一步完成主题配置 完善网页显示</h2><blockquote>
@@ -1480,19 +1480,19 @@
     
     </summary>
     
-      <category term="学习笔记" scheme="http://blog.pikbug.me/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://gihcctpd.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="个人博客" scheme="https://gihcctpd.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="web-logs" scheme="http://blog.pikbug.me/tags/web-logs/"/>
+      <category term="web-logs" scheme="https://gihcctpd.github.io/tags/web-logs/"/>
     
   </entry>
   
   <entry>
     <title>暗时间</title>
-    <link href="http://blog.pikbug.me/2016/11/21/anshijian/"/>
-    <id>http://blog.pikbug.me/2016/11/21/anshijian/</id>
+    <link href="https://gihcctpd.github.io/2016/11/21/anshijian/"/>
+    <id>https://gihcctpd.github.io/2016/11/21/anshijian/</id>
     <published>2016-11-21T10:39:08.000Z</published>
     <updated>2017-06-06T10:05:12.000Z</updated>
     
@@ -1514,23 +1514,23 @@
     
     </summary>
     
-      <category term="阅读吧！" scheme="http://blog.pikbug.me/categories/%E9%98%85%E8%AF%BB%E5%90%A7%EF%BC%81/"/>
+      <category term="阅读吧！" scheme="https://gihcctpd.github.io/categories/%E9%98%85%E8%AF%BB%E5%90%A7%EF%BC%81/"/>
     
-      <category term="书摘" scheme="http://blog.pikbug.me/categories/%E9%98%85%E8%AF%BB%E5%90%A7%EF%BC%81/%E4%B9%A6%E6%91%98/"/>
+      <category term="书摘" scheme="https://gihcctpd.github.io/categories/%E9%98%85%E8%AF%BB%E5%90%A7%EF%BC%81/%E4%B9%A6%E6%91%98/"/>
     
     
-      <category term="测试" scheme="http://blog.pikbug.me/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="https://gihcctpd.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="书摘" scheme="http://blog.pikbug.me/tags/%E4%B9%A6%E6%91%98/"/>
+      <category term="书摘" scheme="https://gihcctpd.github.io/tags/%E4%B9%A6%E6%91%98/"/>
     
-      <category term="读书" scheme="http://blog.pikbug.me/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="https://gihcctpd.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>第一篇日志</title>
-    <link href="http://blog.pikbug.me/2016/11/21/Hello-Blog/"/>
-    <id>http://blog.pikbug.me/2016/11/21/Hello-Blog/</id>
+    <link href="https://gihcctpd.github.io/2016/11/21/Hello-Blog/"/>
+    <id>https://gihcctpd.github.io/2016/11/21/Hello-Blog/</id>
     <published>2016-11-21T10:24:12.000Z</published>
     <updated>2017-06-14T16:30:45.000Z</updated>
     
@@ -1543,12 +1543,12 @@
     
     </summary>
     
-      <category term="个人博客" scheme="http://blog.pikbug.me/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="个人博客" scheme="https://gihcctpd.github.io/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="测试" scheme="http://blog.pikbug.me/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="https://gihcctpd.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="个人博客" scheme="http://blog.pikbug.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="个人博客" scheme="https://gihcctpd.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

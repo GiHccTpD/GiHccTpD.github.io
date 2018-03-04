@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[redis-key命名规则]]></title>
-      <url>http://blog.pikbug.me/2017/09/28/redis-key/</url>
+      <url>https://gihcctpd.github.io/2017/09/28/redis-key/</url>
       <content type="html"><![CDATA[<p>参考： </p>
 <p> <a href="http://blog.csdn.net/yxpjx/article/details/51232546" target="_blank" rel="external">redis-key的定义规则</a></p>
 <p>未完待续…<a id="more"></a></p>
@@ -16,7 +16,7 @@
     
     <entry>
       <title><![CDATA[How-to-Win-Friends-and-Influence-People]]></title>
-      <url>http://blog.pikbug.me/2017/06/28/How-to-Win-Friends-and-Influence-People/</url>
+      <url>https://gihcctpd.github.io/2017/06/28/How-to-Win-Friends-and-Influence-People/</url>
       <content type="html"><![CDATA[<h1 id="《人性的弱点》"><a href="#《人性的弱点》" class="headerlink" title="《人性的弱点》"></a>《人性的弱点》</h1><p><strong>卡耐基</strong></p>
 <h2 id="Chapter-1-如欲采蜜，勿蹴蜂房"><a href="#Chapter-1-如欲采蜜，勿蹴蜂房" class="headerlink" title="Chapter 1 如欲采蜜，勿蹴蜂房"></a>Chapter 1 如欲采蜜，勿蹴蜂房</h2><ul>
 <li>他最喜欢引用的一句格言是“只有你不议论别人，别人才不会议论你”。</li>
@@ -50,7 +50,7 @@
     
     <entry>
       <title><![CDATA[MySQL-kill-deadlock]]></title>
-      <url>http://blog.pikbug.me/2017/06/27/MySQL-kill-deadlock/</url>
+      <url>https://gihcctpd.github.io/2017/06/27/MySQL-kill-deadlock/</url>
       <content type="html"><![CDATA[<h1 id="MySQL数据库去除死锁以及显示进程id"><a href="#MySQL数据库去除死锁以及显示进程id" class="headerlink" title="MySQL数据库去除死锁以及显示进程id"></a>MySQL数据库去除死锁以及显示进程id</h1><p>kill id;<br>show processlist</p>
 ]]></content>
       
@@ -81,7 +81,7 @@
     
     <entry>
       <title><![CDATA[使用iTerm2在Mac上登录远程服务器]]></title>
-      <url>http://blog.pikbug.me/2017/06/22/iterm2-macos-00/</url>
+      <url>https://gihcctpd.github.io/2017/06/22/iterm2-macos-00/</url>
       <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文主要介绍我在工作中，如何通过脚本登录远程服务器的。<a id="more"></a></p>
 <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>iterm2的官网是：<a href="http://www.iterm2.com/" target="_blank" rel="external">http://www.iterm2.com/</a></p>
 <p>点击’Download’，下载安装即可。</p>
@@ -135,7 +135,7 @@
     
     <entry>
       <title><![CDATA[我眼中的pm2命令]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/pm2/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/pm2/</url>
       <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>PM2是node进程管理工具，可以利用它来简化很多node应用管理的繁琐任务，如性能监控、自动重启、负载均衡等，而且使用非常简单。<a id="more"></a></p>
 <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install pm2 -g</div></pre></td></tr></table></figure>
 <h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><h2 id="启动进程"><a href="#启动进程" class="headerlink" title="启动进程"></a>启动进程</h2><figure class="highlight accesslog"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pm2 start <span class="string">[app.js | www]</span> <span class="string">[-i 4]</span></div></pre></td></tr></table></figure>
@@ -223,7 +223,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-10]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-10/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-10/</url>
       <content type="html"><![CDATA[<p>问题描述：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 数字判断是否为 2 的指数值isPowerOfTwo(4); // true</span></div><div class="line">isPowerOfTwo(<span class="number">64</span>); <span class="comment">// true</span></div><div class="line">isPowerOfTwo(<span class="number">1</span>); <span class="comment">// true</span></div><div class="line">isPowerOfTwo(<span class="number">0</span>); <span class="comment">// false</span></div><div class="line">isPowerOfTwo(<span class="number">-1</span>); <span class="comment">// false</span></div></pre></td></tr></table></figure>
 <p>解答：</p>
@@ -253,7 +253,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-09]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-09/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-09/</url>
       <content type="html"><![CDATA[<p>二分法搜索：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 二分搜索function</span></div><div class="line"> recursiveBinarySearch(array, value, leftPosition, rightPosition) &#123;</div><div class="line">  <span class="comment">// Value DNE</span></div><div class="line">  <span class="keyword">if</span> (leftPosition &gt; rightPosition) <span class="keyword">return</span> <span class="number">-1</span>;</div><div class="line"></div><div class="line">  <span class="keyword">var</span> middlePivot = <span class="built_in">Math</span>.floor((leftPosition + rightPosition) / <span class="number">2</span>);</div><div class="line">  <span class="keyword">if</span> (array[middlePivot] === value) &#123;</div><div class="line">    <span class="keyword">return</span> middlePivot;</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (array[middlePivot] &gt; value) &#123;</div><div class="line">    <span class="keyword">return</span> recursiveBinarySearch(array, value, leftPosition, middlePivot - <span class="number">1</span>);</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="keyword">return</span> recursiveBinarySearch(array, value, middlePivot + <span class="number">1</span>, rightPosition);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 ]]></content>
@@ -281,7 +281,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-08]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-08/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-08/</url>
       <content type="html"><![CDATA[<p>问题描述:</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 递归二进制转换通过某个递归函数将输入的数字转化为二进制字符串：decimalToBinary(3); // 11</span></div><div class="line">decimalToBinary(<span class="number">8</span>); <span class="comment">// 1000</span></div><div class="line">decimalToBinary(<span class="number">1000</span>); <span class="comment">// 1111101000</span></div></pre></td></tr></table></figure>
 <p>解答：</p>
@@ -311,7 +311,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-07]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-07/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-07/</url>
       <content type="html"><![CDATA[<p>问题描述：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 判断大括号是否闭合创建一个函数来判断给定的表达式中的大括号是否闭合：</span></div><div class="line"><span class="keyword">var</span> expression = <span class="string">"&#123;&#123;&#125;&#125;&#123;&#125;&#123;&#125;"</span>;</div><div class="line"><span class="keyword">var</span> expressionFalse = <span class="string">"&#123;&#125;&#123;&#123;&#125;"</span>;</div><div class="line"></div><div class="line">isBalanced(expression); <span class="comment">// true</span></div><div class="line">isBalanced(expressionFalse); <span class="comment">// false</span></div><div class="line">isBalanced(<span class="string">""</span>); <span class="comment">// true</span></div></pre></td></tr></table></figure>
 <p>解答：</p>
@@ -341,7 +341,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-06]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-06/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-06/</url>
       <content type="html"><![CDATA[<p>题目要求：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 栈与队列使用两个栈实现入队与出队var inputStack = []; // First stack</span></div><div class="line"><span class="keyword">var</span> outputStack = []; <span class="comment">// Second stack</span></div><div class="line"></div><div class="line"><span class="comment">// For enqueue, just push the item into the first stack</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">enqueue</span>(<span class="params">stackInput, item</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> stackInput.push(item);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>解答：</p>
@@ -371,7 +371,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-05]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-05/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-05/</url>
       <content type="html"><![CDATA[<p>题目要求：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 会问字符串判断某个字符串是否为回文字符串，譬如racecar与race car都是回文字符串：isPalindrome("racecar"); // true</span></div><div class="line">isPalindrome(<span class="string">"race Car"</span>); <span class="comment">// true</span></div></pre></td></tr></table></figure>
 <p>解答：</p>
@@ -401,7 +401,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-04]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-04/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-04/</url>
       <content type="html"><![CDATA[<p>题目要求：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 乱序同字母字符串给定两个字符串，判断是否颠倒字母而成的字符串，譬如Mary与Army就是同字母而顺序颠倒：var firstWord = "Mary";</span></div><div class="line"><span class="keyword">var</span> secondWord = <span class="string">"Army"</span>;</div><div class="line"></div><div class="line">isAnagram(firstWord, secondWord); <span class="comment">// true</span></div></pre></td></tr></table></figure>
 <p>解答：</p>
@@ -431,7 +431,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-03]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-03/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-03/</url>
       <content type="html"><![CDATA[<p>题目要求：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 字符串颠倒字符串给定某个字符串，要求将其中单词倒转之后然后输出，譬如"Welcome to this Javascript Guide!" 应该输出为 "emocleW ot siht tpircsavaJ !ediuG"。var string = "Welcome to this Javascript Guide!";</span></div><div class="line"></div><div class="line"><span class="comment">// Output becomes !ediuG tpircsavaJ siht ot emocleW</span></div><div class="line"><span class="keyword">var</span> reverseEntireSentence = reverseBySeparator(string, <span class="string">""</span>);</div><div class="line"></div><div class="line"><span class="comment">// Output becomes emocleW ot siht tpircsavaJ !ediuG</span></div><div class="line"><span class="keyword">var</span> reverseEachWord = reverseBySeparator(reverseEntireSentence, <span class="string">" "</span>);</div></pre></td></tr></table></figure>
 <p>解答：</p>
@@ -461,7 +461,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-02]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-02/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-02/</url>
       <content type="html"><![CDATA[<p>题目要求：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 数组交集给定两个数组，要求求出两个数组的交集，注意，交集中的元素应该是唯一的。var firstArray = [2, 2, 4, 1];</span></div><div class="line"><span class="keyword">var</span> secondArray = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">0</span>, <span class="number">2</span>];</div><div class="line"></div><div class="line">intersection(firstArray, secondArray); <span class="comment">// [2, 1]</span></div></pre></td></tr></table></figure>
 <p>解答：</p>
@@ -491,7 +491,7 @@
     
     <entry>
       <title><![CDATA[JavaScript算法试题系列-01]]></title>
-      <url>http://blog.pikbug.me/2017/06/15/JavaScript-Algorithm-01/</url>
+      <url>https://gihcctpd.github.io/2017/06/15/JavaScript-Algorithm-01/</url>
       <content type="html"><![CDATA[<p>题目要求：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> firstArray = [<span class="number">2</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">1</span>];</div><div class="line"><span class="keyword">var</span> secondArray = [<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">2</span>];</div><div class="line"><span class="keyword">var</span> thirdArray = [<span class="number">-2</span>, <span class="number">-2</span>, <span class="number">-3</span>, <span class="number">2</span>];</div><div class="line"></div><div class="line">productExceptSelf(firstArray); <span class="comment">// [8, 8, 4, 16]</span></div><div class="line">productExceptSelf(secondArray); <span class="comment">// [0, 0, 0, 0]</span></div><div class="line">productExceptSelf(thirdArray); <span class="comment">// [12, 12, 8, -12]</span></div></pre></td></tr></table></figure>
 <p>解答：</p>
@@ -521,7 +521,7 @@
     
     <entry>
       <title><![CDATA[闭包]]></title>
-      <url>http://blog.pikbug.me/2017/06/06/closure/</url>
+      <url>https://gihcctpd.github.io/2017/06/06/closure/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
 <h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><blockquote>
 <p><em>闭包</em> 是指有权访问另一个函数作用域中的变量的函数。<a id="more"></a></p>
@@ -576,7 +576,7 @@
     
     <entry>
       <title><![CDATA[查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数]]></title>
-      <url>http://blog.pikbug.me/2017/06/05/the-number-of-cpu/</url>
+      <url>https://gihcctpd.github.io/2017/06/05/the-number-of-cpu/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>查看物理CPU个数 查看每个物理CPU中core的个数(即核数) 查看逻辑CPU的个数🦀<a id="more"></a></p>
 </blockquote>
@@ -606,7 +606,7 @@
     
     <entry>
       <title><![CDATA[文件的压缩与打包]]></title>
-      <url>http://blog.pikbug.me/2017/06/05/File-compression-and-packaging/</url>
+      <url>https://gihcctpd.github.io/2017/06/05/File-compression-and-packaging/</url>
       <content type="html"><![CDATA[<p>该篇文章主要学习和总结了Linux文件的打包与压缩🤡<a id="more"></a></p>
 <h2 id="压缩命令"><a href="#压缩命令" class="headerlink" title="压缩命令"></a>压缩命令</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="title">Compress</span><span class="params">(默认不安装)</span></span></div><div class="line"></div><div class="line">gzip zcat</div><div class="line"></div><div class="line">bzip bzcat</div></pre></td></tr></table></figure>
 <h2 id="打包"><a href="#打包" class="headerlink" title="打包"></a>打包</h2><ul>
@@ -663,7 +663,7 @@
     
     <entry>
       <title><![CDATA[Centos文件系统]]></title>
-      <url>http://blog.pikbug.me/2017/06/05/centos-file-system/</url>
+      <url>https://gihcctpd.github.io/2017/06/05/centos-file-system/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>该篇文章为学习 <code>Centos</code> 操作命令的记录👾<a id="more"></a></p>
 </blockquote>
@@ -769,7 +769,7 @@
     
     <entry>
       <title><![CDATA[git学习笔记✔️04]]></title>
-      <url>http://blog.pikbug.me/2017/05/28/learn-git-04/</url>
+      <url>https://gihcctpd.github.io/2017/05/28/learn-git-04/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
 <p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记 <a id="more"></a></p>
 <h1 id="『第十五节课』标签的创建"><a href="#『第十五节课』标签的创建" class="headerlink" title="『第十五节课』标签的创建"></a>『第十五节课』标签的创建</h1><p>演示操作：</p>
@@ -816,7 +816,7 @@
     
     <entry>
       <title><![CDATA[再买二手手机我就是煞笔！]]></title>
-      <url>http://blog.pikbug.me/2017/04/24/Remember/</url>
+      <url>https://gihcctpd.github.io/2017/04/24/Remember/</url>
       <content type="html"><![CDATA[<h1 id="再买二手手机我就是煞笔！"><a href="#再买二手手机我就是煞笔！" class="headerlink" title="再买二手手机我就是煞笔！"></a>再买二手手机我就是煞笔！<a id="more"></a></h1>]]></content>
       
         <categories>
@@ -836,7 +836,7 @@
     
     <entry>
       <title><![CDATA[git学习笔记✔️03]]></title>
-      <url>http://blog.pikbug.me/2017/04/13/learn-git-03/</url>
+      <url>https://gihcctpd.github.io/2017/04/13/learn-git-03/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
 <blockquote>
 <p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记 <a id="more"></a></p>
@@ -916,7 +916,7 @@
     
     <entry>
       <title><![CDATA[git学习笔记✔️02]]></title>
-      <url>http://blog.pikbug.me/2017/04/13/learn-git-02/</url>
+      <url>https://gihcctpd.github.io/2017/04/13/learn-git-02/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
 <blockquote>
 <p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记 <a id="more"></a></p>
@@ -957,7 +957,7 @@
     
     <entry>
       <title><![CDATA[git学习笔记✔️01]]></title>
-      <url>http://blog.pikbug.me/2017/04/12/learn-git/</url>
+      <url>https://gihcctpd.github.io/2017/04/12/learn-git/</url>
       <content type="html"><![CDATA[<p>[TOC]</p>
 <blockquote>
 <p><strong>注意：</strong> 本文是根据 <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站的Git教程</a> 的学习笔记<a id="more"></a></p>
@@ -1073,7 +1073,7 @@
     
     <entry>
       <title><![CDATA[十大经典排序算法]]></title>
-      <url>http://blog.pikbug.me/2017/04/11/JS-Sorting-Algorithm/</url>
+      <url>https://gihcctpd.github.io/2017/04/11/JS-Sorting-Algorithm/</url>
       <content type="html"><![CDATA[<h1 id="『转载』十大经典排序算法"><a href="#『转载』十大经典排序算法" class="headerlink" title="『转载』十大经典排序算法"></a>『转载』十大经典排序算法</h1><p><a href="https://sort.hust.cc/" target="_blank" rel="external">https://sort.hust.cc/</a></p>
 ]]></content>
       
@@ -1102,7 +1102,7 @@
     
     <entry>
       <title><![CDATA[JavaScript创建对象的方式]]></title>
-      <url>http://blog.pikbug.me/2017/04/09/JavaScript-ways-of-create-object/</url>
+      <url>https://gihcctpd.github.io/2017/04/09/JavaScript-ways-of-create-object/</url>
       <content type="html"><![CDATA[<blockquote>
 <p><em>注意：</em> 本文来自阅读《JavaScript高级程序设计（第三版）》的笔记或者也可以称作是书摘吧👾</p>
 </blockquote>
@@ -1248,7 +1248,7 @@
     
     <entry>
       <title><![CDATA[Hexo个人博客搭建遇到的问题-01]]></title>
-      <url>http://blog.pikbug.me/2017/04/06/Hexo-problems-01/</url>
+      <url>https://gihcctpd.github.io/2017/04/06/Hexo-problems-01/</url>
       <content type="html"><![CDATA[<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><ul>
 <li>如图1、2</li>
 </ul>
@@ -1289,7 +1289,7 @@
     
     <entry>
       <title><![CDATA[博客更新日志]]></title>
-      <url>http://blog.pikbug.me/2017/04/06/web-logs/</url>
+      <url>https://gihcctpd.github.io/2017/04/06/web-logs/</url>
       <content type="html"><![CDATA[<h1 id="2016-11-21-更新内容："><a href="#2016-11-21-更新内容：" class="headerlink" title="2016-11-21 更新内容："></a>2016-11-21 更新内容：<a id="more"></a></h1><h2 id="完成主要的框架工作"><a href="#完成主要的框架工作" class="headerlink" title="完成主要的框架工作"></a>完成主要的框架工作</h2><blockquote>
 <ul>
 <li>熟悉Hexo</li>
@@ -1333,7 +1333,7 @@
 <li>再执行 <code>hexo g -d</code> 命令就可以生成静态博客并推送到GitHub了</li>
 </ol>
 </li>
-<li>增加 <strong>发布于</strong>、<strong>更新于</strong>等多个标签前的icon 详情请看 <a href="http://pikbug.me/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/" target="_blank" rel="external">这篇文章</a></li>
+<li>增加 <strong>发布于</strong>、<strong>更新于</strong>等多个标签前的icon 详情请看 <a href="https://gihcctpd.github.io/2017/04/06/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%981/">这篇文章</a></li>
 </ul>
 </blockquote>
 <h1 id="2017-04-07-更新内容："><a href="#2017-04-07-更新内容：" class="headerlink" title="2017-04-07 更新内容："></a>2017-04-07 更新内容：</h1><h2 id="进一步完成主题配置-完善网页显示"><a href="#进一步完成主题配置-完善网页显示" class="headerlink" title="进一步完成主题配置 完善网页显示"></a>进一步完成主题配置 完善网页显示</h2><blockquote>
@@ -1386,7 +1386,7 @@
     
     <entry>
       <title><![CDATA[暗时间]]></title>
-      <url>http://blog.pikbug.me/2016/11/21/anshijian/</url>
+      <url>https://gihcctpd.github.io/2016/11/21/anshijian/</url>
       <content type="html"><![CDATA[<h1 id="知识结构"><a href="#知识结构" class="headerlink" title="知识结构"></a>知识结构</h1><p>1.抓住不变量。<br>1️⃣底层知识：英语以及编程的语法知识等<br>2️⃣工具<br>3️⃣要熟悉自己的工具 熟练运用 熟悉运用<br><a id="more"></a></p>
 <h1 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h1><p>本质：学习新知识的带着第三只眼睛判断哪些知识是变量，或者不易变量，是否可以在用的时候查手册即可。<br>🤔补充：学习新知识的时候：⚡︎本质是什么；第一原则是什么；改制时的（体系或者层次）结构是什么。<br>😀现在是一个信息泛滥的时代，→需要学会在浩瀚的信息中选择我们需要的信息；→避免被不好的信息左右我们的大脑。<br>习惯的养成<br>〶江山易改，本性难移。<br>我们评价一个信念的标准是satisficing原则，即足够，能行就好。<br>🙃可以改变习惯<br>1️⃣认识到习惯的改变不是一两天实现的，承认它的难度；<br>2️⃣真想改掉自己习惯，注意观察自己的习惯，把要克服的习惯的那个自我当做自己的一个孩子，然后去打败他；<br>🐷我喜欢这句话：知难而不退，值得做的事情几乎总是如此😀。<br>我在南大的七年<br>父亲告诉我的第二件事情是：遇到问题，找书去就行。<br>🤔改变一生的两个习惯：1️⃣学习东西不觉得是累，自得其乐。2️⃣学习新东西的方法。<br>🐶与父母共同的性格：遇到麻烦和困难的事情从不放弃。<br>🐱我在CSDN上开了博客，开始学习C++和编程中的一些总结。这个博客一直写到离开南大，伴随了我真个七年的学习和成长，回过头去看像时光机一样，能够看到一路过来我都关注了什么是怎么想的，以及对一些事情的看法是怎么变化的。这些东西如果不记录下来，会逐渐忘记，也就无法参照过去的自己，对未来提供更好的借鉴了。所以我一直把记录当做一个很重要的工具。另外我也同感这个博客认识了很多朋友，得到了很多的帮助。</p>
 <h1 id="逃出你的肖申克（一）"><a href="#逃出你的肖申克（一）" class="headerlink" title="逃出你的肖申克（一）"></a>逃出你的肖申克（一）</h1><p>为什么我们常说很多时候一定邀请神经理之后才明白<br>1️⃣切身体会。亲身经理负面事件带来的情绪反应比看着或者听说别人遭受一个同样的时间感受到的强烈的多，形成的情绪记忆更持久。心理学上，自己无法从强度上真正感同身受别人的痛苦。<br>2️⃣别人口中的故事。别人口中的故事也许只是他们的想法，你自己亲身经历同样的事情也许完全有事另外一种想法。<br>3️⃣为什么。很难说服自己A选项优于B选项，直到最终自己在某一条路上撞了南墙才肯死心。<br>4️⃣世界是复杂的。各种错综复杂的因素和响应下，用单一因果来解释事件几乎总是不恰当的。<br>5️⃣未来是不确定的。外界因素是不可控的，我们能做得到只是做好头脑准备，尽量不错失机会。成功并不是仅仅取决于个人因素。个人因素往往只是成功的一个既非充分又非必要的条件，所谓谋事在人成事在天；但无需悲观，因为毫无疑问的是，改变个人因素的却能够增加成功的几率。<br>6️⃣别人的道理，自己的事情。<br>🐹解决问题的两步思维步骤：①根据问题从记忆系统中提取以往成功的方案；②多多思考观察自己，抽象其本质。<br>7️⃣认知失调与自我辩护<br>8️⃣失败即成功<br>9️⃣情绪对照<br>🔟天性 ①一个理性大脑②一个原始大脑。 如果你总是感到满足的话，就不会去进取，在一个残酷的优胜劣汰的环境中，你的这种不思进取的基因就会被淘汰。<br>我们常常需要用理性的声音去说服内心的原始人。<br>十一 习惯</p>
@@ -1422,7 +1422,7 @@
     
     <entry>
       <title><![CDATA[第一篇日志]]></title>
-      <url>http://blog.pikbug.me/2016/11/21/Hello-Blog/</url>
+      <url>https://gihcctpd.github.io/2016/11/21/Hello-Blog/</url>
       <content type="html"><![CDATA[<h2 id="第一篇日志"><a href="#第一篇日志" class="headerlink" title="第一篇日志"></a>第一篇日志</h2><p>这是一个新的开始，花了一下午外加一晚上的时间，差不多趟了所有的坑。<br><a id="more"></a><br>终于搭好了个人博客。接下来的日子，就需要慢慢来优化了！大家拭目以待！</p>
 ]]></content>
       
