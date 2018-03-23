@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gihcctpd.github.io/about/index.html</loc>
+    
+    <lastmod>2018-03-23T17:51:10.649Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://gihcctpd.github.io/2017/04/06/web-logs/</loc>
     
     <lastmod>2018-03-04T06:44:54.343Z</lastmod>
@@ -9,16 +16,9 @@
   </url>
   
   <url>
-    <loc>https://gihcctpd.github.io/about/index.html</loc>
-    
-    <lastmod>2017-12-28T14:28:07.259Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://gihcctpd.github.io/2017/09/28/redis-key/</loc>
     
-    <lastmod>2017-10-07T15:59:58.406Z</lastmod>
+    <lastmod>2017-10-07T15:59:58.407Z</lastmod>
     
   </url>
   
